@@ -1,0 +1,6 @@
+name = FBA Vocabulary Solution Pack
+description = Islandora configurations for persisting and retrieving Vocabulary objects
+dependencies[] = fedora_repository
+package = FBA Solution Pack
+version = 6.x-12.2.0
+core = 6.x

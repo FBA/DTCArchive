@@ -1,0 +1,79 @@
+<?php
+
+/**
+ * @file
+ * FBA Vocabulary solution pack module
+ */
+
+/**
+ * FBA vocabulary sp required fedora objects.
+ *
+ * @return array
+ */
+function fba_vocab_sp_required_fedora_objects() {
+  module_load_include('inc', 'fedora_repository', 'fedora_repository.solutionpacks');
+  // Add the form and associate it to the content model.
+  $module_path = drupal_get_path('module', 'fba_vocab_sp');
+  $form_name = 'FBA Vocab Form';
+  $form_xml = file_get_contents("$module_path/xml/mads_vocab_form.xml");
+  solution_pack_add_form($form_name, $form_xml);
+  fba_vocab_sp_solution_pack_add_form_association('fba:vocab_cmodel', $form_name);
+
+  return array(
+    'fba_vocab_sp' => array(
+      'module' => 'fba_vocab_sp',
+      'title' => 'FBA Vocabulary Solution Pack',
+      'objects' => array(
+        array(
+          'pid' => 'fba:vocab_cmodel',
+          'label' => 'FBA Vocabulary content model',
+          'dsid' => 'ISLANDORACM',
+          'datastream_file' => "$module_path/xml/FBA_VOCAB_SP_CMODEL.xml",
+          'cmodel' => 'fedora-system:ContentModel-3.0',
+        ),
+        array(
+          'pid' => 'vocab:collection',
+          'label' => 'Vocabulary',
+          'cmodel' => 'islandora:collectionCModel',
+          'parent' => 'islandora:root',
+          'datastreams' => array(
+            array(
+              'dsid' => 'TN',
+              'datastream_file' => "$module_path/images/Crystal_Clear_filesystem_folder_grey.png",
+              'mimetype' => 'image/png',
+            ),
+            array(
+              'dsid' => 'COLLECTION_POLICY',
+              'datastream_file' => "$module_path/xml/COLLECTION POLICY.xml",
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}
+
+
+/**
+ *
+ *  
+ * @param array $content_model
+ * @param array $form_name
+ */
+function fba_vocab_sp_solution_pack_add_form_association($content_model, $form_name) {
+  // Associates the form with the content model
+  $result = db_result(db_query('Select content_model from {islandora_content_model_forms} where  content_model = "%s" and form_name = "%s"',
+              $content_model, $form_name));
+  if (!$result) {
+    $object = new stdClass();
+    $object->content_model = $content_model;
+    $object->form_name = $form_name;
+    // the next 3 fields have been customised for the vocab sp
+    $object->dsid = 'MADS';
+    $object->title_field = "['authority']['topic']";
+    $object->transform = 'vocab_mads_to_dc.xsl';
+    // 
+    $result = drupal_write_record('islandora_content_model_forms', $object);
+    drupal_set_message(t("Added association between @cm and @name", array("@cm" => $content_model, "@name"=>$form_name)));
+  }
+}
