@@ -1,0 +1,14 @@
+<content_model xmlns="http://www.islandora.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               name="Object Linker Content Model"
+               xsi:schemaLocation="http://www.islandora.ca http://localhost/islandoracm.xsd">
+    <mimetypes>
+        <type>text/xml</type>
+    </mimetypes>
+    <datastreams>
+        <datastream dsid="DC"/>
+        <datastream dsid="RDF"/>
+    </datastreams>
+    <forms> 
+        <form class="" dsid="" file="" module="" name=""/>
+    </forms>
+</content_model>

@@ -1,0 +1,206 @@
+<?php
+
+/**
+ * @file
+ * Object Linker code module for FBA
+ *
+ * @author simonfox
+ */
+
+/**
+ * Provide definitions for menu callbacks.
+ *
+ * @return array
+ *   the populated menu
+ */
+function relationship_reference_admin_menu() {
+  $items = array();
+
+  $items['objlink/%'] = array(
+    'title' => 'relationship reference and param',
+    'page arguments' => array(0, 1, 2),
+    'page callback' => 'handle_objlink_callback',
+    'access arguments' => array('access fba_object_linker_sp content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * 
+ * @param string $form
+ * @param type $form_state
+ * @param type $form_id
+ */
+function fba_object_linker_sp_form_alter(&$form, &$form_state, $form_id) {
+
+  if ($form_id == 'fedora_repository_ingest_form') {
+    if ($form['collection_pid']['#value'] == 'fba:sp_object_linker_collection') {
+      $form['#validate'][] = 'fba_object_linker_sp_post_processing_validate';
+    }
+  }
+}
+
+/**
+ * 
+ * @global type $base_root
+ * @param type $form
+ * @param type $form_state
+ */
+function fba_object_linker_sp_post_processing_validate($form, &$form_state) {
+  if ($form['#title'] == 'FBA Object Linker Form') {
+    global $base_root;
+    $forwardrel = $form_state['values']['forward_rel'];
+    $fwd_acpath_value = $base_root . '/objlink/' . $forwardrel;
+    form_set_value($form['forwardautocompletepath'], $fwd_acpath_value, $form_state);
+
+    $reverserel = $form_state['values']['reverse_rel'];
+    $rev_acpath_value = $base_root . '/objlink/' . $reverserel;
+    form_set_value($form['reverseautocompletepath'], $rev_acpath_value, $form_state);
+  }
+}
+
+/**
+ * required fedora objects
+ *
+ * @return type
+ */
+function fba_object_linker_sp_required_fedora_objects() {
+  module_load_include('inc', 'fedora_repository', 'fedora_repository.solutionpacks');
+
+  // Add the form and associate it to the content model
+  $module_path = drupal_get_path('module', 'fba_object_linker_sp');
+  $form_name = 'FBA Object Linker Form';
+  $form_xml = file_get_contents("$module_path/xml/FBAObjLinkAdminForm.xml");
+  solution_pack_add_form($form_name, $form_xml);
+  solution_pack_add_form_association('fba:sp_object_linker', $form_name);
+
+  return array(
+    'fba_object_linker_sp' => array(
+      'module' => 'fba_object_linker_sp',
+      'title' => 'FBA Object Linker Solution Pack',
+      'objects' => array(
+        array(
+          'pid' => 'fba:sp_object_linker',
+          'label' => 'FBA content model for object linker',
+          'dsid' => 'ISLANDORACM',
+          'datastream_file' => "$module_path/xml/OBJECT_LINKER_SP_CMODEL.xml",
+          'cmodel' => 'fedora-system:ContentModel-3.0',
+        ),
+        array(
+          'pid' => 'fba:sp_object_linker_collection',
+          'label' => 'FBA Object Link Collection',
+          'cmodel' => 'islandora:collectionCModel',
+          'parent' => 'islandora:root',
+          'datastreams' => array(
+            array(
+              'dsid' => 'TN',
+              'datastream_file' => "$module_path/images/Crystal_Clear_filesystem_folder_grey.png",
+              'mimetype' => 'image/png',
+            ),
+            array(
+              'dsid' => 'COLLECTION_POLICY',
+              'datastream_file' => "$module_path/xml/OBJLINK-COLLECTION POLICY.xml",
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}
+
+/**
+ * Autocomplete the text field.
+ *
+ * @param string $string
+ *   Part of the url passed through to autocompletion callback
+ * @param string $string2
+ *   Part of the url passed through to autocompletion callback
+ *   this string is the one that is used in processing in this function
+ * @param string $string3
+ *   Part of the url passed through to autocompletion callback
+ *
+ * @return string
+ *   json formatted array of strings matched typed text
+ */
+
+//UPTOHERE : need to retrieve the "depicts" object, and then write the relsext rdfs for the source and destination objects
+  
+function handle_objlink_callback($string, $string2, $string3) {
+  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
+  //$allowed_string = variable_get('fedora_pids_allowed', 'default: islandora:');
+  //$namespaces = explode(':', $allowed_string);
+  // Get solrquery from the relref object which has a forwardrel of $string2
+  //this can change to a solr search rels.isMemberOfCollection:relref:collection and relref.forwardrel: $string2
+
+  $solrresult = _perform_solr_search('PID:objlink* and objlink.forwardrel:' . $string2);
+  $rawresponse = $solrresult->getRawResponse();
+  $resarray = json_decode($rawresponse, TRUE);
+  $resdocs = $resarray['response']['docs'][0];
+
+  $objlink_forwardrel = $resdocs['objlink.forwardrel'];
+  $forwardsolrquery = $resdocs['objlink.forwardsolrquery'];
+
+  //$risearchstring = 'select $object from <#ri> where $object <fedora-rels-ext:isMemberOfCollection> <info:fedora/relref:collection>';
+  //$relrefcollresult = relationship_reference_risearch($risearchstring);
+  //$returns = relationship_reference_forms_parse_sparql_query_result($relrefcollresult);
+  //foreach ($returns as $key => $value) {
+  //$item = new fedora_item($key);
+  //$dslistasarray = $item->get_datastreams_list_as_array();
+  //$ds = $item->get_datastream('RELATIONSHIP-DATA');
+  //$reldata = $item->get_datastream_dissemination('RELATIONSHIP-DATA');
+  //$rdf = str_replace('<RDF:', '<RDF_', $reldata);
+  //$rdf = str_replace('<rdf:', '<rdf_', $rdf);
+  //$rdf = str_replace('<relref:', '<relref_', $rdf);
+  //$rdf = str_replace('</rdf:', '</rdf_', $rdf);
+  //$rdf = str_replace('</relref:', '</relref_', $rdf);
+  //$xml = new SimpleXMLElement($rdf);
+  //$rdfdesc = $xml->rdf_Description;
+  //$relref_forwardrelval = $rdfdesc->xpath("relref_forwardrel");
+  //$relref_forwardrel = trim((string) $relref_forwardrelval[0]);
+  //if (strcmp($relref_forwardrel, $string2) == 0) {
+  //$forwardsolrqueryval = $rdfdesc->xpath("relref_forwardsolrquery");
+  //$forwardsolrquery = (string) $forwardsolrqueryval[0];
+  //break;
+  //}
+  //}
+
+  $solrreturn = objlink_solr_search($forwardsolrquery);
+  // Code copied from islandora_content_model_forms_autocomplete
+  $output = array();
+  foreach ($solrreturn as $key => $value) {
+    if (preg_match("/^{$string3}/i", $value) !== 0) {
+      $output[$key] = $value;
+    }
+  }
+  // $output[$string3] = $string3; Don't return partial string as an option
+  // TODO: don't allow partial string to be selected, a dropdown option must be
+  // selected before associate button is clicked.
+  return drupal_json($output);
+}
+
+/**
+ * Function to contain the solr search process.
+ *
+ * @param string $solrsearchparam
+ *   the q value of a solr query
+ *
+ * @return array
+ *   all the 'fgs.label's returned from the solr search
+ */
+function objlink_solr_search($solrsearchparam) {
+  module_load_include('inc', 'islandora_solr_search', 'IslandoraSolrResults');
+
+  $decodedsearchparam = html_entity_decode(urldecode($solrsearchparam));
+  $results = _relationship_reference_perform_solr_search($decodedsearchparam);
+  $rawresponse = $results->getRawResponse();
+  $responsearray = json_decode($rawresponse, TRUE);
+  $docs = $responsearray['response']['docs'];
+
+  foreach ($docs as $founditem) {
+    $output[$founditem['fgs.label'][0]] = $founditem['fgs.label'][0];
+  }
+
+  return ($output);
+}

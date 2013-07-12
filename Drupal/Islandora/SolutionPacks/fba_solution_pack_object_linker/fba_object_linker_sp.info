@@ -1,0 +1,9 @@
+; $Id$
+name = FBA Object Linker module
+description = A custom FBA Module to add relationships between objects
+dependencies[] = fedora_repository
+package = FBA Solution Pack
+version = 6.x-12.2.0
+core = 6.x
+php = 5.2
+

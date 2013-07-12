@@ -1,0 +1,6 @@
+FBA Object Linker Solution Pack
+
+Copy fba_solution_pack_object_linker/xslt/fba_ol_rdf_to_dc.xsl to /islandora_content_model_forms/transform/
+
+At /localhost/admin/content/model/forms delete the row that has been created for 
+fba:sp_object_linker and recreate it with Datastream ID of RDF and a transform of fba_ol_rdf_to_dc.xsl.
