@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2">
+    <properties>
+        <root_name>ChangeMe</root_name>
+        <schema_uri/>
+        <namespaces/>
+    </properties>
+    <form>
+        <properties>
+            <type>form</type>
+            <access>TRUE</access>
+            <required>FALSE</required>
+            <tree>TRUE</tree>
+        </properties>
+        <children>
+            <element name="xml_file_location">
+                <properties>
+                    <type>file</type>
+                    <access>TRUE</access>
+                    <required>TRUE</required>
+                    <title>Browse for the MultiTes XML File</title>
+                    <tree>TRUE</tree>
+                </properties>
+                <children/>
+            </element>
+            <element name="submit">
+                <properties>
+                    <type>submit</type>
+                    <access>TRUE</access>
+                    <default_value>Submit</default_value>
+                    <description>Process XML File</description>
+                    <required>FALSE</required>
+                    <tree>TRUE</tree>
+                </properties>
+                <children/>
+            </element>
+        </children>
+    </form>
+</definition>

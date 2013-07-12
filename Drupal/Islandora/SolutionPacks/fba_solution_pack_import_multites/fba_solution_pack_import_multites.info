@@ -1,0 +1,5 @@
+name = FBA Import Objects From MultiTes XML Module
+description = Module to batch import using a MultiTes XML file
+package = DTC Archive
+core = 6.x
+dependencies[] = fedora_repository

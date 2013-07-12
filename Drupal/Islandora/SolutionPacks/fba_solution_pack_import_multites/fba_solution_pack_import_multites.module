@@ -1,0 +1,210 @@
+<?php
+
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/ingest.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/relations.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/validator.inc';
+/**
+ * @file
+ * Module for batch importing objects from a MultiTes XML file.
+ *
+ * @author simonfox
+ */
+
+/**
+ * Provide definitions for menu callbacks.
+ *
+ * @return array
+ *   Callback definitions
+ */
+function fba_solution_pack_import_multites_menu() {
+  $items = array();
+
+  $items['multites/ingest'] = array(
+    'title' => 'Import From MultiTes XML',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fba_solution_pack_import_multites_form_ingest'),
+    'access arguments' => array('access fba_solution_pack_import_multites_ingest content'),
+    'type' => MENU_CALLBACK,
+  );
+  $items['multites/relations'] = array(
+    'title' => 'Process RDF Relations After MultiTes XML ingest',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fba_solution_pack_import_multites_form_relations'),
+    'access arguments' => array('access fba_solution_pack_import_multites_relations content'),
+    'type' => MENU_CALLBACK,
+  );
+  $items['multites/validator'] = array(
+    'title' => 'Validate RDF Relations',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fba_solution_pack_import_multites_form_validator'),
+    'access arguments' => array('access fba_solution_pack_import_multites_validator content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * Valid permissions for this module.
+ *
+ * @return array
+ *   An array of valid permissions for the relationship_reference module
+ */
+function fba_solution_pack_import_multites_perm() {
+  return array('access fba_solution_pack_import_multites content');
+}
+
+/**
+ * Blatantly ripped from apachesolr_views_query function build.
+ * NB assumes solr is on localhost:8080.
+ *
+ * @param string $queryparam
+ *   to be passed within formatted solr query as 'q'
+ *
+ * @return array
+ *   listing all appropriate results
+ */
+function _perform_solr_search($queryparam = 'dummy') {
+
+  // TODO: needs tidying.
+  // encode the queryparam?
+
+  $params = array();
+  $params['rows'] = 50;
+  $params['start'] = 0;
+  $params['indent'] = 'on';
+  $params['q'] = $queryparam;
+  $params['version'] = '2.2';
+
+  $params['fl'] = "*";
+  $params['qt'] = "standard";
+  $params['wt'] = "json";
+  $params['hl'] = "true";
+  $params['hl.fl'] = "dc.type";
+
+  // If we display all items without pager.
+  if ($params['rows'] == 0) {
+    $params['rows'] = 1000000;
+  }
+
+  // Add filters to parameters.
+  if (isset($params['filters'])) {
+    $params['fq'] = $params['filters'];
+  }
+
+  // Add sorting.
+  if (isset($params['sort'])) {
+    // Populate sorting parameters.
+    foreach ($params['sort'] as $field => $order) {
+      $params['sort'][] = $field . ' ' . $order;
+    }
+  }
+
+  // Set query.
+  $dismax = NULL;
+  if (isset($params['q'])) {
+    // Query.
+    $query = $params['q'];
+
+    // Dismax.
+    if (isset($params['defType']) AND $params['defType'] == 'dismax') {
+      $dismax = $params['defType'];
+      // If no qf fields are specified in the requestHandler
+      // a default list is supplied here for dismax searches.
+      $params['qf'] = 'dc.title^5 dc.subject^2 dc.description^2 dc.creator^2 dc.contributor^1 dc.type';
+    }
+  }
+  else {
+    $query = '*:*';
+  }
+
+  $url = variable_get('islandora_solr_search_block_url', 'http://localhost:8080/solr');
+  $pathparts = parse_url($url);
+
+  $solr = new Apache_Solr_Service($pathparts['host'], $pathparts['port'], $pathparts['path'] . '/');
+  $solr->setCreateDocuments(0);
+
+  // This is where the query gets executed and output starts being created.
+  try {
+    $results = $solr->search($query, $params['start'], $params['rows'], $params);
+  } catch (Exception $e) {
+    drupal_set_message(t('_perform_solr_search :: ') . $e->getMessage());
+  }
+
+//  $total = (int) $results->response->numFound;
+//  $start = min(1, $total);
+//  $end = min(($limit + $recordstart), $total);
+
+  return $results;
+}
+
+/**
+ * Blatantly ripped from fedora_item.inc, and altered as the
+ * getElementsByTagNameNS wasn't bringing back what we require.
+ * 
+ * Currently the Fedora API call getRelationships is reporting an uncaught
+ * exception so we will parse the RELS-EXT ourselves and simulate the
+ * documented behaviour.
+ * @param String $relationship - filter the results to match this string.
+ */
+function _fba_get_relationships($item, $relationship = NULL) {
+  $relationships = array();
+  try {
+    $relsext = $item->get_datastream_dissemination('RELS-EXT');
+  } catch (exception $e) {
+    drupal_set_message(t("_fba_get_relationships") . $e->getMessage(), 'error');
+    return $relationships;
+  }
+
+  // Parse the RELS-EXT into an associative array.
+  $relsextxml = new DOMDocument();
+  $relsextxml->loadXML($relsext);
+  $relsextxml->normalizeDocument();
+  $rels = $relsextxml->getElementsByTagNameNS('*', '*');
+  foreach ($rels as $child) {
+    if (empty($relationship) || preg_match("/$relationship/", $child->tagName)) {
+      $relationships[] = array(
+        'subject' => $item->pid,
+        'predicate' => $child->tagName,
+        'object' => substr($child->getAttributeNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'resource'), 12),
+      );
+    }
+  }
+
+  return $relationships;
+}
+
+/**
+ * Blatantly ripped from fedora_item.inc, and altered as the
+ * getElementsByTagNameNS wasn't bringing back what we require.
+ * 
+ * Currently the Fedora API call getRelationships is reporting an uncaught
+ * exception so we will parse the RELS-EXT ourselves and simulate the
+ * documented behaviour.
+ * @param String $relationship - filter the results to match this string.
+ */
+function _fba_get_mads($item) {
+  $madslist = array();
+  try {
+    $mads = $item->get_datastream_dissemination('MADS');
+  } catch (exception $e) {
+    drupal_set_message(t("_fba_get_mads") . $e->getMessage(), 'error');
+    return $madslist;
+  }
+
+  // Parse the MADS into an associative array.
+  $relsextxml = new DOMDocument();
+  $relsextxml->loadXML($mads);
+  $relsextxml->normalizeDocument();
+  $rels = $relsextxml->getElementsByTagNameNS('*', '*');
+  foreach ($rels as $child) {
+      $madslist[] = array(
+        'subject' => $item->pid,
+        'predicate' => $child->tagName,
+        'object' => substr($child->getAttributeNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'resource'), 12),
+      );
+  }
+
+  return $madslist;
+}
+
