@@ -1,0 +1,5 @@
+name = FBA Import from library catalogue/cdsisis xml file
+description = Module to import from library catalogue/cdsisis xml file
+dependencies[] = islandora_content_model_forms
+package = FBA utilities
+core = 6.x

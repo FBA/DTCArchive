@@ -1,0 +1,73 @@
+<?php
+
+include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/utils.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/batch_import.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/common.inc';
+//include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/validator.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/batch_preprocess.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/batch_validate.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_libcat_import') . '/sparql.inc';
+/**
+ * @file
+ * Module for importing objects from cds/isis xml file.
+ *
+ * @author simonfox
+ */
+
+/**
+ * Provide definitions for menu callbacks.
+ *
+ * @return array
+ *   Callback definitions
+ */
+function fba_solution_pack_libcat_import_menu() {
+  $items = array();
+
+  $items['libcat/import'] = array(
+    'title' => 'Import fedora objects from Library Catalogue',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fba_solution_pack_libcat_import_form_convert'),
+    'access arguments' => array('access fba_solution_pack_libcat_import_convert content'),
+    'type' => MENU_CALLBACK,
+  );
+//  $items['libcat/validator'] = array(
+//    'title' => 'Validate fedora objects from Library Catalogue',
+//    'page callback' => 'drupal_get_form',
+//    'page arguments' => array('fba_solution_pack_libcat_import_form_validator'),
+//    'access arguments' => array('access fba_solution_pack_libcat_import_validator content'),
+//    'type' => MENU_CALLBACK,
+//  );
+  $items['libcat/batch_validator'] = array(
+    'title' => 'batch validate fedora objects from Library Catalogue',
+    'page callback' => 'drupal_get_form',
+    'page arguments' =>          array('fba_solution_pack_libcat_import_form_batch_validator'),
+    'access arguments' => array('access fba_solution_pack_libcat_import_batch_validator content'),
+    'type' => MENU_CALLBACK,
+  );
+  $items['libcat/batch_importer'] = array(
+    'title' => 'batch import fedora objects from Library Catalogue',
+    'page callback' => 'drupal_get_form',
+    'page arguments' =>          array('fba_solution_pack_libcat_import_form_batch_import'),
+    'access arguments' => array('access fba_solution_pack_libcat_import_batch_import content'),
+    'type' => MENU_CALLBACK,
+  );
+    $items['libcat/batch_preprocessor'] = array(
+    'title' => 'batch preprocess fedora objects from Library Catalogue',
+    'page callback' => 'drupal_get_form',
+    'page arguments' =>          array('fba_solution_pack_libcat_import_form_batch_preprocessor'),
+    'access arguments' => array('access fba_solution_pack_libcat_import_batch_preprocessor content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+/**
+ * Valid permissions for this module.
+ *
+ * @return array
+ *   An array of valid permissions for the relationship_reference module
+ */
+function fba_solution_pack_libcat_import_perm() {
+  return array('access fba_solution_pack_libcat_import content');
+}

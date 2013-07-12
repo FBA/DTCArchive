@@ -1,0 +1,3306 @@
+1,Physical sciences
+1b0,Physics; Methods
+1b1,Physics; 
+1b2,Physics; 
+1b3,Physics; Biology
+1b4,Physics; Socioeconomic environment
+1b5,Physics; Geographical distribution
+1b6,Physics; History
+1b7,Physics; Chemicophysical properties  
+1c0,Chemistry; Methods
+1c1,Chemistry; 
+1c2,Chemistry; 
+1c3,Chemistry; Biology
+1c4,Chemistry; Socioeconomic environment
+1c5,Chemistry; Geographical distribution
+1c6,Chemistry; History
+1c7,Chemistry; Chemicophysical properties  
+1d0,Hydrodynamics; Methods
+1d1,Hydrodynamics; 
+1d2,Hydrodynamics; 
+1d3,Hydrodynamics; Biology
+1d4,Hydrodynamics; Socioeconomic environment
+1d5,Hydrodynamics; Geographical distribution
+1d6,Hydrodynamics; History
+1d7,Hydrodynamics; Chemicophysical properties  
+1e0,Engineering; Methods
+1e1,Engineering; 
+1e2,Engineering; 
+1e3,Engineering; Biology
+1e4,Engineering; Socioeconomic environment
+1e5,Engineering; Geographical distribution
+1e6,Engineering; History
+1e7,Engineering; Chemicophysical properties  
+1f0,Oceanography; Methods
+1f1,Oceanography
+1f2,Oceanography
+1f3,Oceanography; Biology
+1f4,Oceanography; Socioeconomic environment
+1f5,Oceanography; Geographical distribution
+1f6,Oceanography; History
+1f7,Oceanography; Chemicophysical properties  
+1g0,Geography; Soil; Sediments; Methods
+1g1,Geography; Soil; Sediments; 
+1g2,Geography; Soil; Sediments; 
+1g3,Geography; Soil; Sediments; Biology
+1g4,Geography; Soil; Sediments; Socioeconomic environment
+1g5,Geography; Soil; Sediments; Geographical distribution
+1g6,Geography; Soil; Sediments; History
+1g7,Geography; Soil; Sediments; Chemicophysical properties  
+1h0,Hydrology; Methods
+1h1,Hydrology; 
+1h2,Hydrology; 
+1h3,Hydrology; Biology
+1h4,Hydrology; Socioeconomic environment
+1h5,Hydrology; Geographical distribution
+1h6,Hydrology; History
+1h7,Hydrology; Chemicophysical properties  
+1k0,Water chemistry; Methods
+1k1,Water chemistry; 
+1k2,Water chemistry; 
+1k3,Water chemistry; Biology
+1k4,Water chemistry; Socioeconomic environment
+1k5,Water chemistry; Geographical distribution
+1k6,Water chemistry; History
+1k7,Water chemistry; Chemicophysical properties  
+1m0,Mathematics; Statistics; Methods
+1m1,Mathematics; Statistics; 
+1m2,Mathematics; Statistics; 
+1m3,Mathematics; Statistics; Biology
+1m4,Mathematics; Statistics; Socioeconomic environment
+1m5,Mathematics; Statistics; Geographical distribution
+1m6,Mathematics; Statistics; History
+1m7,Mathematics; Statistics; Chemicophysical properties  
+1n0,Electronics; Methods
+1n1,Electronics; 
+1n2,Electronics; 
+1n3,Electronics; Biology
+1n4,Electronics; Socioeconomic environment
+1n5,Electronics; Geographical distribution
+1n6,Electronics; History
+1n7,Electronics; Chemicophysical properties  
+1p0,Climatology; Meteorology; Methods
+1p1,Climatology; Meteorology; 
+1p2,Climatology; Meteorology; 
+1p3,Climatology; Meteorology; Biology
+1p4,Climatology; Meteorology; Socioeconomic environment
+1p5,Climatology; Meteorology; Geographical distribution
+1p6,Climatology; Meteorology; History
+1p7,Climatology; Meteorology; Chemicophysical properties  
+1q0,Microscopy; Methods
+1q1,Microscopy; 
+1q2,Microscopy; 
+1q3,Microscopy; Biology
+1q4,Microscopy; Socioeconomic environment
+1q5,Microscopy; Geographical distribution
+1q6,Microscopy; History
+1q7,Microscopy; Chemicophysical properties  
+2,Microorganisms
+2a0,Microorganisms; Methods; 
+2a1,Microorganisms; Methods; Bacteria
+2a2,Microorganisms; Methods; Protozoa
+2a3,Microorganisms; Methods; Actinomycetales  
+2a4,Microorganisms; Methods; Viruses  
+2a5,Microorganisms; Methods; Yeasts  
+2a9,Microorganisms; Methods; 
+2b0,Microorganisms; Morphology; Taxonomy; 
+2b1,Microorganisms; Morphology; Taxonomy; Bacteria
+2b2,Microorganisms; Morphology; Taxonomy; Protozoa
+2b3,Microorganisms; Morphology; Taxonomy; Actinomycetales  
+2b4,Microorganisms; Morphology; Taxonomy; Viruses  
+2b5,Microorganisms; Morphology; Taxonomy; Yeasts  
+2b9,Microorganisms; Morphology; Taxonomy; 
+2c0,Microorganisms; Geographical distribution;  
+2c1,Microorganisms; Geographical distribution;  Bacteria
+2c2,Microorganisms; Geographical distribution;  Protozoa
+2c3,Microorganisms; Geographical distribution;  Actinomycetales  
+2c4,Microorganisms; Geographical distribution;  Viruses  
+2c5,Microorganisms; Geographical distribution;  Yeasts  
+2c9,Microorganisms; Geographical distribution;  
+2d0,Microorganisms; Biochemistry; Physiology; 
+2d1,Microorganisms; Biochemistry; Physiology; Bacteria
+2d2,Microorganisms; Biochemistry; Physiology; Protozoa
+2d3,Microorganisms; Biochemistry; Physiology; Actinomycetales  
+2d4,Microorganisms; Biochemistry; Physiology; Viruses  
+2d5,Microorganisms; Biochemistry; Physiology; Yeasts  
+2d9,Microorganisms; Biochemistry; Physiology; 
+2da0,Microorganisms; Physiological techniques; Biochemical techniques; 
+2da1,Microorganisms; Physiological techniques; Biochemical techniques; Bacteria
+2da2,Microorganisms; Physiological techniques; Biochemical techniques; Protozoa
+2da3,Microorganisms; Physiological techniques; Biochemical techniques; Actinomycetales  
+2da4,Microorganisms; Physiological techniques; Biochemical techniques; Viruses  
+2da5,Microorganisms; Physiological techniques; Biochemical techniques; Yeasts  
+2da9,Microorganisms; Physiological techniques; Biochemical techniques; 
+2db0,Microorganisms; Histology; Histochemistry; Cytology; 
+2db1,Microorganisms; Histology; Histochemistry; Cytology; Bacteria
+2db2,Microorganisms; Histology; Histochemistry; Cytology; Protozoa
+2db3,Microorganisms; Histology; Histochemistry; Cytology; Actinomycetales  
+2db4,Microorganisms; Histology; Histochemistry; Cytology; Viruses  
+2db5,Microorganisms; Histology; Histochemistry; Cytology; Yeasts  
+2db9,Microorganisms; Histology; Histochemistry; Cytology; 
+2dc0,Microorganisms; Animal fluids; Plant fluids; 
+2dc1,Microorganisms; Animal fluids; Plant fluids; Bacteria
+2dc2,Microorganisms; Animal fluids; Plant fluids; Protozoa
+2dc3,Microorganisms; Animal fluids; Plant fluids; Actinomycetales  
+2dc4,Microorganisms; Animal fluids; Plant fluids; Viruses  
+2dc5,Microorganisms; Animal fluids; Plant fluids; Yeasts  
+2dc9,Microorganisms; Animal fluids; Plant fluids; 
+2dd0,Microorganisms; Respiration; Energetics; 
+2dd1,Microorganisms; Respiration; Energetics; Bacteria
+2dd2,Microorganisms; Respiration; Energetics; Protozoa
+2dd3,Microorganisms; Respiration; Energetics; Actinomycetales  
+2dd4,Microorganisms; Respiration; Energetics; Viruses  
+2dd5,Microorganisms; Respiration; Energetics; Yeasts  
+2dd9,Microorganisms; Respiration; Energetics; 
+2de0,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; 
+2de1,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; Bacteria
+2de2,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; Protozoa
+2de3,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; Actinomycetales  
+2de4,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; Viruses  
+2de5,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; Yeasts  
+2de9,Microorganisms; Photosynthesis; Chemosynthesis: Pigmentation; 
+2df0,Microorganisms;  Metabolism; 
+2df1,Microorganisms;  Metabolism; Bacteria
+2df2,Microorganisms;  Metabolism; Protozoa
+2df3,Microorganisms;  Metabolism; Actinomycetales  
+2df4,Microorganisms;  Metabolism; Viruses  
+2df5,Microorganisms;  Metabolism; Yeasts  
+2df9,Microorganisms;  Metabolism; 
+2dg0,Microorganisms; Growth; 
+2dg1,Microorganisms; Growth; Bacteria
+2dg2,Microorganisms; Growth; Protozoa
+2dg3,Microorganisms; Growth; Actinomycetales  
+2dg4,Microorganisms; Growth; Viruses  
+2dg5,Microorganisms; Growth; Yeasts  
+2dg9,Microorganisms; Growth; 
+2dh0,Microorganisms; Reproduction; 
+2dh1,Microorganisms; Reproduction; Bacteria
+2dh2,Microorganisms; Reproduction; Protozoa
+2dh3,Microorganisms; Reproduction; Actinomycetales  
+2dh4,Microorganisms; Reproduction; Viruses  
+2dh5,Microorganisms; Reproduction; Yeasts  
+2dh9,Microorganisms; Reproduction; 
+2dj0,Microorganisms; Endocrinological functions; 
+2dj1,Microorganisms; Endocrinological functions; Bacteria
+2dj2,Microorganisms; Endocrinological functions; Protozoa
+2dj3,Microorganisms; Endocrinological functions; Actinomycetales  
+2dj4,Microorganisms; Endocrinological functions; Viruses  
+2dj5,Microorganisms; Endocrinological functions; Yeasts  
+2dj9,Microorganisms; Endocrinological functions; 
+2dk0,Microorganisms; Biological rhythms; 
+2dk1,Microorganisms; Biological rhythms; Bacteria
+2dk2,Microorganisms; Biological rhythms; Protozoa
+2dk3,Microorganisms; Biological rhythms; Actinomycetales  
+2dk4,Microorganisms; Biological rhythms; Viruses  
+2dk5,Microorganisms; Biological rhythms; Yeasts  
+2dk9,Microorganisms; Biological rhythms; 
+2dm0,Microorganisms; Movement; 
+2dm1,Microorganisms; Movement; Bacteria
+2dm2,Microorganisms; Movement; Protozoa
+2dm3,Microorganisms; Movement; Actinomycetales  
+2dm4,Microorganisms; Movement; Viruses  
+2dm5,Microorganisms; Movement; Yeasts  
+2dm9,Microorganisms; Movement; 
+2dp0,Microorganisms; Senses; 
+2dp1,Microorganisms; Senses; Bacteria
+2dp2,Microorganisms; Senses; Protozoa
+2dp3,Microorganisms; Senses; Actinomycetales  
+2dp4,Microorganisms; Senses; Viruses  
+2dp5,Microorganisms; Senses; Yeasts  
+2dp9,Microorganisms; Senses; 
+2dq0,Microorganisms; Physiological response to physical factors; 
+2dq1,Microorganisms; Physiological response to physical factors; Bacteria
+2dq2,Microorganisms; Physiological response to physical factors; Protozoa
+2dq3,Microorganisms; Physiological response to physical factors; Actinomycetales  
+2dq4,Microorganisms; Physiological response to physical factors; Viruses  
+2dq5,Microorganisms; Physiological response to physical factors; Yeasts  
+2dq9,Microorganisms; Physiological response to physical factors; 
+2dr0,Microorganisms; Physiological response to chemicals; 
+2dr1,Microorganisms; Physiological response to chemicals; Bacteria
+2dr2,Microorganisms; Physiological response to chemicals; Protozoa
+2dr3,Microorganisms; Physiological response to chemicals; Actinomycetales  
+2dr4,Microorganisms; Physiological response to chemicals; Viruses  
+2dr5,Microorganisms; Physiological response to chemicals; Yeasts  
+2dr9,Microorganisms; Physiological response to chemicals; 
+2ds0,Microorganisms; Biochemistry; 
+2ds1,Microorganisms; Biochemistry; Bacteria
+2ds2,Microorganisms; Biochemistry; Protozoa
+2ds3,Microorganisms; Biochemistry; Actinomycetales  
+2ds4,Microorganisms; Biochemistry; Viruses  
+2ds5,Microorganisms; Biochemistry; Yeasts  
+2ds9,Microorganisms; Biochemistry; 
+2dt0,Microorganisms; Molecular Biology; 
+2dt1,Microorganisms; Molecular Biology; Bacteria
+2dt2,Microorganisms; Molecular Biology; Protozoa
+2dt3,Microorganisms; Molecular Biology; Actinomycetales  
+2dt4,Microorganisms; Molecular Biology; Viruses  
+2dt5,Microorganisms; Molecular Biology; Yeasts  
+2dt9,Microorganisms; Molecular Biology; 
+2du0,Microorganisms; Biodegradation; 
+2du1,Microorganisms; Biodegradation; Bacteria
+2du2,Microorganisms; Biodegradation; Protozoa
+2du3,Microorganisms; Biodegradation; Actinomycetales  
+2du4,Microorganisms; Biodegradation; Viruses  
+2du5,Microorganisms; Biodegradation; Yeasts  
+2du9,Microorganisms; Biodegradation; 
+2dv0,Microorganisms; Immunology; 
+2dv1,Microorganisms; Immunology; Bacteria
+2dv2,Microorganisms; Immunology; Protozoa
+2dv3,Microorganisms; Immunology; Actinomycetales  
+2dv4,Microorganisms; Immunology; Viruses  
+2dv5,Microorganisms; Immunology; Yeasts  
+2dv9,Microorganisms; Immunology; 
+2e0,Microorganisms; Ecology; 
+2e1,Microorganisms; Ecology; Bacteria
+2e2,Microorganisms; Ecology; Protozoa
+2e3,Microorganisms; Ecology; Actinomycetales  
+2e4,Microorganisms; Ecology; Viruses  
+2e5,Microorganisms; Ecology; Yeasts  
+2e6,Microorganisms; Ecology; 
+2ea0,Microorganisms; Ecology; Inland Waters; 
+2ea1,Microorganisms; Ecology; Inland Waters; Bacteria
+2ea2,Microorganisms; Ecology; Inland Waters; Protozoa
+2ea3,Microorganisms; Ecology; Inland Waters; Actinomycetales  
+2ea4,Microorganisms; Ecology; Inland Waters; Viruses  
+2ea5,Microorganisms; Ecology; Inland Waters; Yeasts  
+2ea9,Microorganisms; Ecology; Inland Waters; 
+2eb0,Microorganisms; Ecology; Lakes; 
+2eb1,Microorganisms; Ecology; Lakes; Bacteria
+2eb2,Microorganisms; Ecology; Lakes; Protozoa
+2eb3,Microorganisms; Ecology; Lakes; Actinomycetales  
+2eb4,Microorganisms; Ecology; Lakes; Viruses  
+2eb5,Microorganisms; Ecology; Lakes; Yeasts  
+2eb9,Microorganisms; Ecology; Lakes; 
+2ec0,Microorganisms; Ecology; Temporary ponds; Temporary pools; 
+2ec1,Microorganisms; Ecology; Temporary ponds; Temporary pools; Bacteria
+2ec2,Microorganisms; Ecology; Temporary ponds; Temporary pools; Protozoa
+2ec3,Microorganisms; Ecology; Temporary ponds; Temporary pools; Actinomycetales  
+2ec4,Microorganisms; Ecology; Temporary ponds; Temporary pools; Viruses  
+2ec5,Microorganisms; Ecology; Temporary ponds; Temporary pools; Yeasts  
+2ec9,Microorganisms; Ecology; Temporary ponds; Temporary pools; 
+2ed0,Microorganisms; Ecology; Flowing waters; Rivers; 
+2ed1,Microorganisms; Ecology; Flowing waters; Rivers; Bacteria
+2ed2,Microorganisms; Ecology; Flowing waters; Rivers; Protozoa
+2ed3,Microorganisms; Ecology; Flowing waters; Rivers; Actinomycetales  
+2ed4,Microorganisms; Ecology; Flowing waters; Rivers; Viruses  
+2ed5,Microorganisms; Ecology; Flowing waters; Rivers; Yeasts  
+2ed9,Microorganisms; Ecology; Flowing waters; Rivers; 
+2ee0,Microorganisms; Ecology; Estuaries; Lagoons; 
+2ee1,Microorganisms; Ecology; Estuaries; Lagoons; Bacteria
+2ee2,Microorganisms; Ecology; Estuaries; Lagoons; Protozoa
+2ee3,Microorganisms; Ecology; Estuaries; Lagoons; Actinomycetales  
+2ee4,Microorganisms; Ecology; Estuaries; Lagoons; Viruses  
+2ee5,Microorganisms; Ecology; Estuaries; Lagoons; Yeasts  
+2ee9,Microorganisms; Ecology; Estuaries; Lagoons; 
+2ef0,Microorganisms; Ecology; Seas; Oceans; 
+2ef1,Microorganisms; Ecology; Seas; Oceans; Bacteria
+2ef2,Microorganisms; Ecology; Seas; Oceans; Protozoa
+2ef3,Microorganisms; Ecology; Seas; Oceans; Actinomycetales  
+2ef4,Microorganisms; Ecology; Seas; Oceans; Viruses  
+2ef5,Microorganisms; Ecology; Seas; Oceans; Yeasts  
+2ef9,Microorganisms; Ecology; Seas; Oceans; 
+2eg0,Microorganisms; Ecology; Soil water; 
+2eg1,Microorganisms; Ecology; Soil water; Bacteria
+2eg2,Microorganisms; Ecology; Soil water; Protozoa
+2eg3,Microorganisms; Ecology; Soil water; Actinomycetales  
+2eg4,Microorganisms; Ecology; Soil water; Viruses  
+2eg5,Microorganisms; Ecology; Soil water; Yeasts  
+2eg9,Microorganisms; Ecology; Soil water; 
+2eh0,Microorganisms; Ecology; Wetlands; 
+2eh1,Microorganisms; Ecology; Wetlands; Bacteria
+2eh2,Microorganisms; Ecology; Wetlands; Protozoa
+2eh3,Microorganisms; Ecology; Wetlands; Actinomycetales  
+2eh4,Microorganisms; Ecology; Wetlands; Viruses  
+2eh5,Microorganisms; Ecology; Wetlands; Yeasts  
+2eh9,Microorganisms; Ecology; Wetlands; 
+2ej0,Microorganisms; Ecology; Snow; Ice; 
+2ej1,Microorganisms; Ecology; Snow; Ice; Bacteria
+2ej2,Microorganisms; Ecology; Snow; Ice; Protozoa
+2ej3,Microorganisms; Ecology; Snow; Ice; Actinomycetales  
+2ej4,Microorganisms; Ecology; Snow; Ice; Viruses  
+2ej5,Microorganisms; Ecology; Snow; Ice; Yeasts  
+2ej9,Microorganisms; Ecology; Snow; Ice; 
+2ek0,Microorganisms; Ecology; Atmosphere; 
+2ek1,Microorganisms; Ecology; Atmosphere; Bacteria
+2ek2,Microorganisms; Ecology; Atmosphere; Protozoa
+2ek3,Microorganisms; Ecology; Atmosphere; Actinomycetales  
+2ek4,Microorganisms; Ecology; Atmosphere; Viruses  
+2ek5,Microorganisms; Ecology; Atmosphere; Yeasts  
+2ek9,Microorganisms; Ecology; Atmosphere; 
+2em0,Microorganisms; Ecology; Coasts; 
+2em1,Microorganisms; Ecology; Coasts; Bacteria
+2em2,Microorganisms; Ecology; Coasts; Protozoa
+2em3,Microorganisms; Ecology; Coasts; Actinomycetales  
+2em4,Microorganisms; Ecology; Coasts; Viruses  
+2em5,Microorganisms; Ecology; Coasts; Yeasts  
+2em9,Microorganisms; Ecology; Coasts; 
+2en0,Microorganisms; Ecology; Laboratory experimentation; 
+2en1,Microorganisms; Ecology; Laboratory experimentation; Bacteria
+2en2,Microorganisms; Ecology; Laboratory experimentation; Protozoa
+2en3,Microorganisms; Ecology; Laboratory experimentation; Actinomycetales  
+2en4,Microorganisms; Ecology; Laboratory experimentation; Viruses  
+2en5,Microorganisms; Ecology; Laboratory experimentation; Yeasts  
+2en9,Microorganisms; Ecology; Laboratory experimentation; 
+2eo0,Microorganisms; Ecology; Biological interaction; 
+2eo1,Microorganisms; Ecology; Biological interaction; Bacteria
+2eo2,Microorganisms; Ecology; Biological interaction; Protozoa
+2eo3,Microorganisms; Ecology; Biological interaction; Actinomycetales  
+2eo4,Microorganisms; Ecology; Biological interaction; Viruses  
+2eo5,Microorganisms; Ecology; Biological interaction; Yeasts  
+2eo9,Microorganisms; Ecology; Biological interaction; 
+2ep0,Microorganisms; Ecology; Underground waters; 
+2ep1,Microorganisms; Ecology; Underground waters; Bacteria
+2ep2,Microorganisms; Ecology; Underground waters; Protozoa
+2ep3,Microorganisms; Ecology; Underground waters; Actinomycetales  
+2ep4,Microorganisms; Ecology; Underground waters; Viruses  
+2ep5,Microorganisms; Ecology; Underground waters; Yeasts  
+2ep9,Microorganisms; Ecology; Underground waters; 
+2eq0,Microorganisms; Ecology; Hot springs; 
+2eq1,Microorganisms; Ecology; Hot springs; Bacteria
+2eq2,Microorganisms; Ecology; Hot springs; Protozoa
+2eq3,Microorganisms; Ecology; Hot springs; Actinomycetales  
+2eq4,Microorganisms; Ecology; Hot springs; Viruses  
+2eq5,Microorganisms; Ecology; Hot springs; Yeasts  
+2eq9,Microorganisms; Ecology; Hot springs; 
+2er0,Microorganisms; Ecology; Inland seas; Salt lakes; 
+2er1,Microorganisms; Ecology; Inland seas; Salt lakes; Bacteria
+2er2,Microorganisms; Ecology; Inland seas; Salt lakes; Protozoa
+2er3,Microorganisms; Ecology; Inland seas; Salt lakes; Actinomycetales  
+2er4,Microorganisms; Ecology; Inland seas; Salt lakes; Viruses  
+2er5,Microorganisms; Ecology; Inland seas; Salt lakes; Yeasts  
+2er9,Microorganisms; Ecology; Inland seas; Salt lakes; 
+2es0,Microorganisms; Ecology; Sewage; 
+2es1,Microorganisms; Ecology; Sewage; Bacteria
+2es2,Microorganisms; Ecology; Sewage; Protozoa
+2es3,Microorganisms; Ecology; Sewage; Actinomycetales  
+2es4,Microorganisms; Ecology; Sewage; Viruses  
+2es5,Microorganisms; Ecology; Sewage; Yeasts  
+2es9,Microorganisms; Ecology; Sewage; 
+2et0,Microorganisms; Ecology; Canals; 
+2et1,Microorganisms; Ecology; Canals; Bacteria
+2et2,Microorganisms; Ecology; Canals; Protozoa
+2et3,Microorganisms; Ecology; Canals; Actinomycetales  
+2et4,Microorganisms; Ecology; Canals; Viruses  
+2et5,Microorganisms; Ecology; Canals; Yeasts  
+2et9,Microorganisms; Ecology; Canals; 
+2eu0,Microorganisms; Ecology; Plant litter; 
+2eu1,Microorganisms; Ecology; Plant litter; Bacteria
+2eu2,Microorganisms; Ecology; Plant litter; Protozoa
+2eu3,Microorganisms; Ecology; Plant litter; Actinomycetales  
+2eu4,Microorganisms; Ecology; Plant litter; Viruses  
+2eu5,Microorganisms; Ecology; Plant litter; Yeasts  
+2eu9,Microorganisms; Ecology; Plant litter; 
+2ew0,Microorganisms; Ecology; Water supply; 
+2ew1,Microorganisms; Ecology; Water supply; Bacteria
+2ew2,Microorganisms; Ecology; Water supply; Protozoa
+2ew3,Microorganisms; Ecology; Water supply; Actinomycetales  
+2ew4,Microorganisms; Ecology; Water supply; Viruses  
+2ew5,Microorganisms; Ecology; Water supply; Yeasts  
+2ew9,Microorganisms; Ecology; Water supply; 
+2ex0,Microorganisms; Radioecology; 
+2ex1,Microorganisms; Radioecology; Bacteria
+2ex2,Microorganisms; Radioecology; Protozoa
+2ex3,Microorganisms; Radioecology; Actinomycetales  
+2ex4,Microorganisms; Radioecology; Viruses  
+2ex5,Microorganisms; Radioecology; Yeasts  
+2ex9,Microorganisms; Radioecology; 
+2f0,Microorganisms; Life cycle; 
+2f1,Microorganisms; Life cycle; Bacteria
+2f2,Microorganisms; Life cycle; Protozoa
+2f3,Microorganisms; Life cycle; Actinomycetales  
+2f4,Microorganisms; Life cycle; Viruses  
+2f5,Microorganisms; Life cycle; Yeasts  
+2f9,Microorganisms; Life cycle; 
+2g0,Microorganisms; Sociology; Biological control; 
+2g1,Microorganisms; Sociology; Biological control; Bacteria
+2g2,Microorganisms; Sociology; Biological control; Protozoa
+2g3,Microorganisms; Sociology; Biological control; Actinomycetales  
+2g4,Microorganisms; Sociology; Biological control; Viruses  
+2g5,Microorganisms; Sociology; Biological control; Yeasts  
+2g9,Microorganisms; Sociology; Biological control; 
+2h0,Microorganisms; Pathology; 
+2h1,Microorganisms; Pathology; Bacteria
+2h2,Microorganisms; Pathology; Protozoa
+2h3,Microorganisms; Pathology; Actinomycetales  
+2h4,Microorganisms; Pathology; Viruses  
+2h5,Microorganisms; Pathology; Yeasts  
+2h9,Microorganisms; Pathology; 
+2m0,Microorganisms; Fossils; 
+2m1,Microorganisms; Fossils; Bacteria
+2m2,Microorganisms; Fossils; Protozoa
+2m3,Microorganisms; Fossils; Actinomycetales  
+2m4,Microorganisms; Fossils; Viruses  
+2m5,Microorganisms; Fossils; Yeasts  
+2m9,Microorganisms; Fossils; 
+2n0,Microorganisms; Genetics; 
+2n1,Microorganisms; Genetics; Bacteria
+2n2,Microorganisms; Genetics; Protozoa
+2n3,Microorganisms; Genetics; Actinomycetales  
+2n4,Microorganisms; Genetics; Viruses  
+2n5,Microorganisms; Genetics; Yeasts  
+2n9,Microorganisms; Genetics; 
+2p0,Microorganisms; Behaviour; 
+2p1,Microorganisms; Behaviour; Bacteria
+2p2,Microorganisms; Behaviour; Protozoa
+2p3,Microorganisms; Behaviour; Actinomycetales  
+2p4,Microorganisms; Behaviour; Viruses  
+2p5,Microorganisms; Behaviour; Yeasts  
+2p9,Microorganisms; Behaviour; 
+3,Higher plants
+3a0,Higher plants; Methods; 
+3a1,Higher plants; Methods; Bryophyta
+3a2,Higher plants; Methods; Pteridophyta
+3a3,Higher plants; Methods; Flowering plants
+3b0,Higher plants; Morphology; Taxonomy; 
+3b1,Higher plants; Morphology; Taxonomy; Bryophyta
+3b2,Higher plants; Morphology; Taxonomy; Pteridophyta
+3b3,Higher plants; Morphology; Taxonomy; Flowering plants
+3c0,Higher plants; Geographical distribution;  
+3c1,Higher plants; Geographical distribution;  Bryophyta
+3c2,Higher plants; Geographical distribution;  Pteridophyta
+3c3,Higher plants; Geographical distribution;  Flowering plants
+3d0,Higher plants; Biochemistry; Physiology; 
+3d1,Higher plants; Biochemistry; Physiology; Bryophyta
+3d2,Higher plants; Biochemistry; Physiology; Pteridophyta
+3d3,Higher plants; Biochemistry; Physiology; Flowering plants
+3da0,Higher plants; Physiological techniques; Biochemical techniques; 
+3da1,Higher plants; Physiological techniques; Biochemical techniques; Bryophyta
+3da2,Higher plants; Physiological techniques; Biochemical techniques; Pteridophyta
+3da3,Higher plants; Physiological techniques; Biochemical techniques; Flowering plants
+3db0,Higher plants; Histology; Histochemistry; Cytology; 
+3db1,Higher plants; Histology; Histochemistry; Cytology; Bryophyta
+3db2,Higher plants; Histology; Histochemistry; Cytology; Pteridophyta
+3db3,Higher plants; Histology; Histochemistry; Cytology; Flowering plants
+3dc0,Higher plants; Plant fluids; 
+3dc1,Higher plants; Plant fluids; Bryophyta
+3dc2,Higher plants; Plant fluids; Pteridophyta
+3dc3,Higher plants; Plant fluids; Flowering plants
+3dd0,Higher plants; Respiration; Energy metabolism; 
+3dd1,Higher plants; Respiration; Energy metabolism; Bryophyta
+3dd2,Higher plants; Respiration; Energy metabolism; Pteridophyta
+3dd3,Higher plants; Respiration; Energy metabolism; Flowering plants
+3de0,Higher plants; Photosynthesis; Chemosynthesis: Pigmentation; 
+3de1,Higher plants; Photosynthesis; Chemosynthesis: Pigmentation; Bryophyta
+3de2,Higher plants; Photosynthesis; Chemosynthesis: Pigmentation; Pteridophyta
+3de3,Higher plants; Photosynthesis; Chemosynthesis: Pigmentation; Flowering plants
+3df0,Higher plants;  Metabolism; 
+3df1,Higher plants;  Metabolism; Bryophyta
+3df2,Higher plants;  Metabolism; Pteridophyta
+3df3,Higher plants;  Metabolism; Flowering plants
+3dg0,Higher plants; Growth; 
+3dg1,Higher plants; Growth; Bryophyta
+3dg2,Higher plants; Growth; Pteridophyta
+3dg3,Higher plants; Growth; Flowering plants
+3dh0,Higher plants; Reproduction; 
+3dh1,Higher plants; Reproduction; Bryophyta
+3dh2,Higher plants; Reproduction; Pteridophyta
+3dh3,Higher plants; Reproduction; Flowering plants
+3dj0,Higher plants; Endocrinological functions; 
+3dj1,Higher plants; Endocrinological functions; Bryophyta
+3dj2,Higher plants; Endocrinological functions; Pteridophyta
+3dj3,Higher plants; Endocrinological functions; Flowering plants
+3dk0,Higher plants; Biological rhythms; 
+3dk1,Higher plants; Biological rhythms; Bryophyta
+3dk2,Higher plants; Biological rhythms; Pteridophyta
+3dk3,Higher plants; Biological rhythms; Flowering plants
+3dm0,Higher plants; Movement; 
+3dm1,Higher plants; Movement; Bryophyta
+3dm2,Higher plants; Movement; Pteridophyta
+3dm3,Higher plants; Movement; Flowering plants
+3dp0,Higher plants; Senses; 
+3dp1,Higher plants; Senses; Bryophyta
+3dp2,Higher plants; Senses; Pteridophyta
+3dp3,Higher plants; Senses; Flowering plants
+3dq0,Higher plants; Physiological response to physical factors; 
+3dq1,Higher plants; Physiological response to physical factors; Bryophyta
+3dq2,Higher plants; Physiological response to physical factors; Pteridophyta
+3dq3,Higher plants; Physiological response to physical factors; Flowering plants
+3dr0,Higher plants; Physiological response to chemicals; 
+3dr1,Higher plants; Physiological response to chemicals; Bryophyta
+3dr2,Higher plants; Physiological response to chemicals; Pteridophyta
+3dr3,Higher plants; Physiological response to chemicals; Flowering plants
+3ds0,Higher plants; Biochemistry; 
+3ds1,Higher plants; Biochemistry; Bryophyta
+3ds2,Higher plants; Biochemistry; Pteridophyta
+3ds3,Higher plants; Biochemistry; Flowering plants
+3dt0,Higher plants; Molecular Biology; 
+3dt1,Higher plants; Molecular Biology; Bryophyta
+3dt2,Higher plants; Molecular Biology; Pteridophyta
+3dt3,Higher plants; Molecular Biology; Flowering plants
+3du0,Higher plants; Biodegradation; 
+3du1,Higher plants; Biodegradation; Bryophyta
+3du2,Higher plants; Biodegradation; Pteridophyta
+3du3,Higher plants; Biodegradation; Flowering plants
+3dv0,Higher plants; Immunology; 
+3dv1,Higher plants; Immunology; Bryophyta
+3dv2,Higher plants; Immunology; Pteridophyta
+3dv3,Higher plants; Immunology; Flowering plants
+3e0,Higher plants; Ecology; 
+3e1,Higher plants; Ecology; Bryophyta
+3e2,Higher plants; Ecology; Pteridophyta
+3e3,Higher plants; Ecology; Flowering plants
+3ea0,Higher plants; Ecology; Inland Waters; 
+3ea1,Higher plants; Ecology; Inland Waters; Bryophyta
+3ea2,Higher plants; Ecology; Inland Waters; Pteridophyta
+3ea3,Higher plants; Ecology; Inland Waters; Flowering plants
+3eb0,Higher plants; Ecology; Lakes; 
+3eb1,Higher plants; Ecology; Lakes; Bryophyta
+3eb2,Higher plants; Ecology; Lakes; Pteridophyta
+3eb3,Higher plants; Ecology; Lakes; Flowering plants
+3ec0,Higher plants; Ecology; Temporary ponds; Temporary pools; 
+3ec1,Higher plants; Ecology; Temporary ponds; Temporary pools; Bryophyta
+3ec2,Higher plants; Ecology; Temporary ponds; Temporary pools; Pteridophyta
+3ec3,Higher plants; Ecology; Temporary ponds; Temporary pools; Flowering plants
+3ed0,Higher plants; Ecology; Flowing waters; Rivers; 
+3ed1,Higher plants; Ecology; Flowing waters; Rivers; Bryophyta
+3ed2,Higher plants; Ecology; Flowing waters; Rivers; Pteridophyta
+3ed3,Higher plants; Ecology; Flowing waters; Rivers; Flowering plants
+3ee0,Higher plants; Ecology; Estuaries; Lagoons; 
+3ee1,Higher plants; Ecology; Estuaries; Lagoons; Bryophyta
+3ee2,Higher plants; Ecology; Estuaries; Lagoons; Pteridophyta
+3ee3,Higher plants; Ecology; Estuaries; Lagoons; Flowering plants
+3ef0,Higher plants; Ecology; Seas; Oceans; 
+3ef1,Higher plants; Ecology; Seas; Oceans; Bryophyta
+3ef2,Higher plants; Ecology; Seas; Oceans; Pteridophyta
+3ef3,Higher plants; Ecology; Seas; Oceans; Flowering plants
+3eg0,Higher plants; Ecology; Soil water; 
+3eg1,Higher plants; Ecology; Soil water; Bryophyta
+3eg2,Higher plants; Ecology; Soil water; Pteridophyta
+3eg3,Higher plants; Ecology; Soil water; Flowering plants
+3eh0,Higher plants; Ecology; Wetlands; 
+3eh1,Higher plants; Ecology; Wetlands; Bryophyta
+3eh2,Higher plants; Ecology; Wetlands; Pteridophyta
+3eh3,Higher plants; Ecology; Wetlands; Flowering plants
+3ej0,Higher plants; Ecology; Snow; Ice; 
+3ej1,Higher plants; Ecology; Snow; Ice; Bryophyta
+3ej2,Higher plants; Ecology; Snow; Ice; Pteridophyta
+3ej3,Higher plants; Ecology; Snow; Ice; Flowering plants
+3ek0,Higher plants; Ecology; Atmosphere; 
+3ek1,Higher plants; Ecology; Atmosphere; Bryophyta
+3ek2,Higher plants; Ecology; Atmosphere; Pteridophyta
+3ek3,Higher plants; Ecology; Atmosphere; Flowering plants
+3em0,Higher plants; Ecology; Coasts; 
+3em1,Higher plants; Ecology; Coasts; Bryophyta
+3em2,Higher plants; Ecology; Coasts; Pteridophyta
+3em3,Higher plants; Ecology; Coasts; Flowering plants
+3en0,Higher plants; Ecology; Laboratory experimentation; 
+3en1,Higher plants; Ecology; Laboratory experimentation; Bryophyta
+3en2,Higher plants; Ecology; Laboratory experimentation; Pteridophyta
+3en3,Higher plants; Ecology; Laboratory experimentation; Flowering plants
+3eo0,Higher plants; Ecology; Biological interaction; 
+3eo1,Higher plants; Ecology; Biological interaction; Bryophyta
+3eo2,Higher plants; Ecology; Biological interaction; Pteridophyta
+3eo3,Higher plants; Ecology; Biological interaction; Flowering plants
+3ep0,Higher plants; Ecology; Underground waters; 
+3ep1,Higher plants; Ecology; Underground waters; Bryophyta
+3ep2,Higher plants; Ecology; Underground waters; Pteridophyta
+3ep3,Higher plants; Ecology; Underground waters; Flowering plants
+3eq0,Higher plants; Ecology; Hot springs; 
+3eq1,Higher plants; Ecology; Hot springs; Bryophyta
+3eq2,Higher plants; Ecology; Hot springs; Pteridophyta
+3eq3,Higher plants; Ecology; Hot springs; Flowering plants
+3er0,Higher plants; Ecology; Inland seas; Salt lakes; 
+3er1,Higher plants; Ecology; Inland seas; Salt lakes; Bryophyta
+3er2,Higher plants; Ecology; Inland seas; Salt lakes; Pteridophyta
+3er3,Higher plants; Ecology; Inland seas; Salt lakes; Flowering plants
+3es0,Higher plants; Ecology; Sewage; 
+3es1,Higher plants; Ecology; Sewage; Bryophyta
+3es2,Higher plants; Ecology; Sewage; Pteridophyta
+3es3,Higher plants; Ecology; Sewage; Flowering plants
+3et0,Higher plants; Ecology; Canals; 
+3et1,Higher plants; Ecology; Canals; Bryophyta
+3et2,Higher plants; Ecology; Canals; Pteridophyta
+3et3,Higher plants; Ecology; Canals; Flowering plants
+3eu0,Higher plants; Ecology; Plant litter; 
+3eu1,Higher plants; Ecology; Plant litter; Bryophyta
+3eu2,Higher plants; Ecology; Plant litter; Pteridophyta
+3eu3,Higher plants; Ecology; Plant litter; Flowering plants
+3ew0,Higher plants; Ecology; Water supply; 
+3ew1,Higher plants; Ecology; Water supply; Bryophyta
+3ew2,Higher plants; Ecology; Water supply; Pteridophyta
+3ew3,Higher plants; Ecology; Water supply; Flowering plants
+3ex0,Higher plants; Radioecology; 
+3ex1,Higher plants; Radioecology; Bryophyta
+3ex2,Higher plants; Radioecology; Pteridophyta
+3ex3,Higher plants; Radioecology; Flowering plants
+3f0,Higher plants; Life cycle; 
+3f1,Higher plants; Life cycle; Bryophyta
+3f2,Higher plants; Life cycle; Pteridophyta
+3f3,Higher plants; Life cycle; Flowering plants
+3g0,Higher plants; Sociology; Biological control; 
+3g1,Higher plants; Sociology; Biological control; Bryophyta
+3g2,Higher plants; Sociology; Biological control; Pteridophyta
+3g3,Higher plants; Sociology; Biological control; Flowering plants
+3h0,Higher plants; Pathology; 
+3h1,Higher plants; Pathology; Bryophyta
+3h2,Higher plants; Pathology; Pteridophyta
+3h3,Higher plants; Pathology; Flowering plants
+3m0,Higher plants; Fossils; 
+3m1,Higher plants; Fossils; Bryophyta
+3m2,Higher plants; Fossils; Pteridophyta
+3m3,Higher plants; Fossils; Flowering plants
+3n0,Higher plants; Genetics; 
+3n1,Higher plants; Genetics; Bryophyta
+3n2,Higher plants; Genetics; Pteridophyta
+3n3,Higher plants; Genetics; Flowering plants
+4,Algae
+4a0,Algae; Methods; 
+4a1,Algae; Methods; Green algae
+4a2,Algae; Methods; Chlorococcales
+4a3,Algae; Methods; Green algae
+4a4,Algae; Methods; Desmids
+4a5,Algae; Methods; Diatoms
+4a6,Algae; Methods; Cyanophyceae
+4a7,Algae; Methods; Xanthophyceae; Chrysophyceae
+4a8,Algae; Methods; 
+4a9,Algae; Methods; 
+4b0,Algae; Morphology; Taxonomy; 
+4b1,Algae; Morphology; Taxonomy; Green algae
+4b2,Algae; Morphology; Taxonomy; Chlorococcales
+4b3,Algae; Morphology; Taxonomy; Green algae
+4b4,Algae; Morphology; Taxonomy; Desmids
+4b5,Algae; Morphology; Taxonomy; Diatoms
+4b6,Algae; Morphology; Taxonomy; Cyanophyceae
+4b7,Algae; Morphology; Taxonomy; Xanthophyceae; Chrysophyceae
+4b8,Algae; Morphology; Taxonomy; 
+4b9,Algae; Morphology; Taxonomy; 
+4c0,Algae; Geographical distribution;  
+4c1,Algae; Geographical distribution;  Green algae
+4c2,Algae; Geographical distribution;  Chlorococcales
+4c3,Algae; Geographical distribution;  Green algae
+4c4,Algae; Geographical distribution;  Desmids
+4c5,Algae; Geographical distribution;  Diatoms
+4c6,Algae; Geographical distribution;  Cyanophyceae
+4c7,Algae; Geographical distribution;  Xanthophyceae; Chrysophyceae
+4c8,Algae; Geographical distribution;  
+4c9,Algae; Geographical distribution;  
+4d0,Algae; Biochemistry; Physiology; 
+4d1,Algae; Biochemistry; Physiology; Green algae
+4d2,Algae; Biochemistry; Physiology; Chlorococcales
+4d3,Algae; Biochemistry; Physiology; Green algae
+4d4,Algae; Biochemistry; Physiology; Desmids
+4d5,Algae; Biochemistry; Physiology; Diatoms
+4d6,Algae; Biochemistry; Physiology; Cyanophyceae
+4d7,Algae; Biochemistry; Physiology; Xanthophyceae; Chrysophyceae
+4d8,Algae; Biochemistry; Physiology; 
+4d9,Algae; Biochemistry; Physiology; 
+4da0,Algae; Physiological techniques; Biochemical techniques; 
+4da1,Algae; Physiological techniques; Biochemical techniques; Green algae
+4da2,Algae; Physiological techniques; Biochemical techniques; Chlorococcales
+4da3,Algae; Physiological techniques; Biochemical techniques; Green algae
+4da4,Algae; Physiological techniques; Biochemical techniques; Desmids
+4da5,Algae; Physiological techniques; Biochemical techniques; Diatoms
+4da6,Algae; Physiological techniques; Biochemical techniques; Cyanophyceae
+4da7,Algae; Physiological techniques; Biochemical techniques; Xanthophyceae; Chrysophyceae
+4da8,Algae; Physiological techniques; Biochemical techniques; 
+4da9,Algae; Physiological techniques; Biochemical techniques; 
+4db0,Algae; Histology; Histochemistry; Cytology; 
+4db1,Algae; Histology; Histochemistry; Cytology; Green algae
+4db2,Algae; Histology; Histochemistry; Cytology; Chlorococcales
+4db3,Algae; Histology; Histochemistry; Cytology; Green algae
+4db4,Algae; Histology; Histochemistry; Cytology; Desmids
+4db5,Algae; Histology; Histochemistry; Cytology; Diatoms
+4db6,Algae; Histology; Histochemistry; Cytology; Cyanophyceae
+4db7,Algae; Histology; Histochemistry; Cytology; Xanthophyceae; Chrysophyceae
+4db8,Algae; Histology; Histochemistry; Cytology; 
+4db9,Algae; Histology; Histochemistry; Cytology; 
+4dc0,Algae; Plant fluids; 
+4dc1,Algae; Plant fluids; Green algae
+4dc2,Algae; Plant fluids; Chlorococcales
+4dc3,Algae; Plant fluids; Green algae
+4dc4,Algae; Plant fluids; Desmids
+4dc5,Algae; Plant fluids; Diatoms
+4dc6,Algae; Plant fluids; Cyanophyceae
+4dc7,Algae; Plant fluids; Xanthophyceae; Chrysophyceae
+4dc8,Algae; Plant fluids; 
+4dc9,Algae; Plant fluids; 
+4dd0,Algae; Respiration; Energetics; 
+4dd1,Algae; Respiration; Energetics; Green algae
+4dd2,Algae; Respiration; Energetics; Chlorococcales
+4dd3,Algae; Respiration; Energetics; Green algae
+4dd4,Algae; Respiration; Energetics; Desmids
+4dd5,Algae; Respiration; Energetics; Diatoms
+4dd6,Algae; Respiration; Energetics; Cyanophyceae
+4dd7,Algae; Respiration; Energetics; Xanthophyceae; Chrysophyceae
+4dd8,Algae; Respiration; Energetics; 
+4dd9,Algae; Respiration; Energetics; 
+4de0,Algae; Photosynthesis; Chemosynthesis: Pigmentation; 
+4de1,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Green algae
+4de2,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Chlorococcales
+4de3,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Green algae
+4de4,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Desmids
+4de5,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Diatoms
+4de6,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Cyanophyceae
+4de7,Algae; Photosynthesis; Chemosynthesis: Pigmentation; Xanthophyceae; Chrysophyceae
+4de8,Algae; Photosynthesis; Chemosynthesis: Pigmentation; 
+4de9,Algae; Photosynthesis; Chemosynthesis: Pigmentation; 
+4df0,Algae;  Metabolism; 
+4df1,Algae;  Metabolism; Green algae
+4df2,Algae;  Metabolism; Chlorococcales
+4df3,Algae;  Metabolism; Green algae
+4df4,Algae;  Metabolism; Desmids
+4df5,Algae;  Metabolism; Diatoms
+4df6,Algae;  Metabolism; Cyanophyceae
+4df7,Algae;  Metabolism; Xanthophyceae; Chrysophyceae
+4df8,Algae;  Metabolism; 
+4df9,Algae;  Metabolism; 
+4dg0,Algae; Growth; 
+4dg1,Algae; Growth; Green algae
+4dg2,Algae; Growth; Chlorococcales
+4dg3,Algae; Growth; Green algae
+4dg4,Algae; Growth; Desmids
+4dg5,Algae; Growth; Diatoms
+4dg6,Algae; Growth; Cyanophyceae
+4dg7,Algae; Growth; Xanthophyceae; Chrysophyceae
+4dg8,Algae; Growth; 
+4dg9,Algae; Growth; 
+4dh0,Algae; Reproduction; 
+4dh1,Algae; Reproduction; Green algae
+4dh2,Algae; Reproduction; Chlorococcales
+4dh3,Algae; Reproduction; Green algae
+4dh4,Algae; Reproduction; Desmids
+4dh5,Algae; Reproduction; Diatoms
+4dh6,Algae; Reproduction; Cyanophyceae
+4dh7,Algae; Reproduction; Xanthophyceae; Chrysophyceae
+4dh8,Algae; Reproduction; 
+4dh9,Algae; Reproduction; 
+4dj0,Algae; Endocrinological functions; 
+4dj1,Algae; Endocrinological functions; Green algae
+4dj2,Algae; Endocrinological functions; Chlorococcales
+4dj3,Algae; Endocrinological functions; Green algae
+4dj4,Algae; Endocrinological functions; Desmids
+4dj5,Algae; Endocrinological functions; Diatoms
+4dj6,Algae; Endocrinological functions; Cyanophyceae
+4dj7,Algae; Endocrinological functions; Xanthophyceae; Chrysophyceae
+4dj8,Algae; Endocrinological functions; 
+4dj9,Algae; Endocrinological functions; 
+4dk0,Algae; Biological rhythms; 
+4dk1,Algae; Biological rhythms; Green algae
+4dk2,Algae; Biological rhythms; Chlorococcales
+4dk3,Algae; Biological rhythms; Green algae
+4dk4,Algae; Biological rhythms; Desmids
+4dk5,Algae; Biological rhythms; Diatoms
+4dk6,Algae; Biological rhythms; Cyanophyceae
+4dk7,Algae; Biological rhythms; Xanthophyceae; Chrysophyceae
+4dk8,Algae; Biological rhythms; 
+4dk9,Algae; Biological rhythms; 
+4dm0,Algae; Movement; 
+4dm1,Algae; Movement; Green algae
+4dm2,Algae; Movement; Chlorococcales
+4dm3,Algae; Movement; Green algae
+4dm4,Algae; Movement; Desmids
+4dm5,Algae; Movement; Diatoms
+4dm6,Algae; Movement; Cyanophyceae
+4dm7,Algae; Movement; Xanthophyceae; Chrysophyceae
+4dm8,Algae; Movement; 
+4dm9,Algae; Movement; 
+4dp0,Algae; Senses; 
+4dp1,Algae; Senses; Green algae
+4dp2,Algae; Senses; Chlorococcales
+4dp3,Algae; Senses; Green algae
+4dp4,Algae; Senses; Desmids
+4dp5,Algae; Senses; Diatoms
+4dp6,Algae; Senses; Cyanophyceae
+4dp7,Algae; Senses; Xanthophyceae; Chrysophyceae
+4dp8,Algae; Senses; 
+4dp9,Algae; Senses; 
+4dq0,Algae; Physiological response to physical factors; 
+4dq1,Algae; Physiological response to physical factors; Green algae
+4dq2,Algae; Physiological response to physical factors; Chlorococcales
+4dq3,Algae; Physiological response to physical factors; Green algae
+4dq4,Algae; Physiological response to physical factors; Desmids
+4dq5,Algae; Physiological response to physical factors; Diatoms
+4dq6,Algae; Physiological response to physical factors; Cyanophyceae
+4dq7,Algae; Physiological response to physical factors; Xanthophyceae; Chrysophyceae
+4dq8,Algae; Physiological response to physical factors; 
+4dq9,Algae; Physiological response to physical factors; 
+4dr0,Algae; Physiological response to chemicals; 
+4dr1,Algae; Physiological response to chemicals; Green algae
+4dr2,Algae; Physiological response to chemicals; Chlorococcales
+4dr3,Algae; Physiological response to chemicals; Green algae
+4dr4,Algae; Physiological response to chemicals; Desmids
+4dr5,Algae; Physiological response to chemicals; Diatoms
+4dr6,Algae; Physiological response to chemicals; Cyanophyceae
+4dr7,Algae; Physiological response to chemicals; Xanthophyceae; Chrysophyceae
+4dr8,Algae; Physiological response to chemicals; 
+4dr9,Algae; Physiological response to chemicals; 
+4ds0,Algae; Biochemistry; 
+4ds1,Algae; Biochemistry; Green algae
+4ds2,Algae; Biochemistry; Coccoid green algae
+4ds3,Algae; Biochemistry; Green algae
+4ds4,Algae; Biochemistry; Desmids
+4ds5,Algae; Biochemistry; Diatoms
+4ds6,Algae; Biochemistry; Cyanophyceae
+4ds7,Algae; Biochemistry; Xanthophyceae; Chrysophyceae
+4ds8,Algae; Biochemistry; 
+4ds9,Algae; Biochemistry; 
+4dt0,Algae; Molecular Biology; 
+4dt1,Algae; Molecular Biology; Green algae
+4dt2,Algae; Molecular Biology; Chlorococcales
+4dt3,Algae; Molecular Biology; Green algae
+4dt4,Algae; Molecular Biology; Desmids
+4dt5,Algae; Molecular Biology; Diatoms
+4dt6,Algae; Molecular Biology; Cyanophyceae
+4dt7,Algae; Molecular Biology; Xanthophyceae; Chrysophyceae
+4dt8,Algae; Molecular Biology; 
+4dt9,Algae; Molecular Biology; 
+4du0,Algae; Biodegradation; 
+4du1,Algae; Biodegradation; Green algae
+4du2,Algae; Biodegradation; Chlorococcales
+4du3,Algae; Biodegradation; Green algae
+4du4,Algae; Biodegradation; Desmids
+4du5,Algae; Biodegradation; Diatoms
+4du6,Algae; Biodegradation; Cyanophyceae
+4du7,Algae; Biodegradation; Xanthophyceae; Chrysophyceae
+4du8,Algae; Biodegradation; 
+4du9,Algae; Biodegradation; 
+4dv0,Algae; Immunology; 
+4dv1,Algae; Immunology; Green algae
+4dv2,Algae; Immunology; Chlorococcales
+4dv3,Algae; Immunology; Green algae
+4dv4,Algae; Immunology; Desmids
+4dv5,Algae; Immunology; Diatoms
+4dv6,Algae; Immunology; Cyanophyceae
+4dv7,Algae; Immunology; Xanthophyceae; Chrysophyceae
+4dv8,Algae; Immunology; 
+4dv9,Algae; Immunology; 
+4e0,Algae; Ecology; 
+4e1,Algae; Ecology; Green algae
+4e2,Algae; Ecology; Chlorococcales
+4e3,Algae; Ecology; Green algae
+4e4,Algae; Ecology; Desmids
+4e5,Algae; Ecology; Diatoms
+4e6,Algae; Ecology; Cyanophyceae
+4e7,Algae; Ecology; Xanthophyceae; Chrysophyceae
+4e8,Algae; Ecology; 
+4e9,Algae; Ecology; 
+4ea0,Algae; Ecology; Inland Waters; 
+4ea1,Algae; Ecology; Inland Waters; Green algae
+4ea2,Algae; Ecology; Inland Waters; Chlorococcales
+4ea3,Algae; Ecology; Inland Waters; Green algae
+4ea4,Algae; Ecology; Inland Waters; Desmids
+4ea5,Algae; Ecology; Inland Waters; Diatoms
+4ea6,Algae; Ecology; Inland Waters; Cyanophyceae
+4ea7,Algae; Ecology; Inland Waters; Xanthophyceae; Chrysophyceae
+4ea8,Algae; Ecology; Inland Waters; 
+4ea9,Algae; Ecology; Inland Waters; 
+4eb0,Algae; Ecology; Lakes; 
+4eb1,Algae; Ecology; Lakes; Green algae
+4eb2,Algae; Ecology; Lakes; Chlorococcales
+4eb3,Algae; Ecology; Lakes; Green algae
+4eb4,Algae; Ecology; Lakes; Desmids
+4eb5,Algae; Ecology; Lakes; Diatoms
+4eb6,Algae; Ecology; Lakes; Cyanophyceae
+4eb7,Algae; Ecology; Lakes; Xanthophyceae; Chrysophyceae
+4eb8,Algae; Ecology; Lakes; 
+4eb9,Algae; Ecology; Lakes; 
+4ec0,Algae; Ecology; Temporary ponds; Temporary pools; 
+4ec1,Algae; Ecology; Temporary ponds; Temporary pools; Green algae
+4ec2,Algae; Ecology; Temporary ponds; Temporary pools; Chlorococcales
+4ec3,Algae; Ecology; Temporary ponds; Temporary pools; Green algae
+4ec4,Algae; Ecology; Temporary ponds; Temporary pools; Desmids
+4ec5,Algae; Ecology; Temporary ponds; Temporary pools; Diatoms
+4ec6,Algae; Ecology; Temporary ponds; Temporary pools; Cyanophyceae
+4ec7,Algae; Ecology; Temporary ponds; Temporary pools; Xanthophyceae; Chrysophyceae
+4ec8,Algae; Ecology; Temporary ponds; Temporary pools; 
+4ec9,Algae; Ecology; Temporary ponds; Temporary pools; 
+4ed0,Algae; Ecology; Flowing waters; Rivers; 
+4ed1,Algae; Ecology; Flowing waters; Rivers; Green algae
+4ed2,Algae; Ecology; Flowing waters; Rivers; Chlorococcales
+4ed3,Algae; Ecology; Flowing waters; Rivers; Green algae
+4ed4,Algae; Ecology; Flowing waters; Rivers; Desmids
+4ed5,Algae; Ecology; Flowing waters; Rivers; Diatoms
+4ed6,Algae; Ecology; Flowing waters; Rivers; Cyanophyceae
+4ed7,Algae; Ecology; Flowing waters; Rivers; Xanthophyceae; Chrysophyceae
+4ed8,Algae; Ecology; Flowing waters; Rivers; 
+4ed9,Algae; Ecology; Flowing waters; Rivers; 
+4ee0,Algae; Ecology; Estuaries; Lagoons; 
+4ee1,Algae; Ecology; Estuaries; Lagoons; Green algae
+4ee2,Algae; Ecology; Estuaries; Lagoons; Chlorococcales
+4ee3,Algae; Ecology; Estuaries; Lagoons; Green algae
+4ee4,Algae; Ecology; Estuaries; Lagoons; Desmids
+4ee5,Algae; Ecology; Estuaries; Lagoons; Diatoms
+4ee6,Algae; Ecology; Estuaries; Lagoons; Cyanophyceae
+4ee7,Algae; Ecology; Estuaries; Lagoons; Xanthophyceae; Chrysophyceae
+4ee8,Algae; Ecology; Estuaries; Lagoons; 
+4ee9,Algae; Ecology; Estuaries; Lagoons; 
+4ef0,Algae; Ecology; marine; 
+4ef1,Algae; Ecology; Seas; Oceans; ; Green algae
+4ef2,Algae; Ecology; Seas; Oceans; ; Chlorococcales
+4ef3,Algae; Ecology; Seas; Oceans; ; Green algae
+4ef4,Algae; Ecology; Seas; Oceans; ; Desmids
+4ef5,Algae; Ecology; Seas; Oceans; Diatoms
+4ef6,Algae; Ecology; Seas; Oceans; Cyanophyceae
+4ef7,Algae; Ecology; Seas; Oceans; Xanthophyceae; Chrysophyceae
+4ef8,Algae; Ecology; Seas; Oceans; 
+4ef9,Algae; Ecology; Seas; Oceans; 
+4eg0,Algae; Ecology; Soil water; 
+4eg1,Algae; Ecology; Soil water; Green algae
+4eg2,Algae; Ecology; Soil water; Chlorococcales
+4eg3,Algae; Ecology; Soil water; Green algae
+4eg4,Algae; Ecology; Soil water; Desmids
+4eg5,Algae; Ecology; Soil water; Diatoms
+4eg6,Algae; Ecology; Soil water; Cyanophyceae
+4eg7,Algae; Ecology; Soil water; Xanthophyceae; Chrysophyceae
+4eg8,Algae; Ecology; Soil water; 
+4eg9,Algae; Ecology; Soil water; 
+4eh0,Algae; Ecology; bogs; swamps; 
+4eh1,Algae; Ecology; Wetlands; Green algae
+4eh2,Algae; Ecology; Wetlands; Chlorococcales
+4eh3,Algae; Ecology; Wetlands; Green algae
+4eh4,Algae; Ecology; Wetlands; Desmids
+4eh5,Algae; Ecology; Wetlands; Diatoms
+4eh6,Algae; Ecology; Wetlands; Cyanophyceae
+4eh7,Algae; Ecology; Wetlands; Xanthophyceae; Chrysophyceae
+4eh8,Algae; Ecology; Wetlands; 
+4eh9,Algae; Ecology; Wetlands; 
+4ej0,Algae; Ecology; Snow; Ice; 
+4ej1,Algae; Ecology; Snow; Ice; Green algae
+4ej2,Algae; Ecology; Snow; Ice; Chlorococcales
+4ej3,Algae; Ecology; Snow; Ice; Green algae
+4ej4,Algae; Ecology; Snow; Ice; Desmids
+4ej5,Algae; Ecology; Snow; Ice; Diatoms
+4ej6,Algae; Ecology; snow and ice; Cyanophyceae
+4ej7,Algae; Ecology; Snow; Ice; Xanthophyceae; Chrysophyceae
+4ej8,Algae; Ecology; Snow; Ice; 
+4ej9,Algae; Ecology; Snow; Ice; 
+4ek0,Algae; Ecology; Atmosphere; 
+4ek1,Algae; Ecology; Atmosphere; Green algae
+4ek2,Algae; Ecology; Atmosphere; Chlorococcales
+4ek3,Algae; Ecology; Atmosphere; Green algae
+4ek4,Algae; Ecology; Atmosphere; Desmids
+4ek5,Algae; Ecology; Atmosphere; Diatoms
+4ek6,Algae; Ecology; Atmosphere; Cyanophyceae
+4ek7,Algae; Ecology; Atmosphere; Xanthophyceae; Chrysophyceae
+4ek8,Algae; Ecology; Atmosphere; 
+4ek9,Algae; Ecology; Atmosphere; 
+4em0,Algae; Ecology; Coasts; 
+4em1,Algae; Ecology; Coasts; Green algae
+4em2,Algae; Ecology; Coasts; Chlorococcales
+4em3,Algae; Ecology; Coasts; Green algae
+4em4,Algae; Ecology; Coasts; Desmids
+4em5,Algae; Ecology; Coasts; Diatoms
+4em6,Algae; Ecology; Coasts; Cyanophyceae
+4em7,Algae; Ecology; Coasts; Xanthophyceae; Chrysophyceae
+4em8,Algae; Ecology; Coasts; 
+4em9,Algae; Ecology; Coasts; 
+4en0,Algae; Ecology; Laboratory experimentation; 
+4en1,Algae; Ecology; Laboratory experimentation; Green algae
+4en2,Algae; Ecology; Laboratory experimentation; Chlorococcales
+4en3,Algae; Ecology; Laboratory experimentation; Green algae
+4en4,Algae; Ecology; Laboratory experimentation; Desmids
+4en5,Algae; Ecology; Laboratory experimentation; Diatoms
+4en6,Algae; Ecology; Laboratory experimentation; Cyanophyceae
+4en7,Algae; Ecology; Laboratory experimentation; Xanthophyceae; Chrysophyceae
+4en8,Algae; Ecology; Laboratory experimentation; 
+4en9,Algae; Ecology; Laboratory experimentation; 
+4eo0,Algae; Ecology; Biological interaction; 
+4eo1,Algae; Ecology; Biological interaction; Green algae
+4eo2,Algae; Ecology; Biological interaction; Chlorococcales
+4eo3,Algae; Ecology; Biological interaction; Green algae
+4eo4,Algae; Ecology; Biological interaction; Desmids
+4eo5,Algae; Ecology; Biological interaction; Diatoms
+4eo6,Algae; Ecology; Biological interaction; Cyanophyceae
+4eo7,Algae; Ecology; Biological interaction; Xanthophyceae; Chrysophyceae
+4eo8,Algae; Ecology; Biological interaction; 
+4eo9,Algae; Ecology; Biological interaction; 
+4ep0,Algae; Ecology; Underground waters; 
+4ep1,Algae; Ecology; Underground waters; Green algae
+4ep2,Algae; Ecology; Underground waters; Chlorococcales
+4ep3,Algae; Ecology; Underground waters; Green algae
+4ep4,Algae; Ecology; Underground waters; Desmids
+4ep5,Algae; Ecology; Underground waters; Diatoms
+4ep6,Algae; Ecology; Underground waters; Cyanophyceae
+4ep7,Algae; Ecology; Underground waters; Xanthophyceae; Chrysophyceae
+4ep8,Algae; Ecology; Underground waters; 
+4ep9,Algae; Ecology; Underground waters; 
+4eq0,Algae; Ecology; Hot springs; 
+4eq1,Algae; Ecology; Hot springs; Green algae
+4eq2,Algae; Ecology; Hot springs; Chlorococcales
+4eq3,Algae; Ecology; Hot springs; Green algae
+4eq4,Algae; Ecology; Hot springs; Desmids
+4eq5,Algae; Ecology; Hot springs; Diatoms
+4eq6,Algae; Ecology; Hot springs; Cyanophyceae
+4eq7,Algae; Ecology; Hot springs; Xanthophyceae; Chrysophyceae
+4eq8,Algae; Ecology; Hot springs; 
+4eq9,Algae; Ecology; Hot springs; 
+4er0,Algae; Ecology; Inland seas; Salt lakes; 
+4er1,Algae; Ecology; Inland seas; Salt lakes; Green algae
+4er2,Algae; Ecology; Inland seas; Salt lakes; Chlorococcales
+4er3,Algae; Ecology; Inland seas; Salt lakes; Green algae
+4er4,Algae; Ecology; Inland seas; Salt lakes; Desmids
+4er5,Algae; Ecology; Inland seas; Salt lakes; Diatoms
+4er6,Algae; Ecology; Inland seas; Salt lakes; Cyanophyceae
+4er7,Algae; Ecology; Inland seas; Salt lakes; Xanthophyceae; Chrysophyceae
+4er8,Algae; Ecology; Inland seas; Salt lakes; 
+4er9,Algae; Ecology; Inland seas; Salt lakes; 
+4es0,Algae; Ecology; Sewage; 
+4es1,Algae; Ecology; Sewage; Green algae
+4es2,Algae; Ecology; Sewage; Chlorococcales
+4es3,Algae; Ecology; Sewage; Green algae
+4es4,Algae; Ecology; Sewage; Desmids
+4es5,Algae; Ecology; Sewage; Diatoms
+4es6,Algae; Ecology; Sewage; Cyanophyceae
+4es7,Algae; Ecology; Sewage; Xanthophyceae; Chrysophyceae
+4es8,Algae; Ecology; Sewage; 
+4es9,Algae; Ecology; Sewage; 
+4et0,Algae; Ecology; Canals; 
+4et1,Algae; Ecology; Canals; Green algae
+4et2,Algae; Ecology; Canals; Chlorococcales
+4et3,Algae; Ecology; Canals; Green algae
+4et4,Algae; Ecology; Canals; Desmids
+4et5,Algae; Ecology; Canals; Diatoms
+4et6,Algae; Ecology; Canals; Cyanophyceae
+4et7,Algae; Ecology; Canals; Xanthophyceae; Chrysophyceae
+4et8,Algae; Ecology; Canals; 
+4et9,Algae; Ecology; Canals; 
+4eu0,Algae; Ecology; Plant litter; 
+4eu1,Algae; Ecology; Plant litter; Green algae
+4eu2,Algae; Ecology; Plant litter; Chlorococcales
+4eu3,Algae; Ecology; Plant litter; Green algae
+4eu4,Algae; Ecology; Plant litter; Desmids
+4eu5,Algae; Ecology; Plant litter; Diatoms
+4eu6,Algae; Ecology; Plant litter; Cyanophyceae
+4eu7,Algae; Ecology; Plant litter; Xanthophyceae; Chrysophyceae
+4eu8,Algae; Ecology; Plant litter; 
+4eu9,Algae; Ecology; Plant litter; 
+4ew0,Algae; Ecology; Water supply; 
+4ew1,Algae; Ecology; Water supply; Green algae
+4ew2,Algae; Ecology; Water supply; Chlorococcales
+4ew3,Algae; Ecology; Water supply; Green algae
+4ew4,Algae; Ecology; Water supply; Desmids
+4ew5,Algae; Ecology; Water supply; Diatoms
+4ew6,Algae; Ecology; Water supply; Cyanophyceae
+4ew7,Algae; Ecology; Water supply; Xanthophyceae; Chrysophyceae
+4ew8,Algae; Ecology; Water supply; 
+4ew9,Algae; Ecology; Water supply; 
+4ex0,Algae; Radioecology; 
+4ex1,Algae; Radioecology; Green algae
+4ex2,Algae; Radioecology; Chlorococcales
+4ex3,Algae; Radioecology; Green algae
+4ex4,Algae; Radioecology; Desmids
+4ex5,Algae; Radioecology; Diatoms
+4ex6,Algae; Radioecology; Cyanophyceae
+4ex7,Algae; Radioecology; Xanthophyceae; Chrysophyceae
+4ex8,Algae; Radioecology; 
+4ex9,Algae; Radioecology; 
+4f0,Algae; Life cycle; 
+4f1,Algae; Life cycle; Green algae
+4f2,Algae; Life cycle; Chlorococcales
+4f3,Algae; Life cycle; Green algae
+4f4,Algae; Life cycle; Desmids
+4f5,Algae; Life cycle; Diatoms
+4f6,Algae; Life cycle; Cyanophyceae
+4f7,Algae; Life cycle; Xanthophyceae; Chrysophyceae
+4f8,Algae; Life cycle; 
+4f9,Algae; Life cycle; 
+4g0,Algae; Sociology; Biological control; 
+4g1,Algae; Sociology; Biological control; Green algae
+4g2,Algae; Sociology; Biological control; Chlorococcales
+4g3,Algae; Sociology; Biological control; Green algae
+4g4,Algae; Sociology; Biological control; Desmids
+4g5,Algae; Sociology; Biological control; Diatoms
+4g6,Algae; Sociology; Biological control; Cyanophyceae
+4g7,Algae; Sociology; Biological control; Xanthophyceae; Chrysophyceae
+4g8,Algae; Sociology; Biological control; 
+4g9,Algae; Sociology; Biological control; 
+4h0,Algae; Pathology; 
+4h1,Algae; Pathology; Green algae
+4h2,Algae; Pathology; Chlorococcales
+4h3,Algae; Pathology; Green algae
+4h4,Algae; Pathology; Desmids
+4h5,Algae; Pathology; Diatoms
+4h6,Algae; Pathology; Cyanophyceae
+4h7,Algae; Pathology; Xanthophyceae; Chrysophyceae
+4h8,Algae; Pathology; 
+4h9,Algae; Pathology; 
+4m0,Algae; Fossils; 
+4m1,Algae; Fossils; Green algae
+4m2,Algae; Fossils; Chlorococcales
+4m3,Algae; Fossils; Green algae
+4m4,Algae; Fossils; Desmids
+4m5,Algae; Fossils; Diatoms
+4m6,Algae; Fossils; Cyanophyceae
+4m7,Algae; Fossils; Xanthophyceae; Chrysophyceae
+4m8,Algae; Fossils; 
+4m9,Algae; Fossils; 
+4n0,Algae; Genetics; 
+4n1,Algae; Genetics; Green algae
+4n2,Algae; Genetics; Chlorococcales
+4n3,Algae; Genetics; Green algae
+4n4,Algae; Genetics; Desmids
+4n5,Algae; Genetics; Diatoms
+4n6,Algae; Genetics; Cyanophyceae
+4n7,Algae; Genetics; Xanthophyceae; Chrysophyceae
+4n8,Algae; Genetics; 
+4n9,Algae; Genetics; 
+4p0,Algae; Behaviour; 
+4p1,Algae; Behaviour; Green algae
+4p2,Algae; Behaviour; Chlorococcales
+4p3,Algae; Behaviour; Green algae
+4p4,Algae; Behaviour; Desmids
+4p5,Algae; Behaviour; Diatoms
+4p6,Algae; Behaviour; Cyanophyceae
+4p7,Algae; Behaviour; Xanthophyceae; Chrysophyceae
+4p8,Algae; Behaviour; 
+4p9,Algae; Behaviour; 
+5,Fungi
+5a0,Fungi; Methods; 
+5a1,Fungi; Methods; Chytridiomycota
+5a2,Fungi; Methods; Blastocladiomycota
+5a3,Fungi; Methods; Hypochytriales
+5a4,Fungi; Methods; Saprolegniales
+5a5,Fungi; Methods; Lagenidiales; Leptomitales
+5a6,Fungi; Methods; Pythiaceae
+5a7,Fungi; Methods; Hyphomycetes
+5a8,Fungi; Methods; Lichen
+5a9,Fungi; Methods; 
+5b0,Fungi; Morphology; Taxonomy; 
+5b1,Fungi; Morphology; Taxonomy; Chytridiomycota
+5b2,Fungi; Morphology; Taxonomy; Blastocladiomycota
+5b3,Fungi; Morphology; Taxonomy; Hypochytriales
+5b4,Fungi; Morphology; Taxonomy; Saprolegniales
+5b5,Fungi; Morphology; Taxonomy; Lagenidiales; Leptomitales
+5b6,Fungi; Morphology; Taxonomy; Pythiaceae
+5b7,Fungi; Morphology; Taxonomy; Hyphomycetes
+5b8,Fungi; Morphology; Taxonomy; Lichen
+5b9,Fungi; Morphology; Taxonomy; 
+5c0,Fungi; Geographical distribution;  
+5c1,Fungi; Geographical distribution;  Chytridiomycota
+5c2,Fungi; Geographical distribution;  Blastocladiomycota
+5c3,Fungi; Geographical distribution;  Hypochytriales
+5c4,Fungi; Geographical distribution;  Saprolegniales
+5c5,Fungi; Geographical distribution;  Lagenidiales; Leptomitales
+5c6,Fungi; Geographical distribution;  Pythiaceae
+5c7,Fungi; Geographical distribution;  Hyphomycetes
+5c8,Fungi; Geographical distribution;  Lichen
+5c9,Fungi; Geographical distribution;  
+5d0,Fungi; Biochemistry; Physiology; 
+5d1,Fungi; Biochemistry; Physiology; Chytridiomycota
+5d2,Fungi; Biochemistry; Physiology; Blastocladiomycota
+5d3,Fungi; Biochemistry; Physiology; Hypochytriales
+5d4,Fungi; Biochemistry; Physiology; Saprolegniales
+5d5,Fungi; Biochemistry; Physiology; Lagenidiales; Leptomitales
+5d6,Fungi; Biochemistry; Physiology; Pythiaceae
+5d7,Fungi; Biochemistry; Physiology; Hyphomycetes
+5d8,Fungi; Biochemistry; Physiology; Lichen
+5d9,Fungi; Biochemistry; Physiology; 
+5da0,Fungi; Physiological techniques; Biochemical techniques; 
+5da1,Fungi; Physiological techniques; Biochemical techniques; Chytridiomycota
+5da2,Fungi; Physiological techniques; Biochemical techniques; Blastocladiomycota
+5da3,Fungi; Physiological techniques; Biochemical techniques; Hypochytriales
+5da4,Fungi; Physiological techniques; Biochemical techniques; Saprolegniales
+5da5,Fungi; Physiological techniques; Biochemical techniques; Lagenidiales; Leptomitales
+5da6,Fungi; Physiological techniques; Biochemical techniques; Pythiaceae
+5da7,Fungi; Physiological techniques; Biochemical techniques; Hyphomycetes
+5da8,Fungi; Physiological techniques; Biochemical techniques; Lichen
+5da9,Fungi; Physiological techniques; Biochemical techniques; 
+5db0,Fungi; Histology; Histochemistry; Cytology; 
+5db1,Fungi; Histology; Histochemistry; Cytology; Chytridiomycota
+5db2,Fungi; Histology; Histochemistry; Cytology; Blastocladiomycota
+5db3,Fungi; Histology; Histochemistry; Cytology; Hypochytriales
+5db4,Fungi; Histology; Histochemistry; Cytology; Saprolegniales
+5db5,Fungi; Histology; Histochemistry; Cytology; Lagenidiales; Leptomitales
+5db6,Fungi; Histology; Histochemistry; Cytology; Pythiaceae
+5db7,Fungi; Histology; Histochemistry; Cytology; Hyphomycetes
+5db8,Fungi; Histology; Histochemistry; Cytology; Lichen
+5db9,Fungi; Histology; Histochemistry; Cytology; 
+5dd0,Fungi; Respiration; Energetics; 
+5dd1,Fungi; Respiration; Energetics; Chytridiomycota
+5dd2,Fungi; Respiration; Energetics; Blastocladiomycota
+5dd3,Fungi; Respiration; Energetics; Hypochytriales
+5dd4,Fungi; Respiration; Energetics; Saprolegniales
+5dd5,Fungi; Respiration; Energetics; Lagenidiales; Leptomitales
+5dd6,Fungi; Respiration; Energetics; Pythiaceae
+5dd7,Fungi; Respiration; Energetics; Hyphomycetes
+5dd8,Fungi; Respiration; Energetics; Lichen
+5dd9,Fungi; Respiration; Energetics; 
+5de0,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; 
+5de1,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Chytridiomycota
+5de2,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Blastocladiomycota
+5de3,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Hypochytriales
+5de4,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Saprolegniales
+5de5,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Lagenidiales; Leptomitales
+5de6,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Pythiaceae
+5de7,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Hyphomycetes
+5de8,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; Lichen
+5de9,Fungi; Photosynthesis; Chemosynthesis; Pigmentation; 
+5df0,Fungi;  Metabolism; 
+5df1,Fungi;  Metabolism; Chytridiomycota
+5df2,Fungi;  Metabolism; Blastocladiomycota
+5df3,Fungi;  Metabolism; Hypochytriales
+5df4,Fungi;  Metabolism; Saprolegniales
+5df5,Fungi;  Metabolism; Lagenidiales; Leptomitales
+5df6,Fungi;  Metabolism; Pythiaceae
+5df7,Fungi;  Metabolism; Hyphomycetes
+5df8,Fungi;  Metabolism; Lichen
+5df9,Fungi;  Metabolism; 
+5dg0,Fungi; Growth; 
+5dg1,Fungi; Growth; Chytridiomycota
+5dg2,Fungi; Growth; Blastocladiomycota
+5dg3,Fungi; Growth; Hypochytriales
+5dg4,Fungi; Growth; Saprolegniales
+5dg5,Fungi; Growth; Lagenidiales; Leptomitales
+5dg6,Fungi; Growth; Pythiaceae
+5dg7,Fungi; Growth; Hyphomycetes
+5dg8,Fungi; Growth; Lichen
+5dg9,Fungi; Growth; 
+5dh0,Fungi; Reproduction; 
+5dh1,Fungi; Reproduction; Chytridiomycota
+5dh2,Fungi; Reproduction; Blastocladiomycota
+5dh3,Fungi; Reproduction; Hypochytriales
+5dh4,Fungi; Reproduction; Saprolegniales
+5dh5,Fungi; Reproduction; Lagenidiales; Leptomitales
+5dh6,Fungi; Reproduction; Pythiaceae
+5dh7,Fungi; Reproduction; Hyphomycetes
+5dh8,Fungi; Reproduction; Lichen
+5dh9,Fungi; Reproduction; 
+5dj0,Fungi; Endocrinological functions; 
+5dj1,Fungi; Endocrinological functions; Chytridiomycota
+5dj2,Fungi; Endocrinological functions; Blastocladiomycota
+5dj3,Fungi; Endocrinological functions; Hypochytriales
+5dj4,Fungi; Endocrinological functions; Saprolegniales
+5dj5,Fungi; Endocrinological functions; Lagenidiales; Leptomitales
+5dj6,Fungi; Endocrinological functions; Pythiaceae
+5dj7,Fungi; Endocrinological functions; Hyphomycetes
+5dj8,Fungi; Endocrinological functions; Lichen
+5dj9,Fungi; Endocrinological functions; 
+5dk0,Fungi; Biological rhythms; 
+5dk1,Fungi; Biological rhythms; Chytridiomycota
+5dk2,Fungi; Biological rhythms; Blastocladiomycota
+5dk3,Fungi; Biological rhythms; Hypochytriales
+5dk4,Fungi; Biological rhythms; Saprolegniales
+5dk5,Fungi; Biological rhythms; Lagenidiales; Leptomitales
+5dk6,Fungi; Biological rhythms; Pythiaceae
+5dk7,Fungi; Biological rhythms; Hyphomycetes
+5dk8,Fungi; Biological rhythms; Lichen
+5dk9,Fungi; Biological rhythms; 
+5dm0,Fungi; Movement; 
+5dm1,Fungi; Movement; Chytridiomycota
+5dm2,Fungi; Movement; Blastocladiomycota
+5dm3,Fungi; Movement; Hypochytriales
+5dm4,Fungi; Movement; Saprolegniales
+5dm5,Fungi; Movement; Lagenidiales; Leptomitales
+5dm6,Fungi; Movement; Pythiaceae
+5dm7,Fungi; Movement; Hyphomycetes
+5dm8,Fungi; Movement; Lichen
+5dm9,Fungi; Movement; 
+5dp0,Fungi; Senses; 
+5dp1,Fungi; Senses; Chytridiomycota
+5dp2,Fungi; Senses; Blastocladiomycota
+5dp3,Fungi; Senses; Hypochytriales
+5dp4,Fungi; Senses; Saprolegniales
+5dp5,Fungi; Senses; Lagenidiales; Leptomitales
+5dp6,Fungi; Senses; Pythiaceae
+5dp7,Fungi; Senses; Hyphomycetes
+5dp8,Fungi; Senses; Lichen
+5dp9,Fungi; Senses; 
+5dq0,Fungi; Physiological response to physical factors; 
+5dq1,Fungi; Physiological response to physical factors; Chytridiomycota
+5dq2,Fungi; Physiological response to physical factors; Blastocladiomycota
+5dq3,Fungi; Physiological response to physical factors; Hypochytriales
+5dq4,Fungi; Physiological response to physical factors; Saprolegniales
+5dq5,Fungi; Physiological response to physical factors; Lagenidiales; Leptomitales
+5dq6,Fungi; Physiological response to physical factors; Pythiaceae
+5dq7,Fungi; Physiological response to physical factors; Hyphomycetes
+5dq8,Fungi; Physiological response to physical factors; Lichen
+5dq9,Fungi; Physiological response to physical factors; 
+5dr0,Fungi; Physiological response to chemicals; 
+5dr1,Fungi; Physiological response to chemicals; Chytridiomycota
+5dr2,Fungi; Physiological response to chemicals; Blastocladiomycota
+5dr3,Fungi; Physiological response to chemicals; Hypochytriales
+5dr4,Fungi; Physiological response to chemicals; Saprolegniales
+5dr5,Fungi; Physiological response to chemicals; Lagenidiales; Leptomitales
+5dr6,Fungi; Physiological response to chemicals; Pythiaceae
+5dr7,Fungi; Physiological response to chemicals; Hyphomycetes
+5dr8,Fungi; Physiological response to chemicals; Lichen
+5dr9,Fungi; Physiological response to chemicals; 
+5ds0,Fungi; Biochemistry; 
+5ds1,Fungi; Biochemistry; Chytridiomycota
+5ds2,Fungi; Biochemistry; Blastocladiomycota
+5ds3,Fungi; Biochemistry; Hypochytriales
+5ds4,Fungi; Biochemistry; Saprolegniales
+5ds5,Fungi; Biochemistry; Lagenidiales; Leptomitales
+5ds6,Fungi; Biochemistry; Pythiaceae
+5ds7,Fungi; Biochemistry; Hyphomycetes
+5ds8,Fungi; Biochemistry; Lichen
+5ds9,Fungi; Biochemistry; 
+5dt0,Fungi; Molecular Biology; 
+5dt1,Fungi; Molecular Biology; Chytridiomycota
+5dt2,Fungi; Molecular Biology; Blastocladiomycota
+5dt3,Fungi; Molecular Biology; Hypochytriales
+5dt4,Fungi; Molecular Biology; Saprolegniales
+5dt5,Fungi; Molecular Biology; Lagenidiales; Leptomitales
+5dt6,Fungi; Molecular Biology; Pythiaceae
+5dt7,Fungi; Molecular Biology; Hyphomycetes
+5dt8,Fungi; Molecular Biology; Lichen
+5dt9,Fungi; Molecular Biology; 
+5du0,Fungi; Biodegradation; 
+5du1,Fungi; Biodegradation; Chytridiomycota
+5du2,Fungi; Biodegradation; Blastocladiomycota
+5du3,Fungi; Biodegradation; Hypochytriales
+5du4,Fungi; Biodegradation; Saprolegniales
+5du5,Fungi; Biodegradation; Lagenidiales; Leptomitales
+5du6,Fungi; Biodegradation; Pythiaceae
+5du7,Fungi; Biodegradation; Hyphomycetes
+5du8,Fungi; Biodegradation; Lichen
+5du9,Fungi; Biodegradation; 
+5e0,Fungi; Ecology; 
+5e1,Fungi; Ecology; Chytridiomycota
+5e2,Fungi; Ecology; Blastocladiomycota
+5e3,Fungi; Ecology; Hypochytriales
+5e4,Fungi; Ecology; Saprolegniales
+5e5,Fungi; Ecology; Lagenidiales; Leptomitales
+5e6,Fungi; Ecology; Pythiaceae
+5e7,Fungi; Ecology; Hyphomycetes
+5e8,Fungi; Ecology; Lichen
+5e9,Fungi; Ecology; 
+5ea0,Fungi; Ecology; Inland Waters; 
+5ea1,Fungi; Ecology; Inland Waters; Chytridiomycota
+5ea2,Fungi; Ecology; Inland Waters; Blastocladiomycota
+5ea3,Fungi; Ecology; Inland Waters; Hypochytriales
+5ea4,Fungi; Ecology; Inland Waters; Saprolegniales
+5ea5,Fungi; Ecology; Inland Waters; Lagenidiales; Leptomitales
+5ea6,Fungi; Ecology; Inland Waters; Pythiaceae
+5ea7,Fungi; Ecology; Inland Waters; Hyphomycetes
+5ea8,Fungi; Ecology; Inland Waters; Lichen
+5ea9,Fungi; Ecology; Inland Waters; 
+5eb0,Fungi; Ecology; Lakes; 
+5eb1,Fungi; Ecology; Lakes; Chytridiomycota
+5eb2,Fungi; Ecology; Lakes; Blastocladiomycota
+5eb3,Fungi; Ecology; Lakes; Hypochytriales
+5eb4,Fungi; Ecology; Lakes; Saprolegniales
+5eb5,Fungi; Ecology; Lakes; Lagenidiales; Leptomitales
+5eb6,Fungi; Ecology; Lakes; Pythiaceae
+5eb7,Fungi; Ecology; Lakes; Lichen
+5eb8,Fungi; Ecology; Lakes; Lichen
+5eb9,Fungi; Ecology; Lakes; 
+5ec0,Fungi; Ecology; Temporary ponds; Temporary pools; 
+5ec1,Fungi; Ecology; Temporary ponds; Temporary pools; Chytridiomycota
+5ec2,Fungi; Ecology; Temporary ponds; Temporary pools; Blastocladiomycota
+5ec3,Fungi; Ecology; Temporary ponds; Temporary pools; Hypochytriales
+5ec4,Fungi; Ecology; Temporary ponds; Temporary pools; Saprolegniales
+5ec5,Fungi; Ecology; Temporary ponds; Temporary pools; Lagenidiales; Leptomitales
+5ec6,Fungi; Ecology; Temporary ponds; Temporary pools; Pythiaceae
+5ec7,Fungi; Ecology; Temporary ponds; Temporary pools; Hyphomycetes
+5ec8,Fungi; Ecology; Temporary ponds; Temporary pools; Lichen
+5ec9,Fungi; Ecology; Temporary ponds; Temporary pools; 
+5ed0,Fungi; Ecology; Flowing waters; Rivers; 
+5ed1,Fungi; Ecology; Flowing waters; Rivers; Chytridiomycota
+5ed2,Fungi; Ecology; Flowing waters; Rivers; Blastocladiomycota
+5ed3,Fungi; Ecology; Flowing waters; Rivers; Hypochytriales
+5ed4,Fungi; Ecology; Flowing waters; Rivers; Saprolegniales
+5ed5,Fungi; Ecology; Flowing waters; Rivers; Lagenidiales; Leptomitales
+5ed6,Fungi; Ecology; Flowing waters; Rivers; Pythiaceae
+5ed7,Fungi; Ecology; Flowing waters; Rivers; Hyphomycetes
+5ed8,Fungi; Ecology; Flowing waters; Rivers; Lichen
+5ed9,Fungi; Ecology; Flowing waters; Rivers; 
+5ee0,Fungi; Ecology; Estuaries; Lagoons; 
+5ee1,Fungi; Ecology; Estuaries; Lagoons; Chytridiomycota
+5ee2,Fungi; Ecology; Estuaries; Lagoons; Blastocladiomycota
+5ee3,Fungi; Ecology; Estuaries; Lagoons; Hypochytriales
+5ee4,Fungi; Ecology; Estuaries; Lagoons; Saprolegniales
+5ee5,Fungi; Ecology; Estuaries; Lagoons; Lagenidiales; Leptomitales
+5ee6,Fungi; Ecology; Estuaries; Lagoons; Pythiaceae
+5ee7,Fungi; Ecology; Estuaries; Lagoons; Hyphomycetes
+5ee8,Fungi; Ecology; Estuaries; Lagoons; Lichen
+5ee9,Fungi; Ecology; Estuaries; Lagoons; 
+5ef0,Fungi; Ecology; Seas; Oceans; 
+5ef1,Fungi; Ecology; Seas; Oceans; Chytridiomycota
+5ef2,Fungi; Ecology; Seas; Oceans; Blastocladiomycota
+5ef3,Fungi; Ecology; Seas; Oceans; Hypochytriales
+5ef4,Fungi; Ecology; Seas; Oceans; Saprolegniales
+5ef5,Fungi; Ecology; Seas; Oceans; Lagenidiales; Leptomitales
+5ef6,Fungi; Ecology; Seas; Oceans; Pythiaceae
+5ef7,Fungi; Ecology; Seas; Oceans; Hyphomycetes
+5ef8,Fungi; Ecology; Seas; Oceans; Lichen
+5ef9,Fungi; Ecology; Seas; Oceans; 
+5eg0,Fungi; Ecology; Soil water; 
+5eg1,Fungi; Ecology; Soil water; Chytridiomycota
+5eg2,Fungi; Ecology; Soil water; Blastocladiomycota
+5eg3,Fungi; Ecology; Soil water; Hypochytriales
+5eg4,Fungi; Ecology; Soil water; Saprolegniales
+5eg5,Fungi; Ecology; Soil water; Lagenidiales; Leptomitales
+5eg6,Fungi; Ecology; Soil water; Pythiaceae
+5eg7,Fungi; Ecology; Soil water; Hyphomycetes
+5eg8,Fungi; Ecology; Soil water; Lichen
+5eg9,Fungi; Ecology; Soil water; 
+5eh0,Fungi; Ecology; Wetlands; 
+5eh1,Fungi; Ecology; Wetlands; Chytridiomycota
+5eh2,Fungi; Ecology; Wetlands; Blastocladiomycota
+5eh3,Fungi; Ecology; Wetlands; Hypochytriales
+5eh4,Fungi; Ecology; Wetlands; Saprolegniales
+5eh5,Fungi; Ecology; Wetlands; Lagenidiales; Leptomitales
+5eh6,Fungi; Ecology; Wetlands; Pythiaceae
+5eh7,Fungi; Ecology; Wetlands; Hyphomycetes
+5eh8,Fungi; Ecology; Wetlands; Lichen
+5eh9,Fungi; Ecology; Wetlands; 
+5ej0,Fungi; Ecology; Snow; Ice; 
+5ej1,Fungi; Ecology; Snow; Ice; Chytridiomycota
+5ej2,Fungi; Ecology; Snow; Ice; Blastocladiomycota
+5ej3,Fungi; Ecology; Snow; Ice; Hypochytriales
+5ej4,Fungi; Ecology; Snow; Ice; Saprolegniales
+5ej5,Fungi; Ecology; Snow; Ice; Lagenidiales; Leptomitales
+5ej6,Fungi; Ecology; Snow; Ice; Pythiaceae
+5ej7,Fungi; Ecology; Snow; Ice; Hyphomycetes
+5ej8,Fungi; Ecology; Snow; Ice; Lichen
+5ej9,Fungi; Ecology; Snow; Ice; 
+5ek0,Fungi; Ecology; Atmosphere; 
+5ek1,Fungi; Ecology; Atmosphere; Chytridiomycota
+5ek2,Fungi; Ecology; Atmosphere; Blastocladiomycota
+5ek3,Fungi; Ecology; Atmosphere; Hypochytriales
+5ek4,Fungi; Ecology; Atmosphere; Saprolegniales
+5ek5,Fungi; Ecology; Atmosphere; Lagenidiales; Leptomitales
+5ek6,Fungi; Ecology; Atmosphere; Pythiaceae
+5ek7,Fungi; Ecology; Atmosphere; Hyphomycetes
+5ek8,Fungi; Ecology; Atmosphere; Lichen
+5ek9,Fungi; Ecology; Atmosphere; 
+5em0,Fungi; Ecology; Coasts; 
+5em1,Fungi; Ecology; Coasts; Chytridiomycota
+5em2,Fungi; Ecology; Coasts; Blastocladiomycota
+5em3,Fungi; Ecology; Coasts; Hypochytriales
+5em4,Fungi; Ecology; Coasts; Saprolegniales
+5em5,Fungi; Ecology; Coasts; Lagenidiales; Leptomitales
+5em6,Fungi; Ecology; Coasts; Pythiaceae
+5em7,Fungi; Ecology; Coasts; Hyphomycetes
+5em8,Fungi; Ecology; Coasts; Lichen
+5em9,Fungi; Ecology; Coasts; 
+5en0,Fungi; Ecology; Laboratory experimentation; 
+5en1,Fungi; Ecology; Laboratory experimentation; Chytridiomycota
+5en2,Fungi; Ecology; Laboratory experimentation; Blastocladiomycota
+5en3,Fungi; Ecology; Laboratory experimentation; Hypochytriales
+5en4,Fungi; Ecology; Laboratory experimentation; Saprolegniales
+5en5,Fungi; Ecology; Laboratory experimentation; Lagenidiales; Leptomitales
+5en6,Fungi; Ecology; Laboratory experimentation; Pythiaceae
+5en7,Fungi; Ecology; Laboratory experimentation; Hyphomycetes
+5en8,Fungi; Ecology; Laboratory experimentation; Lichen
+5en9,Fungi; Ecology; Laboratory experimentation; 
+5eo0,Fungi; Ecology; Biological interaction; 
+5eo1,Fungi; Ecology; Biological interaction; Chytridiomycota
+5eo2,Fungi; Ecology; Biological interaction; Blastocladiomycota
+5eo3,Fungi; Ecology; Biological interaction; Hypochytriales
+5eo4,Fungi; Ecology; Biological interaction; Saprolegniales
+5eo5,Fungi; Ecology; Biological interaction; Lagenidiales; Leptomitales
+5eo6,Fungi; Ecology; Biological interaction; Pythiaceae
+5eo7,Fungi; Ecology; Biological interaction; Hyphomycetes
+5eo8,Fungi; Ecology; Biological interaction; Lichen
+5eo9,Fungi; Ecology; Biological interaction; 
+5ep0,Fungi; Ecology; Underground waters; 
+5ep1,Fungi; Ecology; Underground waters; Chytridiomycota
+5ep2,Fungi; Ecology; Underground waters; Blastocladiomycota
+5ep3,Fungi; Ecology; Underground waters; Hypochytriales
+5ep4,Fungi; Ecology; Underground waters; Saprolegniales
+5ep5,Fungi; Ecology; Underground waters; Lagenidiales; Leptomitales
+5ep6,Fungi; Ecology; Underground waters; Pythiaceae
+5ep7,Fungi; Ecology; Underground waters; Hyphomycetes
+5ep8,Fungi; Ecology; Underground waters; Lichen
+5ep9,Fungi; Ecology; Underground waters; 
+5eq0,Fungi; Ecology; Hot springs; 
+5eq1,Fungi; Ecology; Hot springs; Chytridiomycota
+5eq2,Fungi; Ecology; Hot springs; Blastocladiomycota
+5eq3,Fungi; Ecology; Hot springs; Hypochytriales
+5eq4,Fungi; Ecology; Hot springs; Saprolegniales
+5eq5,Fungi; Ecology; Hot springs; Lagenidiales; Leptomitales
+5eq6,Fungi; Ecology; Hot springs; Pythiaceae
+5eq7,Fungi; Ecology; Hot springs; Hyphomycetes
+5eq8,Fungi; Ecology; Hot springs; Lichen
+5eq9,Fungi; Ecology; Hot springs; 
+5er0,Fungi; Ecology; Inland seas; Salt lakes; 
+5er1,Fungi; Ecology; Inland seas; Salt lakes; Chytridiomycota
+5er2,Fungi; Ecology; Inland seas; Salt lakes; Blastocladiomycota
+5er3,Fungi; Ecology; Inland seas; Salt lakes; Hypochytriales
+5er4,Fungi; Ecology; Inland seas; Salt lakes; Saprolegniales
+5er5,Fungi; Ecology; Inland seas; Salt lakes; Lagenidiales; Leptomitales
+5er6,Fungi; Ecology; Inland seas; Salt lakes; Pythiaceae
+5er7,Fungi; Ecology; Inland seas; Salt lakes; Hyphomycetes
+5er8,Fungi; Ecology; Inland seas; Salt lakes; Lichen
+5er9,Fungi; Ecology; Inland seas; Salt lakes; 
+5es0,Fungi; Ecology; Sewage; 
+5es1,Fungi; Ecology; Sewage; Chytridiomycota
+5es2,Fungi; Ecology; Sewage; Blastocladiomycota
+5es3,Fungi; Ecology; Sewage; Hypochytriales
+5es4,Fungi; Ecology; Sewage; Saprolegniales
+5es5,Fungi; Ecology; Sewage; Lagenidiales; Leptomitales
+5es6,Fungi; Ecology; Sewage; Pythiaceae
+5es7,Fungi; Ecology; Sewage; Hyphomycetes
+5es8,Fungi; Ecology; Sewage; Lichen
+5es9,Fungi; Ecology; Sewage; 
+5et0,Fungi; Ecology; Canals; 
+5et1,Fungi; Ecology; Canals; Chytridiomycota
+5et2,Fungi; Ecology; Canals; Blastocladiomycota
+5et3,Fungi; Ecology; Canals; Hypochytriales
+5et4,Fungi; Ecology; Canals; Saprolegniales
+5et5,Fungi; Ecology; Canals; Lagenidiales; Leptomitales
+5et6,Fungi; Ecology; Canals; Pythiaceae
+5et7,Fungi; Ecology; Canals; Hyphomycetes
+5et8,Fungi; Ecology; Canals; Lichen
+5et9,Fungi; Ecology; Canals; 
+5eu0,Fungi; Ecology; Plant litter; 
+5eu1,Fungi; Ecology; Plant litter; Chytridiomycota
+5eu2,Fungi; Ecology; Plant litter; Blastocladiomycota
+5eu3,Fungi; Ecology; Plant litter; Hypochytriales
+5eu4,Fungi; Ecology; Plant litter; Saprolegniales
+5eu5,Fungi; Ecology; Plant litter; Lagenidiales; Leptomitales
+5eu6,Fungi; Ecology; Plant litter; Pythiaceae
+5eu7,Fungi; Ecology; Plant litter; Hyphomycetes
+5eu8,Fungi; Ecology; Plant litter; Lichen
+5eu9,Fungi; Ecology; Plant litter; 
+5ew0,Fungi; Ecology; Water supply; 
+5ew1,Fungi; Ecology; Water supply; Chytridiomycota
+5ew2,Fungi; Ecology; Water supply; Blastocladiomycota
+5ew3,Fungi; Ecology; Water supply; Hypochytriales
+5ew4,Fungi; Ecology; Water supply; Saprolegniales
+5ew5,Fungi; Ecology; Water supply; Lagenidiales; Leptomitales
+5ew6,Fungi; Ecology; Water supply; Pythiaceae
+5ew7,Fungi; Ecology; Water supply; Hyphomycetes
+5ew8,Fungi; Ecology; Water supply; Lichen
+5ew9,Fungi; Ecology; Water supply; 
+5ex0,Fungi; Radioecology; 
+5ex1,Fungi; Radioecology; Chytridiomycota
+5ex2,Fungi; Radioecology; Blastocladiomycota
+5ex3,Fungi; Radioecology; Hypochytriales
+5ex4,Fungi; Radioecology; Saprolegniales
+5ex5,Fungi; Radioecology; Lagenidiales; Leptomitales
+5ex6,Fungi; Radioecology; Pythiaceae
+5ex7,Fungi; Radioecology; Hyphomycetes
+5ex8,Fungi; Radioecology; Lichen
+5ex9,Fungi; Radioecology; 
+5f0,Fungi; Life cycle; 
+5f1,Fungi; Life cycle; Chytridiomycota
+5f2,Fungi; Life cycle; Blastocladiomycota
+5f3,Fungi; Life cycle; Hypochytriales
+5f4,Fungi; Life cycle; Saprolegniales
+5f5,Fungi; Life cycle; Lagenidiales; Leptomitales
+5f6,Fungi; Life cycle; Pythiaceae
+5f7,Fungi; Life cycle; Hyphomycetes
+5f8,Fungi; Life cycle; Lichen
+5f9,Fungi; Life cycle; 
+5g0,Fungi; Sociology; Biological control; 
+5g1,Fungi; Sociology; Biological control; Chytridiomycota
+5g2,Fungi; Sociology; Biological control; Blastocladiomycota
+5g3,Fungi; Sociology; Biological control; Hypochytriales
+5g4,Fungi; Sociology; Biological control; Saprolegniales
+5g5,Fungi; Sociology; Biological control; Lagenidiales; Leptomitales
+5g6,Fungi; Sociology; Biological control; Pythiaceae
+5g7,Fungi; Sociology; Biological control; Hyphomycetes
+5g8,Fungi; Sociology; Biological control; Lichen
+5g9,Fungi; Sociology; Biological control; 
+5h0,Fungi; Pathology; 
+5h1,Fungi; Pathology; Chytridiomycota
+5h2,Fungi; Pathology; Blastocladiomycota
+5h3,Fungi; Pathology; Hypochytriales
+5h4,Fungi; Pathology; Saprolegniales
+5h5,Fungi; Pathology; Lagenidiales; Leptomitales
+5h6,Fungi; Pathology; Pythiaceae
+5h7,Fungi; Pathology; Hyphomycetes
+5h8,Fungi; Pathology; Lichen
+5h9,Fungi; Pathology; 
+5m0,Fungi; Fossils; 
+5m1,Fungi; Fossils; Chytridiomycota
+5m2,Fungi; Fossils; Blastocladiomycota
+5m3,Fungi; Fossils; Hypochytriales
+5m4,Fungi; Fossils; Saprolegniales
+5m5,Fungi; Fossils; Lagenidiales; Leptomitales
+5m6,Fungi; Fossils; Pythiaceae
+5m7,Fungi; Fossils; Hyphomycetes
+5m8,Fungi; Fossils; Lichen
+5m9,Fungi; Fossils; 
+5n0,Fungi; Genetics; 
+5n1,Fungi; Genetics; Chytridiomycota
+5n2,Fungi; Genetics; Blastocladiomycota
+5n3,Fungi; Genetics; Hypochytriales
+5n4,Fungi; Genetics; Saprolegniales
+5n5,Fungi; Genetics; Lagenidiales; Leptomitales
+5n6,Fungi; Genetics; Pythiaceae
+5n7,Fungi; Genetics; Hyphomycetes
+5n8,Fungi; Genetics; Lichen
+5n9,Fungi; Genetics; 
+5p0,Fungi; Behaviour; 
+5p1,Fungi; Behaviour; Chytridiomycota
+5p2,Fungi; Behaviour; Blastocladiomycota
+5p3,Fungi; Behaviour; Hypochytriales
+5p4,Fungi; Behaviour; Saprolegniales
+5p5,Fungi; Behaviour; Lagenidiales; Leptomitales
+5p6,Fungi; Behaviour; Pythiaceae
+5p7,Fungi; Behaviour; Hyphomycetes
+5p8,Fungi; Behaviour; Lichen
+5p9,Fungi; Behaviour; 
+6,Invertebrates
+6a0,Invertebrates; Methods; 
+6a1,Invertebrates; Methods; Lower invertebrates
+6a2,Invertebrates; Methods; Mollusca
+6a3,Invertebrates; Methods; Vermes
+6a4,Invertebrates; Methods; Crustacea
+6a5,Invertebrates; Methods; Arachnida
+6a6,Invertebrates; Methods; Insecta;  
+6a7,Invertebrates; Methods; Exopterygota
+6a8,Invertebrates; Methods; Diptera
+6a9,Invertebrates; Methods; 
+6b0,Invertebrates; Morphology; Taxonomy; 
+6b1,Invertebrates; Morphology; Taxonomy; Lower invertebrates
+6b2,Invertebrates; Morphology; Taxonomy; Mollusca
+6b3,Invertebrates; Morphology; Taxonomy; Vermes
+6b4,Invertebrates; Morphology; Taxonomy; Crustacea
+6b5,Invertebrates; Morphology; Taxonomy; Arachnida
+6b6,Invertebrates; Morphology; Taxonomy; Insecta; 
+6b7,Invertebrates; Morphology; Taxonomy; Exopterygota
+6b8,Invertebrates; Morphology; Taxonomy; Diptera
+6b9,Invertebrates; Morphology; Taxonomy; 
+6c0,Invertebrates; Geographical distribution;  
+6c1,Invertebrates; Geographical distribution;  Lower invertebrates
+6c2,Invertebrates; Geographical distribution;  Mollusca
+6c3,Invertebrates; Geographical distribution;  Vermes
+6c4,Invertebrates; Geographical distribution;  Crustacea
+6c5,Invertebrates; Geographical distribution;  Arachnida
+6c6,Invertebrates; Geographical distribution;  Insecta; 
+6c7,Invertebrates; Geographical distribution;  Exopterygota
+6c8,Invertebrates; Geographical distribution;  Diptera
+6c9,Invertebrates; Geographical distribution;  
+6d0,Invertebrates; Biochemistry; Physiology; 
+6d1,Invertebrates; Biochemistry; Physiology; Lower invertebrates
+6d2,Invertebrates; Biochemistry; Physiology; Mollusca
+6d3,Invertebrates; Biochemistry; Physiology; Vermes
+6d4,Invertebrates; Biochemistry; Physiology; Crustacea
+6d5,Invertebrates; Biochemistry; Physiology; Arachnida
+6d6,Invertebrates; Biochemistry; Physiology; Insecta; 
+6d7,Invertebrates; Biochemistry; Physiology; Exopterygota
+6d8,Invertebrates; Biochemistry; Physiology; Diptera
+6d9,Invertebrates; Biochemistry; Physiology; 
+6da0,Invertebrates; Physiological techniques; Biochemical techniques; 
+6da1,Invertebrates; Physiological techniques; Biochemical techniques; Lower invertebrates
+6da2,Invertebrates; Physiological techniques; Biochemical techniques; Mollusca
+6da3,Invertebrates; Physiological techniques; Biochemical techniques; Vermes
+6da4,Invertebrates; Physiological techniques; Biochemical techniques; Crustacea
+6da5,Invertebrates; Physiological techniques; Biochemical techniques; Arachnida
+6da6,Invertebrates; Physiological techniques; Biochemical techniques; Insecta; 
+6da7,Invertebrates; Physiological techniques; Biochemical techniques; Exopterygota
+6da8,Invertebrates; Physiological techniques; Biochemical techniques; Diptera
+6da9,Invertebrates; Physiological techniques; Biochemical techniques; 
+6db0,Invertebrates; Histology; Histochemistry; Cytology; 
+6db1,Invertebrates; Histology; Histochemistry; Cytology; Lower invertebrates
+6db2,Invertebrates; Histology; Histochemistry; Cytology; Mollusca
+6db3,Invertebrates; Histology; Histochemistry; Cytology; Vermes
+6db4,Invertebrates; Histology; Histochemistry; Cytology; Crustacea
+6db5,Invertebrates; Histology; Histochemistry; Cytology; Arachnida
+6db6,Invertebrates; Histology; Histochemistry; Cytology; Insecta; 
+6db7,Invertebrates; Histology; Histochemistry; Cytology; Exopterygota
+6db8,Invertebrates; Histology; Histochemistry; Cytology; Diptera
+6db9,Invertebrates; Histology; Histochemistry; Cytology; 
+6dc0,Invertebrates; Animal fluids; 
+6dc1,Invertebrates; Animal fluids; Lower invertebrates
+6dc2,Invertebrates; Animal fluids; Mollusca
+6dc3,Invertebrates; Animal fluids; Vermes
+6dc4,Invertebrates; Animal fluids; Crustacea
+6dc5,Invertebrates; Animal fluids; Arachnida
+6dc6,Invertebrates; Animal fluids; Insecta; 
+6dc7,Invertebrates; Animal fluids; Exopterygota
+6dc8,Invertebrates; Animal fluids; Diptera
+6dc9,Invertebrates; Animal fluids; 
+6dd0,Invertebrates; Respiration; Energetics; 
+6dd1,Invertebrates; Respiration; Energetics; Lower invertebrates
+6dd2,Invertebrates; Respiration; Energetics; Mollusca
+6dd3,Invertebrates; Respiration; Energetics; Vermes
+6dd4,Invertebrates; Respiration; Energetics; Crustacea
+6dd5,Invertebrates; Respiration; Energetics; Arachnida
+6dd6,Invertebrates; Respiration; Energetics; Insecta; 
+6dd7,Invertebrates; Respiration; Energetics; Exopterygota
+6dd8,Invertebrates; Respiration; Energetics; Diptera
+6dd9,Invertebrates; Respiration; Energetics; 
+6de0,Invertebrates; Chemosynthesis; Pigmentation; 
+6de1,Invertebrates; Chemosynthesis; Pigmentation; Lower invertebrates
+6de2,Invertebrates; Chemosynthesis; Pigmentation; Mollusca
+6de3,Invertebrates; Chemosynthesis; Pigmentation; Vermes
+6de4,Invertebrates; Chemosynthesis; Pigmentation; Crustacea
+6de5,Invertebrates; Chemosynthesis; Pigmentation; Arachnida
+6de6,Invertebrates; Chemosynthesis; Pigmentation; Insecta; 
+6de7,Invertebrates; Chemosynthesis; Pigmentation; Exopterygota
+6de8,Invertebrates; Chemosynthesis; Pigmentation; Diptera
+6de9,Invertebrates; Chemosynthesis; Pigmentation; 
+6df0,Invertebrates;  Metabolism; 
+6df1,Invertebrates;  Metabolism; Lower invertebrates
+6df2,Invertebrates;  Metabolism; Mollusca
+6df3,Invertebrates;  Metabolism; Vermes
+6df4,Invertebrates;  Metabolism; Crustacea
+6df5,Invertebrates;  Metabolism; Arachnida
+6df6,Invertebrates;  Metabolism; Insecta; 
+6df7,Invertebrates;  Metabolism; Exopterygota
+6df8,Invertebrates;  Metabolism; Diptera
+6df9,Invertebrates;  Metabolism; 
+6dg0,Invertebrates; Growth; 
+6dg1,Invertebrates; Growth; Lower invertebrates
+6dg2,Invertebrates; Growth; Mollusca
+6dg3,Invertebrates; Growth; Vermes
+6dg4,Invertebrates; Growth; Crustacea
+6dg5,Invertebrates; Growth; Arachnida
+6dg6,Invertebrates; Growth; Insecta; 
+6dg7,Invertebrates; Growth; Exopterygota
+6dg8,Invertebrates; Growth; Diptera
+6dg9,Invertebrates; Growth; 
+6dh0,Invertebrates; Reproduction; 
+6dh1,Invertebrates; Reproduction; Lower invertebrates
+6dh2,Invertebrates; Reproduction; Mollusca
+6dh3,Invertebrates; Reproduction; Vermes
+6dh4,Invertebrates; Reproduction; Crustacea
+6dh5,Invertebrates; Reproduction; Arachnida
+6dh6,Invertebrates; Reproduction; Insecta; 
+6dh7,Invertebrates; Reproduction; Exopterygota
+6dh8,Invertebrates; Reproduction; Diptera
+6dh9,Invertebrates; Reproduction; 
+6dj0,Invertebrates; Endocrinological functions; 
+6dj1,Invertebrates; Endocrinological functions; Lower invertebrates
+6dj2,Invertebrates; Endocrinological functions; Mollusca
+6dj3,Invertebrates; Endocrinological functions; Vermes
+6dj4,Invertebrates; Endocrinological functions; Crustacea
+6dj5,Invertebrates; Endocrinological functions; Arachnida
+6dj6,Invertebrates; Endocrinological functions; Insecta; 
+6dj7,Invertebrates; Endocrinological functions; Exopterygota
+6dj8,Invertebrates; Endocrinological functions; Diptera
+6dj9,Invertebrates; Endocrinological functions; 
+6dk0,Invertebrates; Biological rhythms; 
+6dk1,Invertebrates; Biological rhythms; Lower invertebrates
+6dk2,Invertebrates; Biological rhythms; Mollusca
+6dk3,Invertebrates; Biological rhythms; Vermes
+6dk4,Invertebrates; Biological rhythms; Crustacea
+6dk5,Invertebrates; Biological rhythms; Arachnida
+6dk6,Invertebrates; Biological rhythms; Insecta; 
+6dk7,Invertebrates; Biological rhythms; Exopterygota
+6dk8,Invertebrates; Biological rhythms; Diptera
+6dk9,Invertebrates; Biological rhythms; 
+6dm0,Invertebrates; Movement; 
+6dm1,Invertebrates; Movement; Lower invertebrates
+6dm2,Invertebrates; Movement; Mollusca
+6dm3,Invertebrates; Movement; Vermes
+6dm4,Invertebrates; Movement; Crustacea
+6dm5,Invertebrates; Movement; Arachnida
+6dm6,Invertebrates; Movement; Insecta; 
+6dm7,Invertebrates; Movement; Exopterygota
+6dm8,Invertebrates; Movement; Diptera
+6dm9,Invertebrates; Movement; 
+6dn0,Invertebrates; Neurophysiology; 
+6dn1,Invertebrates; Neurophysiology; Lower invertebrates
+6dn2,Invertebrates; Neurophysiology; Mollusca
+6dn3,Invertebrates; Neurophysiology; Vermes
+6dn4,Invertebrates; Neurophysiology; Crustacea
+6dn5,Invertebrates; Neurophysiology; Arachnida
+6dn6,Invertebrates; Neurophysiology; Insecta; 
+6dn7,Invertebrates; Neurophysiology; Exopterygota
+6dn8,Invertebrates; Neurophysiology; Diptera
+6dn9,Invertebrates; Neurophysiology; 
+6dp0,Invertebrates; Senses; 
+6dp1,Invertebrates; Senses; Lower invertebrates
+6dp2,Invertebrates; Senses; Mollusca
+6dp3,Invertebrates; Senses; Vermes
+6dp4,Invertebrates; Senses; Crustacea
+6dp5,Invertebrates; Senses; Arachnida
+6dp6,Invertebrates; Senses; Insecta; 
+6dp7,Invertebrates; Senses; Exopterygota
+6dp8,Invertebrates; Senses; Diptera
+6dp9,Invertebrates; Senses; 
+6dq0,Invertebrates; Physiological response to physical factors; 
+6dq1,Invertebrates; Physiological response to physical factors; Lower invertebrates
+6dq2,Invertebrates; Physiological response to physical factors; Mollusca
+6dq3,Invertebrates; Physiological response to physical factors; Vermes
+6dq4,Invertebrates; Physiological response to physical factors; Crustacea
+6dq5,Invertebrates; Physiological response to physical factors; Arachnida
+6dq6,Invertebrates; Physiological response to physical factors; Insecta; 
+6dq7,Invertebrates; Physiological response to physical factors; Exopterygota
+6dq8,Invertebrates; Physiological response to physical factors; Diptera
+6dq9,Invertebrates; Physiological response to physical factors; 
+6dr0,Invertebrates; Physiological response to chemicals; 
+6dr1,Invertebrates; Physiological response to chemicals; Lower invertebrates
+6dr2,Invertebrates; Physiological response to chemicals; Mollusca
+6dr3,Invertebrates; Physiological response to chemicals; Vermes
+6dr4,Invertebrates; Physiological response to chemicals; Crustacea
+6dr5,Invertebrates; Physiological response to chemicals; Arachnida
+6dr6,Invertebrates; Physiological response to chemicals; Insecta; 
+6dr7,Invertebrates; Physiological response to chemicals; Exopterygota
+6dr8,Invertebrates; Physiological response to chemicals; Diptera
+6dr9,Invertebrates; Physiological response to chemicals; 
+6ds0,Invertebrates; Biochemistry; 
+6ds1,Invertebrates; Biochemistry; Lower invertebrates
+6ds2,Invertebrates; Biochemistry; Mollusca
+6ds3,Invertebrates; Biochemistry; Vermes
+6ds4,Invertebrates; Biochemistry; Crustacea
+6ds5,Invertebrates; Biochemistry; Arachnida
+6ds6,Invertebrates; Biochemistry; Insecta; 
+6ds7,Invertebrates; Biochemistry; Exopterygota
+6ds8,Invertebrates; Biochemistry; Diptera
+6ds9,Invertebrates; Biochemistry; 
+6dt0,Invertebrates; Molecular Biology; 
+6dt1,Invertebrates; Molecular Biology; Lower invertebrates
+6dt2,Invertebrates; Molecular Biology; Mollusca
+6dt3,Invertebrates; Molecular Biology; Vermes
+6dt4,Invertebrates; Molecular Biology; Crustacea
+6dt5,Invertebrates; Molecular Biology; Arachnida
+6dt6,Invertebrates; Molecular Biology; Insecta; 
+6dt7,Invertebrates; Molecular Biology; Exopterygota
+6dt8,Invertebrates; Molecular Biology; Diptera
+6dt9,Invertebrates; Molecular Biology; 
+6du0,Invertebrates; Biodegradation; 
+6du1,Invertebrates; Biodegradation; Lower invertebrates
+6du2,Invertebrates; Biodegradation; Mollusca
+6du3,Invertebrates; Biodegradation; Vermes
+6du4,Invertebrates; Biodegradation; Crustacea
+6du5,Invertebrates; Biodegradation; Arachnida
+6du6,Invertebrates; Biodegradation; Insecta; 
+6du7,Invertebrates; Biodegradation; Exopterygota
+6du8,Invertebrates; Biodegradation; Diptera
+6du9,Invertebrates; Biodegradation; 
+6dv0,Invertebrates; Immunology; 
+6dv1,Invertebrates; Immunology; Lower invertebrates
+6dv2,Invertebrates; Immunology; Mollusca
+6dv3,Invertebrates; Immunology; Vermes
+6dv4,Invertebrates; Immunology; Crustacea
+6dv5,Invertebrates; Immunology; Arachnida
+6dv6,Invertebrates; Immunology; Insecta; 
+6dv7,Invertebrates; Immunology; Exopterygota
+6dv8,Invertebrates; Immunology; Diptera
+6dv9,Invertebrates; Immunology; 
+6e0,Invertebrates; Ecology; 
+6e1,Invertebrates; Ecology; Lower invertebrates
+6e2,Invertebrates; Ecology; Mollusca
+6e3,Invertebrates; Ecology; Vermes
+6e4,Invertebrates; Ecology; Crustacea
+6e5,Invertebrates; Ecology; Arachnida
+6e6,Invertebrates; Ecology; Insecta; 
+6e7,Invertebrates; Ecology; Exopterygota
+6e8,Invertebrates; Ecology; Diptera
+6e9,Invertebrates; Ecology; 
+6ea0,Invertebrates; Ecology; Inland Waters; 
+6ea1,Invertebrates; Ecology; Inland Waters; Lower invertebrates
+6ea2,Invertebrates; Ecology; Inland Waters; Mollusca
+6ea3,Invertebrates; Ecology; Inland Waters; Vermes
+6ea4,Invertebrates; Ecology; Inland Waters; Crustacea
+6ea5,Invertebrates; Ecology; Inland Waters; Arachnida
+6ea6,Invertebrates; Ecology; Inland Waters; Insecta; 
+6ea7,Invertebrates; Ecology; Inland Waters; Exopterygota
+6ea8,Invertebrates; Ecology; Inland Waters; Diptera
+6ea9,Invertebrates; Ecology; Inland Waters; 
+6eb0,Invertebrates; Ecology; Lakes; 
+6eb1,Invertebrates; Ecology; Lakes; Lower invertebrates
+6eb2,Invertebrates; Ecology; Lakes; Mollusca
+6eb3,Invertebrates; Ecology; Lakes; Vermes
+6eb4,Invertebrates; Ecology; Lakes; Crustacea
+6eb5,Invertebrates; Ecology; Lakes; Arachnida
+6eb6,Invertebrates; Ecology; Lakes; Insecta; 
+6eb7,Invertebrates; Ecology; Lakes; Exopterygota
+6eb8,Invertebrates; Ecology; Lakes; Diptera
+6eb9,Invertebrates; Ecology; Lakes; 
+6ec0,Invertebrates; Ecology; Temporary ponds; Temporary pools; 
+6ec1,Invertebrates; Ecology; Temporary ponds; Temporary pools; Lower invertebrates
+6ec2,Invertebrates; Ecology; Temporary ponds; Temporary pools; Mollusca
+6ec3,Invertebrates; Ecology; Temporary ponds; Temporary pools; Vermes
+6ec4,Invertebrates; Ecology; Temporary ponds; Temporary pools; Crustacea
+6ec5,Invertebrates; Ecology; Temporary ponds; Temporary pools; Arachnida
+6ec6,Invertebrates; Ecology; Temporary ponds; Temporary pools; Insecta; 
+6ec7,Invertebrates; Ecology; Temporary ponds; Temporary pools; Exopterygota
+6ec8,Invertebrates; Ecology; Temporary ponds; Temporary pools; Diptera
+6ec9,Invertebrates; Ecology; Temporary ponds; Temporary pools; 
+6ed0,Invertebrates; Ecology; Flowing waters; Rivers; 
+6ed1,Invertebrates; Ecology; Flowing waters; Rivers; Lower invertebrates
+6ed2,Invertebrates; Ecology; Flowing waters; Rivers; Mollusca
+6ed3,Invertebrates; Ecology; Flowing waters; Rivers; Vermes
+6ed4,Invertebrates; Ecology; Flowing waters; Rivers; Crustacea
+6ed5,Invertebrates; Ecology; Flowing waters; Rivers; Arachnida
+6ed6,Invertebrates; Ecology; Flowing waters; Rivers; Insecta; 
+6ed7,Invertebrates; Ecology; Flowing waters; Rivers; Exopterygota
+6ed8,Invertebrates; Ecology; Flowing waters; Rivers; Diptera
+6ed9,Invertebrates; Ecology; Flowing waters; Rivers; 
+6ee0,Invertebrates; Ecology; Estuaries; Lagoons; 
+6ee1,Invertebrates; Ecology; Estuaries; Lagoons; Lower invertebrates
+6ee2,Invertebrates; Ecology; Estuaries; Lagoons; Mollusca
+6ee3,Invertebrates; Ecology; Estuaries; Lagoons; Vermes
+6ee4,Invertebrates; Ecology; Estuaries; Lagoons; Crustacea
+6ee5,Invertebrates; Ecology; Estuaries; Lagoons; Arachnida
+6ee6,Invertebrates; Ecology; Estuaries; Lagoons; Insecta; 
+6ee7,Invertebrates; Ecology; Estuaries; Lagoons; Exopterygota
+6ee8,Invertebrates; Ecology; Estuaries; Lagoons; Diptera
+6ee9,Invertebrates; Ecology; Estuaries; Lagoons; 
+6ef0,Invertebrates; Ecology; Seas; Oceans; 
+6ef1,Invertebrates; Ecology; Seas; Oceans; Lower invertebrates
+6ef2,Invertebrates; Ecology; Seas; Oceans; Mollusca
+6ef3,Invertebrates; Ecology; Seas; Oceans; Vermes
+6ef4,Invertebrates; Ecology; Seas; Oceans; Crustacea
+6ef5,Invertebrates; Ecology; Seas; Oceans; Arachnida
+6ef6,Invertebrates; Ecology; Seas; Oceans; Insecta; 
+6ef7,Invertebrates; Ecology; Seas; Oceans; Exopterygota
+6ef8,Invertebrates; Ecology; Seas; Oceans; Diptera
+6ef9,Invertebrates; Ecology; Seas; Oceans; 
+6eg0,Invertebrates; Ecology; Soil water; 
+6eg1,Invertebrates; Ecology; Soil water; Lower invertebrates
+6eg2,Invertebrates; Ecology; Soil water; Mollusca
+6eg3,Invertebrates; Ecology; Soil water; Vermes
+6eg4,Invertebrates; Ecology; Soil water; Crustacea
+6eg5,Invertebrates; Ecology; Soil water; Arachnida
+6eg6,Invertebrates; Ecology; Soil water; Insecta; 
+6eg7,Invertebrates; Ecology; Soil water; Exopterygota
+6eg8,Invertebrates; Ecology; Soil water; Diptera
+6eg9,Invertebrates; Ecology; Soil water; 
+6eh0,Invertebrates; Ecology; Wetlands; 
+6eh1,Invertebrates; Ecology; Wetlands; Lower invertebrates
+6eh2,Invertebrates; Ecology; Wetlands; Mollusca
+6eh3,Invertebrates; Ecology; Wetlands; Vermes
+6eh4,Invertebrates; Ecology; Wetlands; Crustacea
+6eh5,Invertebrates; Ecology; Wetlands; Arachnida
+6eh6,Invertebrates; Ecology; Wetlands; Insecta; 
+6eh7,Invertebrates; Ecology; Wetlands; Exopterygota
+6eh8,Invertebrates; Ecology; Wetlands; Diptera
+6eh9,Invertebrates; Ecology; Wetlands; 
+6ej0,Invertebrates; Ecology; Snow; Ice; 
+6ej1,Invertebrates; Ecology; Snow; Ice; Lower invertebrates
+6ej2,Invertebrates; Ecology; Snow; Ice; Mollusca
+6ej3,Invertebrates; Ecology; Snow; Ice; Vermes
+6ej4,Invertebrates; Ecology; Snow; Ice; Crustacea
+6ej5,Invertebrates; Ecology; Snow; Ice; Arachnida
+6ej6,Invertebrates; Ecology; Snow; Ice; Insecta; 
+6ej7,Invertebrates; Ecology; Snow; Ice; Exopterygota
+6ej8,Invertebrates; Ecology; Snow; Ice; Diptera
+6ej9,Invertebrates; Ecology; Snow; Ice; 
+6ek0,Invertebrates; Ecology; Atmosphere; 
+6ek1,Invertebrates; Ecology; Atmosphere; Lower invertebrates
+6ek2,Invertebrates; Ecology; Atmosphere; Mollusca
+6ek3,Invertebrates; Ecology; Atmosphere; Vermes
+6ek4,Invertebrates; Ecology; Atmosphere; Crustacea
+6ek5,Invertebrates; Ecology; Atmosphere; Arachnida
+6ek6,Invertebrates; Ecology; Atmosphere; Insecta; 
+6ek7,Invertebrates; Ecology; Atmosphere; Exopterygota
+6ek8,Invertebrates; Ecology; Atmosphere; Diptera
+6ek9,Invertebrates; Ecology; Atmosphere; 
+6em0,Invertebrates; Ecology; Coasts; 
+6em1,Invertebrates; Ecology; Coasts; Lower invertebrates
+6em2,Invertebrates; Ecology; Coasts; Mollusca
+6em3,Invertebrates; Ecology; Coasts; Vermes
+6em4,Invertebrates; Ecology; Coasts; Crustacea
+6em5,Invertebrates; Ecology; Coasts; Arachnida
+6em6,Invertebrates; Ecology; Coasts; Insecta; 
+6em7,Invertebrates; Ecology; Coasts; Exopterygota
+6em8,Invertebrates; Ecology; Coasts; Diptera
+6em9,Invertebrates; Ecology; Coasts; 
+6en0,Invertebrates; Ecology; Laboratory experimentation; 
+6en1,Invertebrates; Ecology; Laboratory experimentation; Lower invertebrates
+6en2,Invertebrates; Ecology; Laboratory experimentation; Mollusca
+6en3,Invertebrates; Ecology; Laboratory experimentation; Vermes
+6en4,Invertebrates; Ecology; Laboratory experimentation; Crustacea
+6en5,Invertebrates; Ecology; Laboratory experimentation; Arachnida
+6en6,Invertebrates; Ecology; Laboratory experimentation; Insecta; 
+6en7,Invertebrates; Ecology; Laboratory experimentation; Exopterygota
+6en8,Invertebrates; Ecology; Laboratory experimentation; Diptera
+6en9,Invertebrates; Ecology; Laboratory experimentation; 
+6eo0,Invertebrates; Ecology; Biological interaction; 
+6eo1,Invertebrates; Ecology; Biological interaction; Lower invertebrates
+6eo2,Invertebrates; Ecology; Biological interaction; Mollusca
+6eo3,Invertebrates; Ecology; Biological interaction; Vermes
+6eo4,Invertebrates; Ecology; Biological interaction; Crustacea
+6eo5,Invertebrates; Ecology; Biological interaction; Arachnida
+6eo6,Invertebrates; Ecology; Biological interaction; Insecta; 
+6eo7,Invertebrates; Ecology; Biological interaction; Exopterygota
+6eo8,Invertebrates; Ecology; Biological interaction; Diptera
+6eo9,Invertebrates; Ecology; Biological interaction; 
+6ep0,Invertebrates; Ecology; Underground waters; 
+6ep1,Invertebrates; Ecology; Underground waters; Lower invertebrates
+6ep2,Invertebrates; Ecology; Underground waters; Mollusca
+6ep3,Invertebrates; Ecology; Underground waters; Vermes
+6ep4,Invertebrates; Ecology; Underground waters; Crustacea
+6ep5,Invertebrates; Ecology; Underground waters; Arachnida
+6ep6,Invertebrates; Ecology; Underground waters; Insecta; 
+6ep7,Invertebrates; Ecology; Underground waters; Exopterygota
+6ep8,Invertebrates; Ecology; Underground waters; Diptera
+6ep9,Invertebrates; Ecology; Underground waters; 
+6eq0,Invertebrates; Ecology; Hot springs; 
+6eq1,Invertebrates; Ecology; Hot springs; Lower invertebrates
+6eq2,Invertebrates; Ecology; Hot springs; Mollusca
+6eq3,Invertebrates; Ecology; Hot springs; Vermes
+6eq4,Invertebrates; Ecology; Hot springs; Crustacea
+6eq5,Invertebrates; Ecology; Hot springs; Arachnida
+6eq6,Invertebrates; Ecology; Hot springs; Insecta; 
+6eq7,Invertebrates; Ecology; Hot springs; Exopterygota
+6eq8,Invertebrates; Ecology; Hot springs; Diptera
+6eq9,Invertebrates; Ecology; Hot springs; 
+6er0,Invertebrates; Ecology; Inland seas; Salt lakes; 
+6er1,Invertebrates; Ecology; Inland seas; Salt lakes; Lower invertebrates
+6er2,Invertebrates; Ecology; Inland seas; Salt lakes; Mollusca
+6er3,Invertebrates; Ecology; Inland seas; Salt lakes; Vermes
+6er4,Invertebrates; Ecology; Inland seas; Salt lakes; Crustacea
+6er5,Invertebrates; Ecology; Inland seas; Salt lakes; Arachnida
+6er6,Invertebrates; Ecology; Inland seas; Salt lakes; Insecta; 
+6er7,Invertebrates; Ecology; Inland seas; Salt lakes; Exopterygota
+6er8,Invertebrates; Ecology; Inland seas; Salt lakes; Diptera
+6er9,Invertebrates; Ecology; Inland seas; Salt lakes; 
+6es0,Invertebrates; Ecology; Sewage; 
+6es1,Invertebrates; Ecology; Sewage; Lower invertebrates
+6es2,Invertebrates; Ecology; Sewage; Mollusca
+6es3,Invertebrates; Ecology; Sewage; Vermes
+6es4,Invertebrates; Ecology; Sewage; Crustacea
+6es5,Invertebrates; Ecology; Sewage; Arachnida
+6es6,Invertebrates; Ecology; Sewage; Insecta; 
+6es7,Invertebrates; Ecology; Sewage; Exopterygota
+6es8,Invertebrates; Ecology; Sewage; Diptera
+6es9,Invertebrates; Ecology; Sewage; 
+6et0,Invertebrates; Ecology; Canals; 
+6et1,Invertebrates; Ecology; Canals; Lower invertebrates
+6et2,Invertebrates; Ecology; Canals; Mollusca
+6et3,Invertebrates; Ecology; Canals; Vermes
+6et4,Invertebrates; Ecology; Canals; Crustacea
+6et5,Invertebrates; Ecology; Canals; Arachnida
+6et6,Invertebrates; Ecology; Canals; Insecta; 
+6et7,Invertebrates; Ecology; Canals; Exopterygota
+6et8,Invertebrates; Ecology; Canals; Diptera
+6et9,Invertebrates; Ecology; Canals; 
+6eu0,Invertebrates; Ecology; Plant litter; 
+6eu1,Invertebrates; Ecology; Plant litter; Lower invertebrates
+6eu2,Invertebrates; Ecology; Plant litter; Mollusca
+6eu3,Invertebrates; Ecology; Plant litter; Vermes
+6eu4,Invertebrates; Ecology; Plant litter; Crustacea
+6eu5,Invertebrates; Ecology; Plant litter; Arachnida
+6eu6,Invertebrates; Ecology; Plant litter; Insecta; 
+6eu7,Invertebrates; Ecology; Plant litter; Exopterygota
+6eu8,Invertebrates; Ecology; Plant litter; Diptera
+6eu9,Invertebrates; Ecology; Plant litter; 
+6ew0,Invertebrates; Ecology; Water supply; 
+6ew1,Invertebrates; Ecology; Water supply; Lower invertebrates
+6ew2,Invertebrates; Ecology; Water supply; Mollusca
+6ew3,Invertebrates; Ecology; Water supply; Vermes
+6ew4,Invertebrates; Ecology; Water supply; Crustacea
+6ew5,Invertebrates; Ecology; Water supply; Arachnida
+6ew6,Invertebrates; Ecology; Water supply; Insecta; 
+6ew7,Invertebrates; Ecology; Water supply; Exopterygota
+6ew8,Invertebrates; Ecology; Water supply; Diptera
+6ew9,Invertebrates; Ecology; Water supply; 
+6ex0,Invertebrates; Radioecology; 
+6ex1,Invertebrates; Radioecology; Lower invertebrates
+6ex2,Invertebrates; Radioecology; Mollusca
+6ex3,Invertebrates; Radioecology; Vermes
+6ex4,Invertebrates; Radioecology; Crustacea
+6ex5,Invertebrates; Radioecology; Arachnida
+6ex6,Invertebrates; Radioecology; Insecta; 
+6ex7,Invertebrates; Radioecology; Exopterygota
+6ex8,Invertebrates; Radioecology; Diptera
+6ex9,Invertebrates; Radioecology; 
+6f0,Invertebrates; Life cycle; 
+6f1,Invertebrates; Life cycle; Lower invertebrates
+6f2,Invertebrates; Life cycle; Mollusca
+6f3,Invertebrates; Life cycle; Vermes
+6f4,Invertebrates; Life cycle; Crustacea
+6f5,Invertebrates; Life cycle; Arachnida
+6f6,Invertebrates; Life cycle; Insecta; 
+6f7,Invertebrates; Life cycle; Exopterygota
+6f8,Invertebrates; Life cycle; Diptera
+6f9,Invertebrates; Life cycle; 
+6g0,Invertebrates; social and commercial aspects: control; 
+6g1,Invertebrates; social and commercial aspects: control; Lower invertebrates
+6g2,Invertebrates; social and commercial aspects: control; Mollusca
+6g3,Invertebrates; social and commercial aspects: control; Vermes
+6g4,Invertebrates; social and commercial aspects: control; Crustacea
+6g5,Invertebrates; social and commercial aspects: control; Arachnida
+6g6,Invertebrates; social and commercial aspects: control; Insecta; 
+6g7,Invertebrates; social and commercial aspects: control; Exopterygota
+6g8,Invertebrates; social and commercial aspects: control; Diptera
+6g9,Invertebrates; social and commercial aspects: control; 
+6h0,Invertebrates; Pathology; 
+6h1,Invertebrates; Pathology; Lower invertebrates
+6h2,Invertebrates; Pathology; Mollusca
+6h3,Invertebrates; Pathology;; Vermes
+6h4,Invertebrates; Pathology; Crustacea
+6h5,Invertebrates; Pathology; Arachnida
+6h6,Invertebrates; Pathology; Insecta; 
+6h7,Invertebrates; Pathology; Exopterygota
+6h8,Invertebrates; Pathology; Diptera
+6h9,Invertebrates; Pathology; 
+6m0,Invertebrates; Fossils; 
+6m1,Invertebrates; Fossils; Lower invertebrates
+6m2,Invertebrates; Fossils; Mollusca
+6m3,Invertebrates; Fossils; Vermes
+6m4,Invertebrates; Fossils; Crustacea
+6m5,Invertebrates; Fossils; Arachnida
+6m6,Invertebrates; Fossils; Insecta; 
+6m7,Invertebrates; Fossils; Exopterygota
+6m8,Invertebrates; Fossils; Diptera
+6m9,Invertebrates; Fossils; 
+6n0,Invertebrates; Genetics; 
+6n1,Invertebrates; Genetics; Lower invertebrates
+6n2,Invertebrates; Genetics; Mollusca
+6n3,Invertebrates; Genetics; Vermes
+6n4,Invertebrates; Genetics; Crustacea
+6n5,Invertebrates; Genetics; Arachnida
+6n6,Invertebrates; Genetics; Insecta; 
+6n7,Invertebrates; Genetics; Exopterygota
+6n8,Invertebrates; Genetics; Diptera
+6n9,Invertebrates; Genetics; 
+6p0,Invertebrates; Behaviour; 
+6p1,Invertebrates; Behaviour; Lower invertebrates
+6p2,Invertebrates; Behaviour; Mollusca
+6p3,Invertebrates; Behaviour; Vermes
+6p4,Invertebrates; Behaviour; Crustacea
+6p5,Invertebrates; Behaviour; Arachnida
+6p6,Invertebrates; Behaviour; Insecta; 
+6p7,Invertebrates; Behaviour; Exopterygota
+6p8,Invertebrates; Behaviour; Diptera
+6p9,Invertebrates; Behaviour; 
+7,Fish
+7a0,Fish; Methods; 
+7a1,Fish; Methods; Salmonidae
+7a2,Fish; Methods; Lampreys
+7a3,Fish; Methods; Clupeidae
+7a4,Fish; Methods; Esocidae
+7a5,Fish; Methods; Cyprinidae
+7a6,Fish; Methods; Anguillidae
+7a7,Fish; Methods; Percidae
+7a8,Fish; Methods; Cichlidae
+7a9,Fish; Methods; 
+7b0,Fish; Morphology; Taxonomy; 
+7b1,Fish; Morphology; Taxonomy; Salmonidae
+7b2,Fish; Morphology; Taxonomy; Lampreys
+7b3,Fish; Morphology; Taxonomy; Clupeidae
+7b4,Fish; Morphology; Taxonomy; Esocidae
+7b5,Fish; Morphology; Taxonomy; Cyprinidae
+7b6,Fish; Morphology; Taxonomy; Anguillidae
+7b7,Fish; Morphology; Taxonomy; Percidae
+7b8,Fish; Morphology; Taxonomy; Cichlidae
+7b9,Fish; Morphology; Taxonomy; 
+7c0,Fish; Geographical distribution;  
+7c1,Fish; Geographical distribution;  Salmonidae
+7c2,Fish; Geographical distribution;  Lampreys
+7c3,Fish; Geographical distribution;  Clupeidae
+7c4,Fish; Geographical distribution;  Esocidae
+7c5,Fish; Geographical distribution;  Cyprinidae
+7c6,Fish; Geographical distribution;  Anguillidae
+7c7,Fish; Geographical distribution;  Percidae
+7c8,Fish; Geographical distribution;  Cichlidae
+7c9,Fish; Geographical distribution;  
+7d0,Fish; Biochemistry; Physiology; 
+7d1,Fish; Biochemistry; Physiology; Salmonidae
+7d2,Fish; Biochemistry; Physiology; Lampreys
+7d3,Fish; Biochemistry; Physiology; Clupeidae
+7d4,Fish; Biochemistry; Physiology; Esocidae
+7d5,Fish; Biochemistry; Physiology; Cyprinidae
+7d6,Fish; Biochemistry; Physiology; Anguillidae
+7d7,Fish; Biochemistry; Physiology; Percidae
+7d8,Fish; Biochemistry; Physiology; Cichlidae
+7d9,Fish; Biochemistry; Physiology; 
+7da0,Fish; Physiological techniques; Biochemical techniques; 
+7da1,Fish; Physiological techniques; Biochemical techniques; Salmonidae
+7da2,Fish; Physiological techniques; Biochemical techniques; Lampreys
+7da3,Fish; Physiological techniques; Biochemical techniques; Clupeidae
+7da4,Fish; Physiological techniques; Biochemical techniques; Esocidae
+7da5,Fish; Physiological techniques; Biochemical techniques; Cyprinidae
+7da6,Fish; Physiological techniques; Biochemical techniques; Anguillidae
+7da7,Fish; Physiological techniques; Biochemical techniques; Percidae
+7da8,Fish; Physiological techniques; Biochemical techniques; Cichlidae
+7da9,Fish; Physiological techniques; Biochemical techniques; 
+7db0,Fish; Histology; Histochemistry; Cytology; 
+7db1,Fish; Histology; Histochemistry; Cytology; Salmonidae
+7db2,Fish; Histology; Histochemistry; Cytology; Lampreys
+7db3,Fish; Histology; Histochemistry; Cytology; Clupeidae
+7db4,Fish; Histology; Histochemistry; Cytology; Esocidae
+7db5,Fish; Histology; Histochemistry; Cytology; Cyprinidae
+7db6,Fish; Histology; Histochemistry; Cytology; Anguillidae
+7db7,Fish; Histology; Histochemistry; Cytology; Percidae
+7db8,Fish; Histology; Histochemistry; Cytology; Cichlidae
+7db9,Fish; Histology; Histochemistry; Cytology; 
+7dc0,Fish; Animal fluids; 
+7dc1,Fish; Animal fluids; Salmonidae
+7dc2,Fish; Animal fluids; Lampreys
+7dc3,Fish; Animal fluids; Clupeidae
+7dc4,Fish; Animal fluids; Esocidae
+7dc5,Fish; Animal fluids; Cyprinidae
+7dc6,Fish; Animal fluids; Anguillidae
+7dc7,Fish; Animal fluids; Percidae
+7dc8,Fish; Animal fluids; Cichlidae
+7dc9,Fish; Animal fluids; 
+7dd0,Fish; Respiration; Energetics; 
+7dd1,Fish; Respiration; Energetics; Salmonidae
+7dd2,Fish; Respiration; Energetics; Lampreys
+7dd3,Fish; Respiration; Energetics; Clupeidae
+7dd4,Fish; Respiration; Energetics; Esocidae
+7dd5,Fish; Respiration; Energetics; Cyprinidae
+7dd6,Fish; Respiration; Energetics; Anguillidae
+7dd7,Fish; Respiration; Energetics; Percidae
+7dd8,Fish; Respiration; Energetics; Cichlidae
+7dd9,Fish; Respiration; Energetics; 
+7de0,Fish; Chemosynthesis; Pigmentation; 
+7de1,Fish; Chemosynthesis; Pigmentation; Salmonidae
+7de2,Fish; Chemosynthesis; Pigmentation; Lampreys
+7de3,Fish; Chemosynthesis; Pigmentation; Clupeidae
+7de4,Fish; Chemosynthesis; Pigmentation; Esocidae
+7de5,Fish; Chemosynthesis; Pigmentation; Cyprinidae
+7de6,Fish; Chemosynthesis; Pigmentation; Anguillidae
+7de7,Fish; Chemosynthesis; Pigmentation; Percidae
+7de8,Fish; Chemosynthesis; Pigmentation; Cichlidae
+7de9,Fish; Chemosynthesis; Pigmentation; 
+7df0,Fish;  Metabolism; 
+7df1,Fish;  Metabolism; Salmonidae
+7df2,Fish;  Metabolism; Lampreys
+7df3,Fish;  Metabolism; Clupeidae
+7df4,Fish;  Metabolism; Esocidae
+7df5,Fish;  Metabolism; Cyprinidae
+7df6,Fish;  Metabolism; Anguillidae
+7df7,Fish;  Metabolism; Percidae
+7df8,Fish;  Metabolism; Cichlidae
+7df9,Fish;  Metabolism; 
+7dg0,Fish; Growth; 
+7dg1,Fish; Growth; Salmonidae
+7dg2,Fish; Growth; Lampreys
+7dg3,Fish; Growth; Clupeidae
+7dg4,Fish; Growth; Esocidae
+7dg5,Fish; Growth; Cyprinidae
+7dg6,Fish; Growth; Anguillidae
+7dg7,Fish; Growth; Percidae
+7dg8,Fish; Growth; Cichlidae
+7dg9,Fish; Growth; 
+7dh0,Fish; Reproduction; 
+7dh1,Fish; Reproduction; Salmonidae
+7dh2,Fish; Reproduction; Lampreys
+7dh3,Fish; Reproduction; Clupeidae
+7dh4,Fish; Reproduction; Esocidae
+7dh5,Fish; Reproduction; Cyprinidae
+7dh6,Fish; Reproduction; Anguillidae
+7dh7,Fish; Reproduction; Percidae
+7dh8,Fish; Reproduction; Cichlidae
+7dh9,Fish; Reproduction; 
+7dj0,Fish; Endocrinological functions; 
+7dj1,Fish; Endocrinological functions; Salmonidae
+7dj2,Fish; Endocrinological functions; Lampreys
+7dj3,Fish; Endocrinological functions; Clupeidae
+7dj4,Fish; Endocrinological functions; Esocidae
+7dj5,Fish; Endocrinological functions; Cyprinidae
+7dj6,Fish; Endocrinological functions; Anguillidae
+7dj7,Fish; Endocrinological functions; Percidae
+7dj8,Fish; Endocrinological functions; Cichlidae
+7dj9,Fish; Endocrinological functions; 
+7dk0,Fish; Biological rhythms; 
+7dk1,Fish; Biological rhythms; Salmonidae
+7dk2,Fish; Biological rhythms; Lampreys
+7dk3,Fish; Biological rhythms; Clupeidae
+7dk4,Fish; Biological rhythms; Esocidae
+7dk5,Fish; Biological rhythms; Cyprinidae
+7dk6,Fish; Biological rhythms; Anguillidae
+7dk7,Fish; Biological rhythms; Percidae
+7dk8,Fish; Biological rhythms; Cichlidae
+7dk9,Fish; Biological rhythms; 
+7dm0,Fish; Movement; 
+7dm1,Fish; Movement; Salmonidae
+7dm2,Fish; Movement; Lampreys
+7dm3,Fish; Movement; Clupeidae
+7dm4,Fish; Movement; Esocidae
+7dm5,Fish; Movement; Cyprinidae
+7dm6,Fish; Movement; Anguillidae
+7dm7,Fish; Movement; Percidae
+7dm8,Fish; Movement; Cichlidae
+7dm9,Fish; Movement; 
+7dn0,Fish; Neurophysiology; 
+7dn1,Fish; Neurophysiology; Salmonidae
+7dn2,Fish; Neurophysiology; Lampreys
+7dn3,Fish; Neurophysiology; Clupeidae
+7dn4,Fish; Neurophysiology; Esocidae
+7dn5,Fish; Neurophysiology; Cyprinidae
+7dn6,Fish; Neurophysiology; Anguillidae
+7dn7,Fish; Neurophysiology; Percidae
+7dn8,Fish; Neurophysiology; Cichlidae
+7dn9,Fish; Neurophysiology; 
+7dp0,Fish; Senses; 
+7dp1,Fish; Senses; Salmonidae
+7dp2,Fish; Senses; Lampreys
+7dp3,Fish; Senses; Clupeidae
+7dp4,Fish; Senses; Esocidae
+7dp5,Fish; Senses; Cyprinidae
+7dp6,Fish; Senses; Anguillidae
+7dp7,Fish; Senses; Percidae
+7dp8,Fish; Senses; Cichlidae
+7dp9,Fish; Senses; 
+7dq0,Fish; Physiological response to physical factors; 
+7dq1,Fish; Physiological response to physical factors; Salmonidae
+7dq2,Fish; Physiological response to physical factors; Lampreys
+7dq3,Fish; Physiological response to physical factors; Clupeidae
+7dq4,Fish; Physiological response to physical factors; Esocidae
+7dq5,Fish; Physiological response to physical factors; Cyprinidae
+7dq6,Fish; Physiological response to physical factors; Anguillidae
+7dq7,Fish; Physiological response to physical factors; Percidae
+7dq8,Fish; Physiological response to physical factors; Cichlidae
+7dq9,Fish; Physiological response to physical factors; 
+7dr0,Fish; Physiological response to chemicals; 
+7dr1,Fish; Physiological response to chemicals; Salmonidae
+7dr2,Fish; Physiological response to chemicals; Lampreys
+7dr3,Fish; Physiological response to chemicals; Clupeidae
+7dr4,Fish; Physiological response to chemicals; Esocidae
+7dr5,Fish; Physiological response to chemicals; Cyprinidae
+7dr6,Fish; Physiological response to chemicals; Anguillidae
+7dr7,Fish; Physiological response to chemicals; Percidae
+7dr8,Fish; Physiological response to chemicals; Cichlidae
+7dr9,Fish; Physiological response to chemicals; 
+7ds0,Fish; Biochemistry; 
+7ds1,Fish; Biochemistry; Salmonidae
+7ds2,Fish; Biochemistry; Lampreys
+7ds3,Fish; Biochemistry; Clupeidae
+7ds4,Fish; Biochemistry; Esocidae
+7ds5,Fish; Biochemistry; Cyprinidae
+7ds6,Fish; Biochemistry; Anguillidae
+7ds7,Fish; Biochemistry; Percidae
+7ds8,Fish; Biochemistry; Cichlidae
+7ds9,Fish; Biochemistry; 
+7dt0,Fish; Molecular Biology; 
+7dt1,Fish; Molecular Biology; Salmonidae
+7dt2,Fish; Molecular Biology; Lampreys
+7dt3,Fish; Molecular Biology; Clupeidae
+7dt4,Fish; Molecular Biology; Esocidae
+7dt5,Fish; Molecular Biology; Cyprinidae
+7dt6,Fish; Molecular Biology; Anguillidae
+7dt7,Fish; Molecular Biology; Percidae
+7dt8,Fish; Molecular Biology; Cichlidae
+7dt9,Fish; Molecular Biology; 
+7du0,Fish; Biodegradation; 
+7du1,Fish; Biodegradation; Salmonidae
+7du2,Fish; Biodegradation; Lampreys
+7du3,Fish; Biodegradation; Clupeidae
+7du4,Fish; Biodegradation; Esocidae
+7du5,Fish; Biodegradation; Cyprinidae
+7du6,Fish; Biodegradation; Anguillidae
+7du7,Fish; Biodegradation; Percidae
+7du8,Fish; Biodegradation; Cichlidae
+7du9,Fish; Biodegradation; 
+7dv0,Fish; Immunology; 
+7dv1,Fish; Immunology; Salmonidae
+7dv2,Fish; Immunology; Lampreys
+7dv3,Fish; Immunology; Clupeidae
+7dv4,Fish; Immunology; Esocidae
+7dv5,Fish; Immunology; Cyprinidae
+7dv6,Fish; Immunology; Anguillidae
+7dv7,Fish; Immunology; Percidae
+7dv8,Fish; Immunology; Cichlidae
+7dv9,Fish; Immunology; 
+7e0,Fish; Ecology; 
+7e1,Fish; Ecology; Salmonidae
+7e2,Fish; Ecology; Lampreys
+7e3,Fish; Ecology; Clupeidae
+7e4,Fish; Ecology; Esocidae
+7e5,Fish; Ecology; Cyprinidae
+7e6,Fish; Ecology; Anguillidae
+7e7,Fish; Ecology; Percidae
+7e8,Fish; Ecology; Cichlidae
+7e9,Fish; Ecology; 
+7ea0,Fish; Ecology; Inland Waters; 
+7ea1,Fish; Ecology; Inland Waters; Salmonidae
+7ea2,Fish; Ecology; Inland Waters; Lampreys
+7ea3,Fish; Ecology; Inland Waters; Clupeidae
+7ea4,Fish; Ecology; Inland Waters; Esocidae
+7ea5,Fish; Ecology; Inland Waters; Cyprinidae
+7ea6,Fish; Ecology; Inland Waters; Anguillidae
+7ea7,Fish; Ecology; Inland Waters; Percidae
+7ea8,Fish; Ecology; Inland Waters; Cichlidae
+7ea9,Fish; Ecology; Inland Waters; 
+7eb0,Fish; Ecology; Lakes; 
+7eb1,Fish; Ecology; Lakes; Salmonidae
+7eb2,Fish; Ecology; Lakes; Lampreys
+7eb3,Fish; Ecology; Lakes; Clupeidae
+7eb4,Fish; Ecology; Lakes; Esocidae
+7eb5,Fish; Ecology; Lakes; Cyprinidae
+7eb6,Fish; Ecology; Lakes; Anguillidae
+7eb7,Fish; Ecology; Lakes; Percidae
+7eb8,Fish; Ecology; Lakes; Cichlidae
+7eb9,Fish; Ecology; Lakes; 
+7ec0,Fish; Ecology; Temporary ponds; Temporary pools; 
+7ec1,Fish; Ecology; Temporary ponds; Temporary pools; Salmonidae
+7ec2,Fish; Ecology; Temporary ponds; Temporary pools; Lampreys
+7ec3,Fish; Ecology; Temporary ponds; Temporary pools; Clupeidae
+7ec4,Fish; Ecology; Temporary ponds; Temporary pools; Esocidae
+7ec5,Fish; Ecology; Temporary ponds; Temporary pools; Cyprinidae
+7ec6,Fish; Ecology; Temporary ponds; Temporary pools; Anguillidae
+7ec7,Fish; Ecology; Temporary ponds; Temporary pools; Percidae
+7ec8,Fish; Ecology; Temporary ponds; Temporary pools; Cichlidae
+7ec9,Fish; Ecology; Temporary ponds; Temporary pools; 
+7ed0,Fish; Ecology; Flowing waters; Rivers; 
+7ed1,Fish; Ecology; Flowing waters; Rivers; Salmonidae
+7ed2,Fish; Ecology; Flowing waters; Rivers; Lampreys
+7ed3,Fish; Ecology; Flowing waters; Rivers; Clupeidae
+7ed4,Fish; Ecology; Flowing waters; Rivers; Esocidae
+7ed5,Fish; Ecology; Flowing waters; Rivers; Cyprinidae
+7ed6,Fish; Ecology; Flowing waters; Rivers; Anguillidae
+7ed7,Fish; Ecology; Flowing waters; Rivers; Percidae
+7ed8,Fish; Ecology; Flowing waters; Rivers; Cichlidae
+7ed9,Fish; Ecology; Flowing waters; Rivers; 
+7ee0,Fish; Ecology; Estuaries; Lagoons; 
+7ee1,Fish; Ecology; Estuaries; Lagoons; Salmonidae
+7ee2,Fish; Ecology; Estuaries; Lagoons; Lampreys
+7ee3,Fish; Ecology; Estuaries; Lagoons; Clupeidae
+7ee4,Fish; Ecology; Estuaries; Lagoons; Esocidae
+7ee5,Fish; Ecology; Estuaries; Lagoons; Cyprinidae
+7ee6,Fish; Ecology; Estuaries; Lagoons; Anguillidae
+7ee7,Fish; Ecology; Estuaries; Lagoons; Percidae
+7ee8,Fish; Ecology; Estuaries; Lagoons; Cichlidae
+7ee9,Fish; Ecology; Estuaries; Lagoons; 
+7ef0,Fish; Ecology; Seas; Oceans; 
+7ef1,Fish; Ecology; Seas; Oceans; Salmonidae
+7ef2,Fish; Ecology; Seas; Oceans; Lampreys
+7ef3,Fish; Ecology; Seas; Oceans; Clupeidae
+7ef4,Fish; Ecology; Seas; Oceans; Esocidae
+7ef5,Fish; Ecology; Seas; Oceans; Cyprinidae
+7ef6,Fish; Ecology; Seas; Oceans; Anguillidae
+7ef7,Fish; Ecology; Seas; Oceans; Percidae
+7ef8,Fish; Ecology; Seas; Oceans; Cichlidae
+7ef9,Fish; Ecology; Seas; Oceans; 
+7eg0,Fish; Ecology; Soil water; 
+7eg1,Fish; Ecology; Soil water; Salmonidae
+7eg2,Fish; Ecology; Soil water; Lampreys
+7eg3,Fish; Ecology; Soil water; Clupeidae
+7eg4,Fish; Ecology; Soil water; Esocidae
+7eg5,Fish; Ecology; Soil water; Cyprinidae
+7eg6,Fish; Ecology; Soil water; Anguillidae
+7eg7,Fish; Ecology; Soil water; Percidae
+7eg8,Fish; Ecology; Soil water; Cichlidae
+7eg9,Fish; Ecology; Soil water; 
+7eh0,Fish; Ecology; Wetlands; 
+7eh1,Fish; Ecology; Wetlands; Salmonidae
+7eh2,Fish; Ecology; Wetlands; Lampreys
+7eh3,Fish; Ecology; Wetlands; Clupeidae
+7eh4,Fish; Ecology; Wetlands; Esocidae
+7eh5,Fish; Ecology; Wetlands; Cyprinidae
+7eh6,Fish; Ecology; Wetlands; Anguillidae
+7eh7,Fish; Ecology; Wetlands; Percidae
+7eh8,Fish; Ecology; Wetlands; Cichlidae
+7eh9,Fish; Ecology; Wetlands; 
+7ej0,Fish; Ecology; Snow; Ice; 
+7ej1,Fish; Ecology; Snow; Ice; Salmonidae
+7ej2,Fish; Ecology; Snow; Ice; Lampreys
+7ej3,Fish; Ecology; Snow; Ice; Clupeidae
+7ej4,Fish; Ecology; Snow; Ice; Esocidae
+7ej5,Fish; Ecology; Snow; Ice; Cyprinidae
+7ej6,Fish; Ecology; Snow; Ice; Anguillidae
+7ej7,Fish; Ecology; Snow; Ice; Percidae
+7ej8,Fish; Ecology; Snow; Ice; Cichlidae
+7ej9,Fish; Ecology; Snow; Ice; 
+7ek0,Fish; Ecology; Atmosphere; 
+7ek1,Fish; Ecology; Atmosphere; Salmonidae
+7ek2,Fish; Ecology; Atmosphere; Lampreys
+7ek3,Fish; Ecology; Atmosphere; Clupeidae
+7ek4,Fish; Ecology; Atmosphere; Esocidae
+7ek5,Fish; Ecology; Atmosphere; Cyprinidae
+7ek6,Fish; Ecology; Atmosphere; Anguillidae
+7ek7,Fish; Ecology; Atmosphere; Percidae
+7ek8,Fish; Ecology; Atmosphere; Cichlidae
+7ek9,Fish; Ecology; Atmosphere; 
+7en0,Fish; Ecology; Laboratory experimentation; 
+7en1,Fish; Ecology; Laboratory experimentation; Salmonidae
+7en2,Fish; Ecology; Laboratory experimentation; Lampreys
+7en3,Fish; Ecology; Laboratory experimentation; Clupeidae
+7en4,Fish; Ecology; Laboratory experimentation; Esocidae
+7en5,Fish; Ecology; Laboratory experimentation; Cyprinidae
+7en6,Fish; Ecology; Laboratory experimentation; Anguillidae
+7en7,Fish; Ecology; Laboratory experimentation; Percidae
+7en8,Fish; Ecology; Laboratory experimentation; Cichlidae
+7en9,Fish; Ecology; Laboratory experimentation; 
+7eo0,Fish; Ecology; Biological interaction; 
+7eo1,Fish; Ecology; Biological interaction; Salmonidae
+7eo2,Fish; Ecology; Biological interaction; Lampreys
+7eo3,Fish; Ecology; Biological interaction; Clupeidae
+7eo4,Fish; Ecology; Biological interaction; Esocidae
+7eo5,Fish; Ecology; Biological interaction; Cyprinidae
+7eo6,Fish; Ecology; Biological interaction; Anguillidae
+7eo7,Fish; Ecology; Biological interaction; Percidae
+7eo8,Fish; Ecology; Biological interaction; Cichlidae
+7eo9,Fish; Ecology; Biological interaction; 
+7ep0,Fish; Ecology; Underground waters; 
+7ep1,Fish; Ecology; Underground waters; Salmonidae
+7ep2,Fish; Ecology; Underground waters; Lampreys
+7ep3,Fish; Ecology; Underground waters; Clupeidae
+7ep4,Fish; Ecology; Underground waters; Esocidae
+7ep5,Fish; Ecology; Underground waters; Cyprinidae
+7ep6,Fish; Ecology; Underground waters; Anguillidae
+7ep7,Fish; Ecology; Underground waters; Percidae
+7ep8,Fish; Ecology; Underground waters; Cichlidae
+7ep9,Fish; Ecology; Underground waters; 
+7eq0,Fish; Ecology; Hot springs; 
+7eq1,Fish; Ecology; Hot springs; Salmonidae
+7eq2,Fish; Ecology; Hot springs; Lampreys
+7eq3,Fish; Ecology; Hot springs; Clupeidae
+7eq4,Fish; Ecology; Hot springs; Esocidae
+7eq5,Fish; Ecology; Hot springs; Cyprinidae
+7eq6,Fish; Ecology; Hot springs; Anguillidae
+7eq7,Fish; Ecology; Hot springs; Percidae
+7eq8,Fish; Ecology; Hot springs; Cichlidae
+7eq9,Fish; Ecology; Hot springs; 
+7er0,Fish; Ecology; Inland seas; Salt lakes; 
+7er1,Fish; Ecology; Inland seas; Salt lakes; Salmonidae
+7er2,Fish; Ecology; Inland seas; Salt lakes; Lampreys
+7er3,Fish; Ecology; Inland seas; Salt lakes; Clupeidae
+7er4,Fish; Ecology; Inland seas; Salt lakes; Esocidae
+7er5,Fish; Ecology; Inland seas; Salt lakes; Cyprinidae
+7er6,Fish; Ecology; Inland seas; Salt lakes; Anguillidae
+7er7,Fish; Ecology; Inland seas; Salt lakes; Percidae
+7er8,Fish; Ecology; Inland seas; Salt lakes; Cichlidae
+7er9,Fish; Ecology; Inland seas; Salt lakes; 
+7es0,Fish; Ecology; Sewage; 
+7es1,Fish; Ecology; Sewage; Salmonidae
+7es2,Fish; Ecology; Sewage; Lampreys
+7es3,Fish; Ecology; Sewage; Clupeidae
+7es4,Fish; Ecology; Sewage; Esocidae
+7es5,Fish; Ecology; Sewage; Cyprinidae
+7es6,Fish; Ecology; Sewage; Anguillidae
+7es7,Fish; Ecology; Sewage; Percidae
+7es8,Fish; Ecology; Sewage; Cichlidae
+7es9,Fish; Ecology; Sewage; 
+7et0,Fish; Ecology; Canals; 
+7et1,Fish; Ecology; Canals; Salmonidae
+7et2,Fish; Ecology; Canals; Lampreys
+7et3,Fish; Ecology; Canals; Clupeidae
+7et4,Fish; Ecology; Canals; Esocidae
+7et5,Fish; Ecology; Canals; Cyprinidae
+7et6,Fish; Ecology; Canals; Anguillidae
+7et7,Fish; Ecology; Canals; Percidae
+7et8,Fish; Ecology; Canals; Cichlidae
+7et9,Fish; Ecology; Canals; 
+7eu0,Fish; Ecology; Plant litter; 
+7eu1,Fish; Ecology; Plant litter; Salmonidae
+7eu2,Fish; Ecology; Plant litter; Lampreys
+7eu3,Fish; Ecology; Plant litter; Clupeidae
+7eu4,Fish; Ecology; Plant litter; Esocidae
+7eu5,Fish; Ecology; Plant litter; Cyprinidae
+7eu6,Fish; Ecology; Plant litter; Anguillidae
+7eu7,Fish; Ecology; Plant litter; Percidae
+7eu8,Fish; Ecology; Plant litter; Cichlidae
+7eu9,Fish; Ecology; Plant litter; 
+7ew0,Fish; Ecology; Water supply; 
+7ew1,Fish; Ecology; Water supply; Salmonidae
+7ew2,Fish; Ecology; Water supply; Lampreys
+7ew3,Fish; Ecology; Water supply; Clupeidae
+7ew4,Fish; Ecology; Water supply; Esocidae
+7ew5,Fish; Ecology; Water supply; Cyprinidae
+7ew6,Fish; Ecology; Water supply; Anguillidae
+7ew7,Fish; Ecology; Water supply; Percidae
+7ew8,Fish; Ecology; Water supply; Cichlidae
+7ew9,Fish; Ecology; Water supply; 
+7ex0,Fish; Radioecology; 
+7ex1,Fish; Radioecology; Salmonidae
+7ex2,Fish; Radioecology; Lampreys
+7ex3,Fish; Radioecology; Clupeidae
+7ex4,Fish; Radioecology; Esocidae
+7ex5,Fish; Radioecology; Cyprinidae
+7ex6,Fish; Radioecology; Anguillidae
+7ex7,Fish; Radioecology; Percidae
+7ex8,Fish; Radioecology; Cichlidae
+7ex9,Fish; Radioecology; 
+7f0,Fish; Life cycle; 
+7f1,Fish; Life cycle; Salmonidae
+7f2,Fish; Life cycle; Lampreys
+7f3,Fish; Life cycle; Clupeidae
+7f4,Fish; Life cycle; Esocidae
+7f5,Fish; Life cycle; Cyprinidae
+7f6,Fish; Life cycle; Anguillidae
+7f7,Fish; Life cycle; Percidae
+7f8,Fish; Life cycle; Cichlidae
+7f9,Fish; Life cycle; 
+7g0,Fish; Fisheries; 
+7g1,Fish; Fisheries; Salmonidae
+7g2,Fish; Fisheries; Lampreys
+7g3,Fish; Fisheries; Clupeidae
+7g4,Fish; Fisheries; Esocidae
+7g5,Fish; Fisheries; Cyprinidae
+7g6,Fish; Fisheries; Anguillidae
+7g7,Fish; Fisheries; Percidae
+7g8,Fish; Fisheries; Cichlidae
+7g9,Fish; Fisheries; 
+7h0,Fish; Pathology; 
+7h1,Fish; Pathology; Salmonidae
+7h2,Fish; Pathology; Lampreys
+7h3,Fish; Pathology; Clupeidae
+7h4,Fish; Pathology; Esocidae
+7h5,Fish; Pathology; Cyprinidae
+7h6,Fish; Pathology; Anguillidae
+7h7,Fish; Pathology; Percidae
+7h8,Fish; Pathology; Cichlidae
+7h9,Fish; Pathology; 
+7m0,Fish; Fossils; 
+7m1,Fish; Fossils; Salmonidae
+7m2,Fish; Fossils; Lampreys
+7m3,Fish; Fossils; Clupeidae
+7m4,Fish; Fossils; Esocidae
+7m5,Fish; Fossils; Cyprinidae
+7m6,Fish; Fossils; Anguillidae
+7m7,Fish; Fossils; Percidae
+7m8,Fish; Fossils; Cichlidae
+7m9,Fish; Fossils; 
+7n0,Fish; Genetics; 
+7n1,Fish; Genetics; Salmonidae
+7n2,Fish; Genetics; Lampreys
+7n3,Fish; Genetics; Clupeidae
+7n4,Fish; Genetics; Esocidae
+7n5,Fish; Genetics; Cyprinidae
+7n6,Fish; Genetics; Anguillidae
+7n7,Fish; Genetics; Percidae
+7n8,Fish; Genetics; Cichlidae
+7n9,Fish; Genetics; 
+7p0,Fish; Behaviour; 
+7p1,Fish; Behaviour; Salmonidae
+7p2,Fish; Behaviour; Lampreys
+7p3,Fish; Behaviour; Clupeidae
+7p4,Fish; Behaviour; Esocidae
+7p5,Fish; Behaviour; Cyprinidae
+7p6,Fish; Behaviour; Anguillidae
+7p7,Fish; Behaviour; Percidae
+7p8,Fish; Behaviour; Cichlidae
+7p9,Fish; Behaviour; 
+7q0,Fish; production; 
+7q1,Fish; production; Salmonidae
+7q2,Fish; production; Lampreys
+7q3,Fish; production; Clupeidae
+7q4,Fish; production; Esocidae
+7q5,Fish; production; Cyprinidae
+7q6,Fish; production; Anguillidae
+7q7,Fish; production; Percidae
+7q8,Fish; production; Cichlidae
+7q9,Fish; production; 
+8,Vertebrates
+8a0,Vertebrates; Methods; 
+8a1,Vertebrates; Methods; Amphibians
+8a2,Vertebrates; Methods; Reptiles
+8a3,Vertebrates; Methods; Birds
+8a4,Vertebrates; Methods; Mammals
+8b0,Vertebrates; Morphology; Taxonomy; 
+8b1,Vertebrates; Morphology; Taxonomy; Amphibians
+8b2,Vertebrates; Morphology; Taxonomy; Reptiles
+8b3,Vertebrates; Morphology; Taxonomy; Birds
+8b4,Vertebrates; Morphology; Taxonomy; Mammals
+8c0,Vertebrates; Geographical distribution;  
+8c1,Vertebrates; Geographical distribution;  Amphibians
+8c2,Vertebrates; Geographical distribution;  Reptiles
+8c3,Vertebrates; Geographical distribution;  Birds
+8c4,Vertebrates; Geographical distribution;  Mammals
+8d0,Vertebrates; Biochemistry; Physiology; 
+8d1,Vertebrates; Biochemistry; Physiology; Amphibians
+8d2,Vertebrates; Biochemistry; Physiology; Reptiles
+8d3,Vertebrates; Biochemistry; Physiology; Birds
+8d4,Vertebrates; Biochemistry; Physiology; Mammals
+8da0,Vertebrates; Physiological techniques; Biochemical techniques; 
+8da1,Vertebrates; Physiological techniques; Biochemical techniques; Amphibians
+8da2,Vertebrates; Physiological techniques; Biochemical techniques; Reptiles
+8da3,Vertebrates; Physiological techniques; Biochemical techniques; Birds
+8da4,Vertebrates; Physiological techniques; Biochemical techniques; Mammals
+8db0,Vertebrates; Histology; Histochemistry; Cytology; 
+8db1,Vertebrates; Histology; Histochemistry; Cytology; Amphibians
+8db2,Vertebrates; Histology; Histochemistry; Cytology; Reptiles
+8db3,Vertebrates; Histology; Histochemistry; Cytology; Birds
+8db4,Vertebrates; Histology; Histochemistry; Cytology; Mammals
+8dc0,Vertebrates; Animal fluids; 
+8dc1,Vertebrates; Animal fluids; Amphibians
+8dc2,Vertebrates; Animal fluids; Reptiles
+8dc3,Vertebrates; Animal fluids; Birds
+8dc4,Vertebrates; Animal fluids; Mammals
+8dd0,Vertebrates; Respiration; Energetics; 
+8dd1,Vertebrates; Respiration; Energetics; Amphibians
+8dd2,Vertebrates; Respiration; Energetics; Reptiles
+8dd3,Vertebrates; Respiration; Energetics; Birds
+8dd4,Vertebrates; Respiration; Energetics; Mammals
+8de0,Vertebrates; Chemosynthesis; Pigmentation; 
+8de1,Vertebrates; Chemosynthesis; Pigmentation; Amphibians
+8de2,Vertebrates; Chemosynthesis; Pigmentation; Reptiles
+8de3,Vertebrates; Chemosynthesis; Pigmentation; Birds
+8de4,Vertebrates; Chemosynthesis; Pigmentation; Mammals
+8df0,Vertebrates;  Metabolism; 
+8df1,Vertebrates;  Metabolism; Amphibians
+8df2,Vertebrates;  Metabolism; Reptiles
+8df3,Vertebrates;  Metabolism; Birds
+8df4,Vertebrates;  Metabolism; Mammals
+8dg0,Vertebrates; Growth; 
+8dg1,Vertebrates; Growth; Amphibians
+8dg2,Vertebrates; Growth; Reptiles
+8dg3,Vertebrates; Growth; Birds
+8dg4,Vertebrates; Growth; Mammals
+8dh0,Vertebrates; Reproduction; 
+8dh1,Vertebrates; Reproduction; Amphibians
+8dh2,Vertebrates; Reproduction; Reptiles
+8dh3,Vertebrates; Reproduction; Birds
+8dh4,Vertebrates; Reproduction; Mammals
+8dj0,Vertebrates; Endocrinological functions; 
+8dj1,Vertebrates; Endocrinological functions; Amphibians
+8dj2,Vertebrates; Endocrinological functions; Reptiles
+8dj3,Vertebrates; Endocrinological functions; Birds
+8dj4,Vertebrates; Endocrinological functions; Mammals
+8dk0,Vertebrates; Biological rhythms; 
+8dk1,Vertebrates; Biological rhythms; Amphibians
+8dk2,Vertebrates; Biological rhythms; Reptiles
+8dk3,Vertebrates; Biological rhythms; Birds
+8dk4,Vertebrates; Biological rhythms; Mammals
+8dm0,Vertebrates; Movement; 
+8dm1,Vertebrates; Movement; Amphibians
+8dm2,Vertebrates; Movement; Reptiles
+8dm3,Vertebrates; Movement; Birds
+8dm4,Vertebrates; Movement; Mammals
+8dn0,Vertebrates; Neurophysiology; 
+8dn1,Vertebrates; Neurophysiology; Amphibians
+8dn2,Vertebrates; Neurophysiology; Reptiles
+8dn3,Vertebrates; Neurophysiology; Birds
+8dn4,Vertebrates; Neurophysiology; Mammals
+8dp0,Vertebrates; Senses; 
+8dp1,Vertebrates; Senses; Amphibians
+8dp2,Vertebrates; Senses; Reptiles
+8dp3,Vertebrates; Senses; Birds
+8dp4,Vertebrates; Senses; Mammals
+8dq0,Vertebrates; Physiological response to physical factors; 
+8dq1,Vertebrates; Physiological response to physical factors; Amphibians
+8dq2,Vertebrates; Physiological response to physical factors; Reptiles
+8dq3,Vertebrates; Physiological response to physical factors; Birds
+8dq4,Vertebrates; Physiological response to physical factors; Mammals
+8dr0,Vertebrates; Physiological response to chemicals; 
+8dr1,Vertebrates; Physiological response to chemicals; Amphibians
+8dr2,Vertebrates; Physiological response to chemicals; Birds
+8dr3,Vertebrates; Physiological response to chemicals; Mammals
+8dr4,Vertebrates; Physiological response to chemicals
+8ds0,Vertebrates; Biochemistry; 
+8ds1,Vertebrates; Biochemistry; Amphibians
+8ds2,Vertebrates; Biochemistry; Reptiles
+8ds3,Vertebrates; Biochemistry; Birds
+8ds4,Vertebrates; Biochemistry; Mammals
+8dt0,Vertebrates; Molecular Biology; 
+8dt1,Vertebrates; Molecular Biology; Amphibians
+8dt2,Vertebrates; Molecular Biology; Reptiles
+8dt3,Vertebrates; Molecular Biology; Birds
+8dt4,Vertebrates; Molecular Biology; Mammals
+8du0,Vertebrates; Biodegradation; 
+8du1,Vertebrates; Biodegradation; Amphibians
+8du2,Vertebrates; Biodegradation; Reptiles
+8du3,Vertebrates; Biodegradation; Birds
+8du4,Vertebrates; Biodegradation; Mammals
+8dv0,Vertebrates; Immunology; 
+8dv1,Vertebrates; Immunology; Amphibians
+8dv2,Vertebrates; Immunology; Reptiles
+8dv3,Vertebrates; Immunology; Birds
+8dv4,Vertebrates; Immunology; Mammals
+8e0,Vertebrates; Ecology; 
+8e1,Vertebrates; Ecology; Amphibians
+8e2,Vertebrates; Ecology; Reptiles
+8e3,Vertebrates; Ecology; Birds
+8e4,Vertebrates; Ecology; Mammals
+8ea0,Vertebrates; Ecology; Inland Waters; 
+8ea1,Vertebrates; Ecology; Inland Waters; Amphibians
+8ea2,Vertebrates; Ecology; Inland Waters; Reptiles
+8ea3,Vertebrates; Ecology; Inland Waters; Birds
+8ea4,Vertebrates; Ecology; Inland Waters; Mammals
+8eb0,Vertebrates; Ecology; Lakes; 
+8eb1,Vertebrates; Ecology; Lakes; Amphibians
+8eb2,Vertebrates; Ecology; Lakes; Reptiles
+8eb3,Vertebrates; Ecology; Lakes; Birds
+8eb4,Vertebrates; Ecology; Lakes; Mammals
+8ec0,Vertebrates; Ecology; Temporary ponds; Temporary pools; 
+8ec1,Vertebrates; Ecology; Temporary ponds; Temporary pools; Amphibians
+8ec2,Vertebrates; Ecology; Temporary ponds; Temporary pools; Reptiles
+8ec3,Vertebrates; Ecology; Temporary ponds; Temporary pools; Birds
+8ec4,Vertebrates; Ecology; Temporary ponds; Temporary pools; Mammals
+8ed0,Vertebrates; Ecology; Flowing waters; Rivers; 
+8ed1,Vertebrates; Ecology; Flowing waters; Rivers; Amphibians
+8ed2,Vertebrates; Ecology; Flowing waters; Rivers; Reptiles
+8ed3,Vertebrates; Ecology; Flowing waters; Rivers; Birds
+8ed4,Vertebrates; Ecology; Flowing waters; Rivers; Mammals
+8ee0,Vertebrates; Ecology; Estuaries; Lagoons; 
+8ee1,Vertebrates; Ecology; Estuaries; Lagoons; Amphibians
+8ee2,Vertebrates; Ecology; Estuaries; Lagoons; Reptiles
+8ee3,Vertebrates; Ecology; Estuaries; Lagoons; Birds
+8ee4,Vertebrates; Ecology; Estuaries; Lagoons; Mammals
+8ef0,Vertebrates; Ecology; Seas; Oceans; 
+8ef1,Vertebrates; Ecology; Seas; Oceans; Amphibians
+8ef2,Vertebrates; Ecology; Seas; Oceans; Reptiles
+8ef3,Vertebrates; Ecology; Seas; Oceans; Birds
+8ef4,Vertebrates; Ecology; Seas; Oceans; Mammals
+8eg0,Vertebrates; Ecology; Soil water; 
+8eg1,Vertebrates; Ecology; Soil water; Amphibians
+8eg2,Vertebrates; Ecology; Soil water; Reptiles
+8eg3,Vertebrates; Ecology; Soil water; Birds
+8eg4,Vertebrates; Ecology; Soil water; Mammals
+8eh0,Vertebrates; Ecology; Wetlands; 
+8eh1,Vertebrates; Ecology; Wetlands; Amphibians
+8eh2,Vertebrates; Ecology; Wetlands; Reptiles
+8eh3,Vertebrates; Ecology; Wetlands; Birds
+8eh4,Vertebrates; Ecology; Wetlands; Mammals
+8ej0,Vertebrates; Ecology; Snow; Ice; 
+8ej1,Vertebrates; Ecology; Snow; Ice; Amphibians
+8ej2,Vertebrates; Ecology; Snow; Ice; Reptiles
+8ej3,Vertebrates; Ecology; Snow; Ice; Birds
+8ej4,Vertebrates; Ecology; Snow; Ice; Mammals
+8ek0,Vertebrates; Ecology; Atmosphere; 
+8ek1,Vertebrates; Ecology; Atmosphere; Amphibians
+8ek2,Vertebrates; Ecology; Atmosphere; Reptiles
+8ek3,Vertebrates; Ecology; Atmosphere; Birds
+8ek4,Vertebrates; Ecology; Atmosphere; Mammals
+8em0,Vertebrates; Ecology; Coasts; 
+8em1,Vertebrates; Ecology; Coasts; Amphibians
+8em2,Vertebrates; Ecology; Coasts; Reptiles
+8em3,Vertebrates; Ecology; Coasts; Birds
+8em4,Vertebrates; Ecology; Coasts; Mammals
+8en0,Vertebrates; Ecology; Laboratory experimentation; 
+8en1,Vertebrates; Ecology; Laboratory experimentation; Amphibians
+8en2,Vertebrates; Ecology; Laboratory experimentation; Reptiles
+8en3,Vertebrates; Ecology; Laboratory experimentation; Birds
+8en4,Vertebrates; Ecology; Laboratory experimentation; Mammals
+8eo0,Vertebrates; Ecology; Biological interaction; 
+8eo1,Vertebrates; Ecology; Biological interaction; Amphibians
+8eo2,Vertebrates; Ecology; Biological interaction; Reptiles
+8eo3,Vertebrates; Ecology; Biological interaction; Birds
+8eo4,Vertebrates; Ecology; Biological interaction; Mammals
+8ep0,Vertebrates; Ecology; Underground waters; 
+8ep1,Vertebrates; Ecology; Underground waters; Amphibians
+8ep2,Vertebrates; Ecology; Underground waters; Reptiles
+8ep3,Vertebrates; Ecology; Underground waters; Birds
+8ep4,Vertebrates; Ecology; Underground waters; Mammals
+8eq0,Vertebrates; Ecology; Hot springs; 
+8eq1,Vertebrates; Ecology; Hot springs; Amphibians
+8eq2,Vertebrates; Ecology; Hot springs; Reptiles
+8eq3,Vertebrates; Ecology; Hot springs; Birds
+8eq4,Vertebrates; Ecology; Hot springs; Mammals
+8er0,Vertebrates; Ecology; Inland seas; Salt lakes; 
+8er1,Vertebrates; Ecology; Inland seas; Salt lakes; Amphibians
+8er2,Vertebrates; Ecology; Inland seas; Salt lakes; Reptiles
+8er3,Vertebrates; Ecology; Inland seas; Salt lakes; Birds
+8er4,Vertebrates; Ecology; Inland seas; Salt lakes; Mammals
+8es0,Vertebrates; Ecology; Sewage; 
+8es1,Vertebrates; Ecology; Sewage; Amphibians
+8es2,Vertebrates; Ecology; Sewage; Reptiles
+8es3,Vertebrates; Ecology; Sewage; Birds
+8es4,Vertebrates; Ecology; Sewage; Mammals
+8et0,Vertebrates; Ecology; Canals; 
+8et1,Vertebrates; Ecology; Canals; Amphibians
+8et2,Vertebrates; Ecology; Canals; Reptiles
+8et3,Vertebrates; Ecology; Canals; Birds
+8et4,Vertebrates; Ecology; Canals; Mammals
+8eu0,Vertebrates; Ecology; Plant litter; 
+8eu1,Vertebrates; Ecology; Plant litter; Amphibians
+8eu2,Vertebrates; Ecology; Plant litter; Reptiles
+8eu3,Vertebrates; Ecology; Plant litter; Birds
+8eu4,Vertebrates; Ecology; Plant litter; Mammals
+8ew0,Vertebrates; Ecology; Water supply; 
+8ew1,Vertebrates; Ecology; Water supply; Amphibians
+8ew2,Vertebrates; Ecology; Water supply; Reptiles
+8ew3,Vertebrates; Ecology; Water supply; Birds
+8ew4,Vertebrates; Ecology; Water supply; Mammals
+8ex0,Vertebrates; Radioecology; 
+8ex1,Vertebrates; Radioecology; Amphibians
+8ex2,Vertebrates; Radioecology; Reptiles
+8ex3,Vertebrates; Radioecology; Birds
+8ex4,Vertebrates; Radioecology; Mammals
+8f0,Vertebrates; Life cycle; 
+8f1,Vertebrates; Life cycle; Amphibians
+8f2,Vertebrates; Life cycle; Reptiles
+8f3,Vertebrates; Life cycle; Birds
+8f4,Vertebrates; Life cycle; Mammals
+8g0,Vertebrates; Sociology; Biological control; 
+8g1,Vertebrates; Sociology; Biological control; Amphibians
+8g2,Vertebrates; Sociology; Biological control; Reptiles
+8g3,Vertebrates; Sociology; Biological control; Birds
+8g4,Vertebrates; Sociology; Biological control; Mammals
+8h0,Vertebrates; Pathology; 
+8h1,Vertebrates; Pathology; Amphibians
+8h2,Vertebrates; Pathology; Reptiles
+8h3,Vertebrates; Pathology; Birds
+8h4,Vertebrates; Pathology; Mammals
+8m0,Vertebrates; Fossils; 
+8m1,Vertebrates; Fossils; Amphibians
+8m2,Vertebrates; Fossils; Reptiles
+8m3,Vertebrates; Fossils; Birds
+8m4,Vertebrates; Fossils; Mammals
+8n0,Vertebrates; Genetics; 
+8n1,Vertebrates; Genetics; Amphibians
+8n2,Vertebrates; Genetics; Reptiles
+8n3,Vertebrates; Genetics; Birds
+8n4,Vertebrates; Genetics; Mammals
+8p0,Vertebrates; Behaviour; 
+8p1,Vertebrates; Behaviour; Amphibians
+8p2,Vertebrates; Behaviour; Reptiles
+8p3,Vertebrates; Behaviour; Birds
+8p4,Vertebrates; Behaviour; Mammals
+9, Biology; Limnology
+9a0, Biology; Methods
+9a1, Biology; 
+9a2, Biology; 
+9a3, Biology; Ecology
+9a4, Biology; Socioeconomic environment
+9a5, Biology; Geographical distribution
+9a6, Biology; History
+9a7, Biology; Chemicophysical properties  
+9b0, Botany; Methods
+9b1, Botany; 
+9b2, Botany; 
+9b3, Botany; Ecology
+9b4, Botany; Socioeconomic environment
+9b5, Botany; Geographical distribution
+9b6, Botany; History
+9b7, Botany; Chemicophysical properties  
+9c0, Zoology; Methods
+9c1, Zoology; 
+9c2, Zoology; 
+9c3, Zoology; Ecology
+9c4, Zoology; Socioeconomic environment
+9c5, Zoology; Geographical distribution
+9c6, Zoology; History
+9c7, Zoology; Chemicophysical properties  
+9d0, Physiology; Biochemistry; Methods
+9d1, Physiology; Biochemistry; 
+9d2, Physiology; Biochemistry; 
+9d3, Physiology; Biochemistry; Ecology
+9d4, Physiology; Biochemistry; Socioeconomic environment
+9d5, Physiology; Biochemistry; Geographical distribution
+9d6, Physiology; Biochemistry; History
+9d7, Physiology; Biochemistry; Chemicophysical properties  
+9da0, Physiology; Biochemistry; Methods
+9da1, Physiology; Biochemistry; Methods; 
+9da2, Physiology; Biochemistry; Methods; 
+9da3, Physiology; Biochemistry; Methods; Ecology
+9da4, Physiology; Biochemistry; Methods; Socioeconomic environment
+9da5, Physiology; Biochemistry; Methods; Geographical distribution
+9da6, Physiology; Biochemistry; Methods; History
+9da7, Physiology; Biochemistry; Methods; Chemicophysical properties  
+9db0, Physiology; Biochemistry; Histology; Histochemistry; Cytology; Methods
+9db1, Physiology; Biochemistry; Histology; Histochemistry; Cytology; 
+9db2, Physiology; Biochemistry; Histology; Histochemistry; Cytology; 
+9db3, Physiology; Biochemistry; Histology; Histochemistry; Cytology; Ecology
+9db4, Physiology; Biochemistry; Histology; Histochemistry; Cytology; Socioeconomic environment
+9db5, Physiology; Biochemistry; Histology; Histochemistry; Cytology; Geographical distribution
+9db6, Physiology; Biochemistry; Histology; Histochemistry; Cytology; History
+9db7, Physiology; Biochemistry; Histology; Histochemistry; Cytology; Chemicophysical properties  
+9dc0, Physiology; Biochemistry; Body fluids; Methods
+9dc1, Physiology; Biochemistry; Body fluids; 
+9dc2, Physiology; Biochemistry; Body fluids; 
+9dc3, Physiology; Biochemistry; Body fluids; Ecology
+9dc4, Physiology; Biochemistry; Body fluids; Socioeconomic environment
+9dc5, Physiology; Biochemistry; Body fluids; Geographical distribution
+9dc6, Physiology; Biochemistry; Body fluids; History
+9dc7, Physiology; Biochemistry; Body fluids; Chemicophysical properties  
+9dd0, Physiology; Biochemistry; Respiration; Energetics; Methods
+9dd1, Physiology; Biochemistry; Respiration; Energetics; 
+9dd2, Physiology; Biochemistry; Respiration; Energetics; 
+9dd3, Physiology; Biochemistry; Respiration; Energetics; Ecology
+9dd4, Physiology; Biochemistry; Respiration; Energetics; Socioeconomic environment
+9dd5, Physiology; Biochemistry; Respiration; Energetics; Geographical distribution
+9dd6, Physiology; Biochemistry; Respiration; Energetics; History
+9dd7, Physiology; Biochemistry; Respiration; Energetics; Chemicophysical properties  
+9de0, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; Methods
+9de1, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; 
+9de2, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; 
+9de3, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; Ecology
+9de4, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; Socioeconomic environment
+9de5, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; Geographical distribution
+9de6, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; History
+9de7, Physiology; Biochemistry; Photosynthesis; Chemosynthesis; Chemicophysical properties  
+9df0, Physiology; Biochemistry; Metabolism; Methods
+9df1, Physiology; Biochemistry; Metabolism; 
+9df2, Physiology; Biochemistry; Metabolism; 
+9df3, Physiology; Biochemistry; Metabolism; Ecology
+9df4, Physiology; Biochemistry; Metabolism; Socioeconomic environment
+9df5, Physiology; Biochemistry; Metabolism; Geographical distribution
+9df6, Physiology; Biochemistry; Metabolism; History
+9df7, Physiology; Biochemistry; Metabolism; Chemicophysical properties  
+9dg0, Physiology; Biochemistry; Growth;  Methods
+9dg1, Physiology; Biochemistry; Growth;  
+9dg2, Physiology; Biochemistry; Growth;  
+9dg3, Physiology; Biochemistry; Growth;  Ecology
+9dg4, Physiology; Biochemistry; Growth;  Socioeconomic environment
+9dg5, Physiology; Biochemistry; Growth;  Geographical distribution
+9dg6, Physiology; Biochemistry; Growth;  History
+9dg7, Physiology; Biochemistry; Growth;  Chemicophysical properties  
+9dh0, Physiology; Biochemistry; Reproduction; Methods
+9dh1, Physiology; Biochemistry; Reproduction; 
+9dh2, Physiology; Biochemistry; Reproduction; 
+9dh3, Physiology; Biochemistry; Reproduction; Ecology
+9dh4, Physiology; Biochemistry; Reproduction; Socioeconomic environment
+9dh5, Physiology; Biochemistry; Reproduction; Geographical distribution
+9dh6, Physiology; Biochemistry; Reproduction; History
+9dh7, Physiology; Biochemistry; Reproduction; Chemicophysical properties  
+9dj0, Physiology; Biochemistry; Endocrinological functions; Methods
+9dj1, Physiology; Biochemistry; Endocrinological functions; 
+9dj2, Physiology; Biochemistry; Endocrinological functions; 
+9dj3, Physiology; Biochemistry; Endocrinological functions; Ecology
+9dj4, Physiology; Biochemistry; Endocrinological functions; Socioeconomic environment
+9dj5, Physiology; Biochemistry; Endocrinological functions; Geographical distribution
+9dj6, Physiology; Biochemistry; Endocrinological functions; History
+9dj7, Physiology; Biochemistry; Endocrinological functions; Chemicophysical properties  
+9dk0, Physiology; Biochemistry; Biological rhythms; Methods
+9dk1, Physiology; Biochemistry; Biological rhythms; 
+9dk2, Physiology; Biochemistry; Biological rhythms; 
+9dk3, Physiology; Biochemistry; Biological rhythms; Ecology
+9dk4, Physiology; Biochemistry; Biological rhythms; Socioeconomic environment
+9dk5, Physiology; Biochemistry; Biological rhythms; Geographical distribution
+9dk6, Physiology; Biochemistry; Biological rhythms; History
+9dk7, Physiology; Biochemistry; Biological rhythms; Chemicophysical properties  
+9dm0, Physiology; Biochemistry; Movement;  Methods
+9dm1, Physiology; Biochemistry; Movement;  
+9dm2, Physiology; Biochemistry; Movement;  
+9dm3, Physiology; Biochemistry; Movement;  Ecology
+9dm4, Physiology; Biochemistry; Movement;  Socioeconomic environment
+9dm5, Physiology; Biochemistry; Movement;  Geographical distribution
+9dm6, Physiology; Biochemistry; Movement;  History
+9dm7, Physiology; Biochemistry; Movement;  Chemicophysical properties  
+9dn0, Physiology; Biochemistry; Neurophysiology; Methods
+9dn1, Physiology; Biochemistry; Neurophysiology; 
+9dn2, Physiology; Biochemistry; Neurophysiology; 
+9dn3, Physiology; Biochemistry; Neurophysiology; Ecology
+9dn4, Physiology; Biochemistry; Neurophysiology; Socioeconomic environment
+9dn5, Physiology; Biochemistry; Neurophysiology; Geographical distribution
+9dn6, Physiology; Biochemistry; Neurophysiology; History
+9dn7, Physiology; Biochemistry; Neurophysiology; Chemicophysical properties  
+9dp0, Physiology; Biochemistry; Senses; Methods
+9dp1, Physiology; Biochemistry; Senses; 
+9dp2, Physiology; Biochemistry; Senses; 
+9dp3, Physiology; Biochemistry; Senses; Ecology
+9dp4, Physiology; Biochemistry; Senses; Socioeconomic environment
+9dp5, Physiology; Biochemistry; Senses; Geographical distribution
+9dp6, Physiology; Biochemistry; Senses; History
+9dp7, Physiology; Biochemistry; Senses; Chemicophysical properties  
+9dq0, Physiology; Biochemistry; Physiological response to physical factors; Methods
+9dq1, Physiology; Biochemistry; Physiological response to physical factors; 
+9dq2, Physiology; Biochemistry; Physiological response to physical factors; 
+9dq3, Physiology; Biochemistry; Physiological response to physical factors; Ecology
+9dq4, Physiology; Biochemistry; Physiological response to physical factors; Socioeconomic environment
+9dq5, Physiology; Biochemistry; Physiological response to physical factors; Geographical distribution
+9dq6, Physiology; Biochemistry; Physiological response to physical factors; History
+9dq7, Physiology; Biochemistry; Physiological response to physical factors; Chemicophysical properties  
+9dr0, Physiology; Biochemistry; Physiological response to physical factors; Methods
+9dr1, Physiology; Biochemistry; Physiological response to physical factors; 
+9dr2, Physiology; Biochemistry; Physiological response to physical factors; 
+9dr3, Physiology; Biochemistry; Physiological response to physical factors; Ecology
+9dr4, Physiology; Biochemistry; Physiological response to physical factors; Socioeconomic environment
+9dr5, Physiology; Biochemistry; Physiological response to physical factors; Geographical distribution
+9dr6, Physiology; Biochemistry; Physiological response to physical factors; History
+9dr7, Physiology; Biochemistry; Physiological response to physical factors; Chemicophysical properties  
+9ds0, Physiology; Biochemistry; Biochemistry; Methods
+9ds1, Physiology; Biochemistry; Biochemistry; 
+9ds2, Physiology; Biochemistry; Biochemistry; 
+9ds3, Physiology; Biochemistry; Biochemistry; Ecology
+9ds4, Physiology; Biochemistry; Biochemistry; Socioeconomic environment
+9ds5, Physiology; Biochemistry; Biochemistry; Geographical distribution
+9ds6, Physiology; Biochemistry; Biochemistry; History
+9ds7, Physiology; Biochemistry; Biochemistry; Chemicophysical properties  
+9dt0, Physiology; Biochemistry; Molecular Biology; Methods
+9dt1, Physiology; Biochemistry; Molecular Biology; 
+9dt2, Physiology; Biochemistry; Molecular Biology; 
+9dt3, Physiology; Biochemistry; Molecular Biology; Ecology
+9dt4, Physiology; Biochemistry; Molecular Biology; Socioeconomic environment
+9dt5, Physiology; Biochemistry; Molecular Biology; Geographical distribution
+9dt6, Physiology; Biochemistry; Molecular Biology; History
+9dt7, Physiology; Biochemistry; Molecular Biology; Chemicophysical properties  
+9du0, Physiology; Biochemistry; Biodegradation; Methods
+9du1, Physiology; Biochemistry; Biodegradation; 
+9du2, Physiology; Biochemistry; Biodegradation; 
+9du3, Physiology; Biochemistry; Biodegradation; Ecology
+9du4, Physiology; Biochemistry; Biodegradation; Socioeconomic environment
+9du5, Physiology; Biochemistry; Biodegradation; Geographical distribution
+9du6, Physiology; Biochemistry; Biodegradation; History
+9du7, Physiology; Biochemistry; Biodegradation; Chemicophysical properties  
+9dv0, Physiology; Biochemistry; Immunology; Methods
+9dv1, Physiology; Biochemistry; Immunology; 
+9dv2, Physiology; Biochemistry; Immunology; 
+9dv3, Physiology; Biochemistry; Immunology; Ecology
+9dv4, Physiology; Biochemistry; Immunology; Socioeconomic environment
+9dv5, Physiology; Biochemistry; Immunology; Geographical distribution
+9dv6, Physiology; Biochemistry; Immunology; History
+9dv7, Physiology; Biochemistry; Immunology; Chemicophysical properties  
+9e0, Limnology; Hydrobiology; Methods
+9e1, Limnology; Hydrobiology; 
+9e2, Limnology; Hydrobiology; 
+9e3, Limnology; Hydrobiology; Ecology
+9e4, Limnology; Hydrobiology; Socioeconomic environment
+9e5, Limnology; Hydrobiology; Geographical distribution
+9e6, Limnology; Hydrobiology; History
+9e7, Limnology; Hydrobiology; Chemicophysical properties  
+9ea0, Limnology; Hydrobiology; Inland Waters; Methods
+9ea1, Limnology; Hydrobiology; Inland Waters; 
+9ea2, Limnology; Hydrobiology; Inland Waters; 
+9ea3, Limnology; Hydrobiology; Inland Waters; Ecology
+9ea4, Limnology; Hydrobiology; Inland Waters; Socioeconomic environment
+9ea5, Limnology; Hydrobiology; Inland Waters; Geographical distribution
+9ea6, Limnology; Hydrobiology; Inland Waters; History
+9ea7, Limnology; Hydrobiology; Inland Waters; Chemicophysical properties  
+9eb0, Limnology; Hydrobiology; Lakes; Methods
+9eb1, Limnology; Hydrobiology; Lakes; 
+9eb2, Limnology; Hydrobiology; Lakes; 
+9eb3, Limnology; Hydrobiology; Lakes; Ecology
+9eb4, Limnology; Hydrobiology; Lakes; Socioeconomic environment
+9eb5, Limnology; Hydrobiology; Lakes; Geographical distribution
+9eb6, Limnology; Hydrobiology; Lakes; History
+9eb7, Limnology; Hydrobiology; Lakes; Chemicophysical properties  
+9ec0, Limnology; Hydrobiology; Temporary ponds; Temporary pools; Methods
+9ec1, Limnology; Hydrobiology; Temporary ponds; Temporary pools; 
+9ec2, Limnology; Hydrobiology; Temporary ponds; Temporary pools; 
+9ec3, Limnology; Hydrobiology; Temporary ponds; Temporary pools; Ecology
+9ec4, Limnology; Hydrobiology; Temporary ponds; Temporary pools; Socioeconomic environment
+9ec5, Limnology; Hydrobiology; Temporary ponds; Temporary pools; Geographical distribution
+9ec6, Limnology; Hydrobiology; Temporary ponds; Temporary pools; History
+9ec7, Limnology; Hydrobiology; Temporary ponds; Temporary pools; Chemicophysical properties  
+9ed0, Limnology; Hydrobiology; Flowing waters; Rivers; Methods
+9ed1, Limnology; Hydrobiology; Flowing waters; Rivers; 
+9ed2, Limnology; Hydrobiology; Flowing waters; Rivers; 
+9ed3, Limnology; Hydrobiology; Flowing waters; Rivers; Ecology
+9ed4, Limnology; Hydrobiology; Flowing waters; Rivers; Socioeconomic environment
+9ed5, Limnology; Hydrobiology; Flowing waters; Rivers; Geographical distribution
+9ed6, Limnology; Hydrobiology; Flowing waters; Rivers; History
+9ed7, Limnology; Hydrobiology; Flowing waters; Rivers; Chemicophysical properties  
+9ee0, Limnology; Hydrobiology; Estuaries; Lagoons; Methods
+9ee1, Limnology; Hydrobiology; Estuaries; Lagoons; 
+9ee2, Limnology; Hydrobiology; Estuaries; Lagoons; 
+9ee3, Limnology; Hydrobiology; Estuaries; Lagoons; Ecology
+9ee4, Limnology; Hydrobiology; Estuaries; Lagoons; Socioeconomic environment
+9ee5, Limnology; Hydrobiology; Estuaries; Lagoons; Geographical distribution
+9ee6, Limnology; Hydrobiology; Estuaries; Lagoons; History
+9ee7, Limnology; Hydrobiology; Estuaries; Lagoons; Chemicophysical properties  
+9ef0, Limnology; Hydrobiology; Seas; Oceans; Methods
+9ef1, Limnology; Hydrobiology; Seas; Oceans; 
+9ef2, Limnology; Hydrobiology; Seas; Oceans; 
+9ef3, Limnology; Hydrobiology; Seas; Oceans; Ecology
+9ef4, Limnology; Hydrobiology; Seas; Oceans; Socioeconomic environment
+9ef5, Limnology; Hydrobiology; Seas; Oceans; Geographical distribution
+9ef6, Limnology; Hydrobiology; Seas; Oceans; History
+9ef7, Limnology; Hydrobiology; Seas; Oceans; Chemicophysical properties  
+9eg0, Limnology; Hydrobiology; Soil water; Methods
+9eg1, Limnology; Hydrobiology; Soil water; 
+9eg2, Limnology; Hydrobiology; Soil water; 
+9eg3, Limnology; Hydrobiology; Soil water; Ecology
+9eg4, Limnology; Hydrobiology; Soil water; Socioeconomic environment
+9eg5, Limnology; Hydrobiology; Soil water; Geographical distribution
+9eg6, Limnology; Hydrobiology; Soil water; History
+9eg7, Limnology; Hydrobiology; Soil water; Chemicophysical properties  
+9eh0, Limnology; Hydrobiology; Wetlands; Methods
+9eh1, Limnology; Hydrobiology; Wetlands; 
+9eh2, Limnology; Hydrobiology; Wetlands; 
+9eh3, Limnology; Hydrobiology; Wetlands; Ecology
+9eh4, Limnology; Hydrobiology; Wetlands; Socioeconomic environment
+9eh5, Limnology; Hydrobiology; Wetlands; Geographical distribution
+9eh6, Limnology; Hydrobiology; Wetlands; History
+9eh7, Limnology; Hydrobiology; Wetlands; Chemicophysical properties  
+9ej0, Limnology; Hydrobiology; Snow; Ice; Methods
+9ej1, Limnology; Hydrobiology; Snow; Ice; 
+9ej2, Limnology; Hydrobiology; Snow; Ice; 
+9ej3, Limnology; Hydrobiology; Snow; Ice; Ecology
+9ej4, Limnology; Hydrobiology; Snow; Ice; Socioeconomic environment
+9ej5, Limnology; Hydrobiology; Snow; Ice; Geographical distribution
+9ej6, Limnology; Hydrobiology; Snow; Ice; History
+9ej7, Limnology; Hydrobiology; Snow; Ice; Chemicophysical properties  
+9ek0, Limnology; Hydrobiology; Atmosphere; Methods
+9ek1, Limnology; Hydrobiology; Atmosphere; 
+9ek2, Limnology; Hydrobiology; Atmosphere; 
+9ek3, Limnology; Hydrobiology; Atmosphere; Ecology
+9ek4, Limnology; Hydrobiology; Atmosphere; Socioeconomic environment
+9ek5, Limnology; Hydrobiology; Atmosphere; Geographical distribution
+9ek6, Limnology; Hydrobiology; Atmosphere; History
+9ek7, Limnology; Hydrobiology; Atmosphere; Chemicophysical properties  
+9em0, Limnology; Hydrobiology; Coasts; Methods
+9em1, Limnology; Hydrobiology; Coasts; 
+9em2, Limnology; Hydrobiology; Coasts; 
+9em3, Limnology; Hydrobiology; Coasts; Ecology
+9em4, Limnology; Hydrobiology; Coasts; Socioeconomic environment
+9em5, Limnology; Hydrobiology; Coasts; Geographical distribution
+9em6, Limnology; Hydrobiology; Coasts; History
+9em7, Limnology; Hydrobiology; Coasts; Chemicophysical properties  
+9en0, Limnology; Hydrobiology; Laboratory experimentation; Methods
+9en1, Limnology; Hydrobiology; Laboratory experimentation; 
+9en2, Limnology; Hydrobiology; Laboratory experimentation; 
+9en3, Limnology; Hydrobiology; Laboratory experimentation; Ecology
+9en4, Limnology; Hydrobiology; Laboratory experimentation; Socioeconomic environment
+9en5, Limnology; Hydrobiology; Laboratory experimentation; Geographical distribution
+9en6, Limnology; Hydrobiology; Laboratory experimentation; History
+9en7, Limnology; Hydrobiology; Laboratory experimentation; Chemicophysical properties  
+9eo0, Limnology; Hydrobiology; Biological interaction; Methods
+9eo1, Limnology; Hydrobiology; Biological interaction; 
+9eo2, Limnology; Hydrobiology; Biological interaction; 
+9eo3, Limnology; Hydrobiology; Biological interaction; Ecology
+9eo4, Limnology; Hydrobiology; Biological interaction; Socioeconomic environment
+9eo5, Limnology; Hydrobiology; Biological interaction; Geographical distribution
+9eo6, Limnology; Hydrobiology; Biological interaction; History
+9eo7, Limnology; Hydrobiology; Biological interaction; Chemicophysical properties  
+9ep0, Limnology; Hydrobiology; Underground waters; Methods
+9ep1, Limnology; Hydrobiology; Underground waters; 
+9ep2, Limnology; Hydrobiology; Underground waters; 
+9ep3, Limnology; Hydrobiology; Underground waters; Ecology
+9ep4, Limnology; Hydrobiology; Underground waters; Socioeconomic environment
+9ep5, Limnology; Hydrobiology; Underground waters; Geographical distribution
+9ep6, Limnology; Hydrobiology; Underground waters; History
+9ep7, Limnology; Hydrobiology; Underground waters; Chemicophysical properties  
+9eq0, Limnology; Hydrobiology; Hot springs; Methods
+9eq1, Limnology; Hydrobiology; Hot springs; 
+9eq2, Limnology; Hydrobiology; Hot springs; 
+9eq3, Limnology; Hydrobiology; Hot springs; Ecology
+9eq4, Limnology; Hydrobiology; Hot springs; Socioeconomic environment
+9eq5, Limnology; Hydrobiology; Hot springs; Geographical distribution
+9eq6, Limnology; Hydrobiology; Hot springs; History
+9eq7, Limnology; Hydrobiology; Hot springs; Chemicophysical properties  
+9er0, Limnology; Hydrobiology; Inland seas; Salt lakes; Methods
+9er1, Limnology; Hydrobiology; Inland seas; Salt lakes; 
+9er2, Limnology; Hydrobiology; Inland seas; Salt lakes; 
+9er3, Limnology; Hydrobiology; Inland seas; Salt lakes; Ecology
+9er4, Limnology; Hydrobiology; Inland seas; Salt lakes; Socioeconomic environment
+9er5, Limnology; Hydrobiology; Inland seas; Salt lakes; Geographical distribution
+9er6, Limnology; Hydrobiology; Inland seas; Salt lakes; History
+9er7, Limnology; Hydrobiology; Inland seas; Salt lakes; Chemicophysical properties  
+9es0, Limnology; Hydrobiology; Sewage; Methods
+9es1, Limnology; Hydrobiology; Sewage; 
+9es2, Limnology; Hydrobiology; Sewage; 
+9es3, Limnology; Hydrobiology; Sewage; Ecology
+9es4, Limnology; Hydrobiology; Sewage; Socioeconomic environment
+9es5, Limnology; Hydrobiology; Sewage; Geographical distribution
+9es6, Limnology; Hydrobiology; Sewage; History
+9es7, Limnology; Hydrobiology; Sewage; Chemicophysical properties  
+9et0, Limnology; Hydrobiology; Canals; Methods
+9et1, Limnology; Hydrobiology; Canals; 
+9et2, Limnology; Hydrobiology; Canals; 
+9et3, Limnology; Hydrobiology; Canals; Ecology
+9et4, Limnology; Hydrobiology; Canals; Socioeconomic environment
+9et5, Limnology; Hydrobiology; Canals; Geographical distribution
+9et6, Limnology; Hydrobiology; Canals; History
+9et7, Limnology; Hydrobiology; Canals; Chemicophysical properties  
+9eu0, Limnology; Hydrobiology; Plant litter; Methods
+9eu1, Limnology; Hydrobiology; Plant litter; 
+9eu2, Limnology; Hydrobiology; Plant litter; 
+9eu3, Limnology; Hydrobiology; Plant litter; Ecology
+9eu4, Limnology; Hydrobiology; Plant litter; Socioeconomic environment
+9eu5, Limnology; Hydrobiology; Plant litter; Geographical distribution
+9eu6, Limnology; Hydrobiology; Plant litter; History
+9eu7, Limnology; Hydrobiology; Plant litter; Chemicophysical properties  
+9ew0, Limnology; Hydrobiology; Water supply; Methods
+9ew1, Limnology; Hydrobiology; Water supply; 
+9ew2, Limnology; Hydrobiology; Water supply; 
+9ew3, Limnology; Hydrobiology; Water supply; Ecology
+9ew4, Limnology; Hydrobiology; Water supply; Socioeconomic environment
+9ew5, Limnology; Hydrobiology; Water supply; Geographical distribution
+9ew6, Limnology; Hydrobiology; Water supply; History
+9ew7, Limnology; Hydrobiology; Water supply; Chemicophysical properties  
+9ex0, Limnology; Hydrobiology; Radioecology; Methods
+9ex1, Limnology; Hydrobiology; Radioecology; 
+9ex2, Limnology; Hydrobiology; Radioecology; 
+9ex3, Limnology; Hydrobiology; Radioecology; Ecology
+9ex4, Limnology; Hydrobiology; Radioecology; Socioeconomic environment
+9ex5, Limnology; Hydrobiology; Radioecology; Geographical distribution
+9ex6, Limnology; Hydrobiology; Radioecology; History
+9ex7, Limnology; Hydrobiology; Radioecology; Chemicophysical properties  
+9f0,Pollution; Sewage; Methods
+9f1,Pollution; Sewage; 
+9f2,Pollution; Sewage; 
+9f3,Pollution; Sewage; Ecology
+9f3-1,Pollution; Sewage; Ecology; physical
+9f3-2,Pollution; Sewage; Ecology; Microorganisms
+9f3-3,Pollution; Sewage; Ecology; higher plants
+9f3-4,Pollution; Sewage; Ecology; algae
+9f3-5,Pollution; Sewage; Ecology; fungi
+9f3-6,Pollution; Sewage; Ecology; invertebrates
+9f3-7,Pollution; Sewage; Ecology; fishes
+9f3-8,Pollution; Sewage; Ecology; vertebrates
+9f4,Pollution; Sewage; Socioeconomic environment
+9f5,Pollution; Sewage; Geographical distribution
+9f6,Pollution; Sewage; History
+9f7,Pollution; Sewage; Chemicophysical properties  
+9g0,Conservation; Methods
+9g1,Conservation; 
+9g2,Conservation; 
+9g3,Conservation; Ecology
+9g4,Conservation; Socioeconomic environment
+9g5,Conservation; Geographical distribution
+9g6,Conservation; History
+9g7,Conservation; Chemicophysical properties  
+9k0,Water supply; Methods
+9k1,Water supply; 
+9k2,Water supply; 
+9k3,Water supply; Ecology
+9k4,Water supply; Socioeconomic environment
+9k5,Water supply; Geographical distribution
+9k6,Water supply; History
+9k7,Water supply; Chemicophysical properties  
+9m0,Aquaculture; Methods
+9m1,Aquaculture; 
+9m2,Aquaculture; 
+9m3,Aquaculture; Ecology
+9m4,Aquaculture; Socioeconomic environment
+9m5,Aquaculture; Geographical distribution
+9m6,Aquaculture; History
+9m7,Aquaculture; Chemicophysical properties  

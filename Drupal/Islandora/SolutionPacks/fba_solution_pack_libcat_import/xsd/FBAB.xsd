@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="DATABASE_FBA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="RECORD"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RECORD">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Mfn"/>
+                <xs:element minOccurs="0" ref="Document_type"/>
+                <xs:element minOccurs="0" ref="Number_of_copies"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="ANALYTIC_LEVEL_author_s_"/>
+                <xs:element minOccurs="0" ref="Title"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="MONOGRAPHIC_LEVEL_author_s_"/>
+                <xs:element minOccurs="0" ref="Author_role"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Corporate_author_s_"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Monographic_source_author_s_"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Corporate_source_author_s_"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Title__monogr__"/>
+                <xs:element minOccurs="0" ref="Edition"/>
+                <xs:element minOccurs="0" ref="Report_Doc__no_"/>
+                <xs:element minOccurs="0" ref="ISBN"/>
+                <xs:element minOccurs="0" ref="Imprint__Place__Publ___Date_"/>
+                <xs:element minOccurs="0" ref="Pages"/>
+                <xs:element minOccurs="0" ref="Other_pagination"/>
+                <xs:element minOccurs="0" ref="Extent_of_chapter"/>
+                <xs:element minOccurs="0" ref="Serial_Journal_title"/>
+                <xs:element minOccurs="0" ref="Date_of_publication"/>
+                <xs:element minOccurs="0" ref="Collation"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Annotation"/>
+                <xs:element minOccurs="0" ref="Abstract"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Windermere_shelfmark"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Dorset_shelfmark"/>
+                <xs:element minOccurs="0" ref="Reprint_number"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Indexing"/>
+                <xs:element minOccurs="0" ref="Identifiers"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Category"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="BL_index"/>
+                <xs:element minOccurs="0" ref="Search_terms"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Wat__Auth_"/>
+                <xs:element minOccurs="0" ref="ECDIN_Number"/>
+                <xs:element minOccurs="0" ref="ECDIN_Date"/>
+                <xs:element minOccurs="0" ref="Date_of_entry"/>
+                <xs:element minOccurs="0" ref="Price"/>
+                <xs:element minOccurs="0" ref="Database_Title"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Mfn" type="xs:string"/>
+    <xs:element name="Document_type" type="xs:string"/>
+    <xs:element name="Number_of_copies" type="xs:string"/>
+    <xs:element name="ANALYTIC_LEVEL_author_s_" type="xs:string"/>
+    <xs:element name="Corporate_author_s_" type="xs:string"/>
+    <xs:element name="Title" type="xs:string"/>
+    <xs:element name="MONOGRAPHIC_LEVEL_author_s_" type="xs:string"/>
+    <xs:element name="Monographic_source_author_s_" type="xs:string"/>
+    <xs:element name="Author_role" type="xs:string"/>
+    <xs:element name="Corporate_source_author_s_" type="xs:string"/>
+    <xs:element name="Title__monogr__" type="xs:string"/>
+    <xs:element name="Edition" type="xs:string"/>
+    <xs:element name="Report_Doc__no_" type="xs:string"/>
+    <xs:element name="ISBN" type="xs:string"/>
+    <xs:element name="Imprint__Place__Publ___Date_">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="Imprint__Place__Publ___Date__a"/>
+                <xs:element ref="Imprint__Place__Publ___Date__b"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Imprint__Place__Publ___Date__a" type="xs:string"/>
+    <xs:element name="Imprint__Place__Publ___Date__b" type="xs:string"/>
+    <xs:element name="Pages" type="xs:string"/>
+    <xs:element name="Other_pagination" type="xs:string"/>
+    <xs:element name="Extent_of_chapter" type="xs:string"/>
+    <xs:element name="Serial_Journal_title" type="xs:string"/>
+    <xs:element name="Date_of_publication" type="xs:string"/>
+    <xs:element name="Collation">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="Collation_a"/>
+                <xs:element ref="Collation_b"/>
+                <xs:element ref="Collation_c"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Collation_a" type="xs:string"/>
+    <xs:element name="Collation_b" type="xs:string"/>
+    <xs:element name="Collation_c" type="xs:string"/>
+    <xs:element name="Annotation" type="xs:string"/>
+    <xs:element name="Abstract" type="xs:string"/>
+    <xs:element name="Windermere_shelfmark" type="xs:string"/>
+    <xs:element name="Dorset_shelfmark" type="xs:string"/>
+    <xs:element name="Reprint_number" type="xs:string"/>
+    <xs:element name="Indexing" type="xs:string"/>
+    <xs:element name="Identifiers" type="xs:string"/>
+    <xs:element name="Category" type="xs:string"/>
+    <xs:element name="BL_index" type="xs:string"/>
+    <xs:element name="Search_terms" type="xs:string"/>
+    <xs:element name="Wat__Auth_" type="xs:string"/>
+    <xs:element name="ECDIN_Number" type="xs:string"/>
+    <xs:element name="ECDIN_Date" type="xs:string"/>
+    <xs:element name="Date_of_entry" type="xs:string"/>
+    <xs:element name="Price" type="xs:string"/>
+    <xs:element name="Database_Title" type="xs:string"/>
+</xs:schema>
