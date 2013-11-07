@@ -1,0 +1,9 @@
+; $Id$
+name = FBA Autocomplete module
+description = A custom FBA Module to provide autocomplete
+package = FBA utilities
+version = 6.x-0.1
+core = 6.x
+php = 5.2
+
+dependencies[] = islandora_solr_search

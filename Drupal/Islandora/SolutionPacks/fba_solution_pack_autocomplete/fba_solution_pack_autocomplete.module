@@ -1,0 +1,145 @@
+<?php
+
+// $Id$
+
+/**
+ * Standard menu to handle callbacks.
+ *
+ * 2013/11/07 SFox - Created files
+ *
+ * @return array
+ *   populated menu
+ */
+function fba_solution_pack_autocomplete_menu() {
+  $items = array();
+
+  $items['autocomplete/%'] = array(
+    'title' => 'autocomplete',
+    'page arguments' => array(0, 1, 2),
+    'page callback' => 'fba_solution_pack_autocomplete_forms_autocomplete',
+    'access arguments' => array('access fba_solution_pack_autocomplete content'),
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+/**
+ * Autocomplete the text field.
+ *
+ * @param string $module
+ *   Part of the url passed through to autocompletion callback
+ * @param string $collection
+ *   Part of the url passed through to autocompletion callback
+ * @param string $typedterm
+ *   Part of the url passed through to autocompletion callback
+ *    preferred terms
+ *
+ * @return string
+ *   json formatted array of strings matched typed text
+ */
+function fba_solution_pack_autocomplete_forms_autocomplete($module, $collection, $typedterm) {
+
+  switch ($collection) {
+    case 'vocab': {
+        $result = _get_matching_vocab_terms($collection, $typedterm);
+        break;
+      }
+    default:
+      break;
+  }
+
+  return drupal_json($result);
+}
+
+function _get_matching_vocab_terms($collection, $typedterm) {
+  $typedterm = strtolower($typedterm);
+  $solrresult = _fba_solution_pack_autocomplete_perform_solr_search('mads.authorityCI:["" TO *] AND rels.isMemberOfCollection:"info:fedora/' . $collection . ':collection" AND mads.authorityCI:' . $typedterm . '*');
+  if ($solrresult) { //need to catch if restricted characters have been typed in
+    $rawresponse = $solrresult->getRawResponse();
+    $resarray = json_decode($rawresponse, TRUE);
+    $resdocs = $resarray['response']['docs'];
+    if (count($resdocs) > 0) {
+      foreach ($resdocs as $resdoc) {
+        $output[$resdoc['mads.authority']] = $resdoc['mads.authority'];
+      }
+    }
+    else {
+      $output['No matching keyword(s)'] = 'No matching keyword(s) found';
+    }
+  }
+  else {
+    $output['No matching keyword(s)'] = 'No matching keyword(s) found';
+  }
+  return $output;
+}
+
+/**
+ * Blatantly ripped from apachesolr_views_query function build.
+ * NB assumes solr is on localhost.
+ *
+ * @param string $queryparam
+ *   to be passed within formatted solr query as 'q'
+ *
+ * @return array
+ *   listing all appropriate results
+ */
+function _fba_solution_pack_autocomplete_perform_solr_search($queryparam = 'dummy') {
+  // TODO: needs tidying.
+  $params = array();
+  $params['rows'] = 20;
+  $params['start'] = 0;
+  $params['indent'] = 'on';
+  $params['q'] = $queryparam;
+  $params['version'] = '1.2';
+
+  $params['fl'] = "*";
+  $params['qt'] = "standard";
+  $params['wt'] = "json";
+  //  $params['hl'] = "true";
+  //  $params['hl.fl'] = "dc.type";
+  // If we display all items without pager.
+  // Add filters to parameters.
+  if (isset($params['filters'])) {
+    $params['fq'] = $params['filters'];
+  }
+
+  // Add sorting.
+  if (isset($params['sort'])) {
+    // Populate sorting parameters.
+    foreach ($params['sort'] as $field => $order) {
+      $params['sort'][] = $field . ' ' . $order;
+    }
+  }
+
+  // Set query.
+  $dismax = NULL;
+  if (isset($params['q'])) {
+    // Query.
+    $query = $params['q'];
+
+    // Dismax.
+    if (isset($params['defType']) AND $params['defType'] == 'dismax') {
+      $dismax = $params['defType'];
+      // If no qf fields are specified in the requestHandler
+      // a default list is supplied here for dismax searches.
+      $params['qf'] = 'dc.title^5 dc.subject^2 dc.description^2 dc.creator^2 dc.contributor^1 dc.type';
+    }
+  }
+  else {
+    $query = '*:*';
+  }
+
+  $url = variable_get('islandora_solr_search_block_url', 'http://localhost:8080/solr');
+  $pathparts = parse_url($url);
+
+  $solr = new Apache_Solr_Service($pathparts['host'], $pathparts['port'], $pathparts['path'] . '/');
+  $solr->setCreateDocuments(0);
+
+  // This is where the query gets executed and output starts being created.
+  try {
+    $results = $solr->search($query, $params['start'], $params['rows'], $params);
+  } catch (Exception $e) {
+    drupal_set_message(t('error searching ') . $e->getMessage());
+  }
+  return $results;
+}

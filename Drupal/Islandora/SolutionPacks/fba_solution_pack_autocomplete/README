@@ -1,0 +1,17 @@
+FBA Solution Pack to handle autocomplete callbacks.
+
+Entries in the solr schema (/usr/local/fedora/gsearch_solr/solr/conf/schema.xml)
+for mads.authorityCI and fbastring_ci are used to make case insensitive copies
+of preferred terms available in the index.
+
+In the "Autocomplete Path", use:
+    http://<ip address or servername>/autocomplete/<custom callback value>
+
+
+So far, the following custom callback values are supported:
+
+Name                "vocab"
+Function called     _get_matching_vocab_terms($collection, $typedterm)
+Application         For the Library article/chapter/monograph forms, used on the "Subject Keywords" field.
+Autocomplete Path   http://<ip address or servername>/autocomplete/vocab
+Returns             10 preferred terms starting with the characters typed by user (case insensitive)
