@@ -1,14 +1,18 @@
 <?php
 
-include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/ingest.inc';
-include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/relations.inc';
-include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/validator.inc';
 /**
  * @file
  * Module for batch importing objects from a MultiTes XML file.
  *
  * @author simonfox
  */
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/prevalidator.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/batch_ingest.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/relations.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/validator.inc';
+include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/batch_purge.inc';
+
+define('TEMP_PID_TNR_AUTHVAR_TABLE', 'fba_pid_tnr_authvar');
 
 /**
  * Provide definitions for menu callbacks.
@@ -18,7 +22,13 @@ include_once drupal_get_path('module', 'fba_solution_pack_import_multites') . '/
  */
 function fba_solution_pack_import_multites_menu() {
   $items = array();
-
+  $items['multites/prevalidator'] = array(
+    'title' => 'Check MultiTes XML',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fba_solution_pack_import_multites_form_prevalidator'),
+    'access arguments' => array('access fba_solution_pack_import_multites_prevalidator content'),
+    'type' => MENU_CALLBACK,
+  );
   $items['multites/ingest'] = array(
     'title' => 'Import From MultiTes XML',
     'page callback' => 'drupal_get_form',
@@ -40,6 +50,13 @@ function fba_solution_pack_import_multites_menu() {
     'access arguments' => array('access fba_solution_pack_import_multites_validator content'),
     'type' => MENU_CALLBACK,
   );
+  $items['multites/purge_all'] = array(
+    'title' => 'purge fedora objects from multites',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fba_solution_pack_import_multites_form_batch_purge'),
+    'access arguments' => array('access fba_solution_pack_import_multites_validator content'),
+    'type' => MENU_CALLBACK,
+  );
 
   return $items;
 }
@@ -55,93 +72,9 @@ function fba_solution_pack_import_multites_perm() {
 }
 
 /**
- * Blatantly ripped from apachesolr_views_query function build.
- * NB assumes solr is on localhost:8080.
- *
- * @param string $queryparam
- *   to be passed within formatted solr query as 'q'
- *
- * @return array
- *   listing all appropriate results
- */
-function _perform_solr_search($queryparam = 'dummy') {
-
-  // TODO: needs tidying.
-  // encode the queryparam?
-
-  $params = array();
-  $params['rows'] = 50;
-  $params['start'] = 0;
-  $params['indent'] = 'on';
-  $params['q'] = $queryparam;
-  $params['version'] = '2.2';
-
-  $params['fl'] = "*";
-  $params['qt'] = "standard";
-  $params['wt'] = "json";
-  $params['hl'] = "true";
-  $params['hl.fl'] = "dc.type";
-
-  // If we display all items without pager.
-  if ($params['rows'] == 0) {
-    $params['rows'] = 1000000;
-  }
-
-  // Add filters to parameters.
-  if (isset($params['filters'])) {
-    $params['fq'] = $params['filters'];
-  }
-
-  // Add sorting.
-  if (isset($params['sort'])) {
-    // Populate sorting parameters.
-    foreach ($params['sort'] as $field => $order) {
-      $params['sort'][] = $field . ' ' . $order;
-    }
-  }
-
-  // Set query.
-  $dismax = NULL;
-  if (isset($params['q'])) {
-    // Query.
-    $query = $params['q'];
-
-    // Dismax.
-    if (isset($params['defType']) AND $params['defType'] == 'dismax') {
-      $dismax = $params['defType'];
-      // If no qf fields are specified in the requestHandler
-      // a default list is supplied here for dismax searches.
-      $params['qf'] = 'dc.title^5 dc.subject^2 dc.description^2 dc.creator^2 dc.contributor^1 dc.type';
-    }
-  }
-  else {
-    $query = '*:*';
-  }
-
-  $url = variable_get('islandora_solr_search_block_url', 'http://localhost:8080/solr');
-  $pathparts = parse_url($url);
-
-  $solr = new Apache_Solr_Service($pathparts['host'], $pathparts['port'], $pathparts['path'] . '/');
-  $solr->setCreateDocuments(0);
-
-  // This is where the query gets executed and output starts being created.
-  try {
-    $results = $solr->search($query, $params['start'], $params['rows'], $params);
-  } catch (Exception $e) {
-    drupal_set_message(t('_perform_solr_search :: ') . $e->getMessage());
-  }
-
-//  $total = (int) $results->response->numFound;
-//  $start = min(1, $total);
-//  $end = min(($limit + $recordstart), $total);
-
-  return $results;
-}
-
-/**
  * Blatantly ripped from fedora_item.inc, and altered as the
  * getElementsByTagNameNS wasn't bringing back what we require.
- * 
+ *
  * Currently the Fedora API call getRelationships is reporting an uncaught
  * exception so we will parse the RELS-EXT ourselves and simulate the
  * documented behaviour.
@@ -170,41 +103,47 @@ function _fba_get_relationships($item, $relationship = NULL) {
       );
     }
   }
-
   return $relationships;
 }
 
 /**
- * Blatantly ripped from fedora_item.inc, and altered as the
- * getElementsByTagNameNS wasn't bringing back what we require.
- * 
- * Currently the Fedora API call getRelationships is reporting an uncaught
- * exception so we will parse the RELS-EXT ourselves and simulate the
- * documented behaviour.
- * @param String $relationship - filter the results to match this string.
+ * Implements hook_fedora_repository_required_fedora_objects
+ * @return array
  */
-function _fba_get_mads($item) {
-  $madslist = array();
-  try {
-    $mads = $item->get_datastream_dissemination('MADS');
-  } catch (exception $e) {
-    drupal_set_message(t("_fba_get_mads") . $e->getMessage(), 'error');
-    return $madslist;
-  }
+function fba_solution_pack_import_multites_fedora_repository_required_fedora_objects() {
 
-  // Parse the MADS into an associative array.
-  $relsextxml = new DOMDocument();
-  $relsextxml->loadXML($mads);
-  $relsextxml->normalizeDocument();
-  $rels = $relsextxml->getElementsByTagNameNS('*', '*');
-  foreach ($rels as $child) {
-      $madslist[] = array(
-        'subject' => $item->pid,
-        'predicate' => $child->tagName,
-        'object' => substr($child->getAttributeNS('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'resource'), 12),
-      );
-  }
-
-  return $madslist;
+  module_load_include('inc', 'fedora_repository', 'fedora_repository.solutionpacks');
+  return array(
+    'fba_solution_pack_import_multites' => array(
+      'module' => 'fba_solution_pack_import_multites',
+      'title' => 'FBA MultiTES Import Solution Pack',
+      'objects' => array(
+      ),
+    ),
+  );
 }
 
+/**
+ *
+ */
+function _fba_get_pids_from_collections() {
+  module_load_include('inc', 'fedora_repository', 'api/fedora_utils');
+
+  $query = <<<EOD
+  select \$object from <#ri>
+    where (\$object  <info:fedora/fedora-system:def/relations-external#isMemberOfCollection> <info:fedora/vocab:collection> or
+           \$object  <info:fedora/fedora-system:def/relations-external#isMemberOfCollection> <info:fedora/geo:collection>)
+EOD;
+
+  $query = htmlentities(urlencode($query));
+  $content = '';
+  $limit = 1000000;
+  $offset = 0;
+  $url = variable_get('fedora_repository_url', 'http://localhost:8080/fedora/risearch');
+  $url .= "?type=tuples&flush=TRUE&format=csv&limit=$limit&offset=$offset&lang=itql&stream=on&query=" . $query;
+  $content .= do_curl($url);
+  $results = explode("\n", $content);
+  $lines = preg_replace('/info:fedora\/|"object"/', '', $results);
+  $allpids = array_values(array_filter($lines));
+  return $allpids;
+}

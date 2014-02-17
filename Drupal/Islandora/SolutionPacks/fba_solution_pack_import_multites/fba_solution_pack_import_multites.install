@@ -1,0 +1,89 @@
+<?php
+
+/**
+ * Implements hook_enable().  Re-ingests any required objects into Fedora that
+ * are required by the solution pack.
+ */
+function fba_solution_pack_import_multites_enable() {
+  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
+  module_load_include('inc', 'fedora_repository', 'api/fedora_utils');
+  if (!fedora_available()) {
+    drupal_set_message(t('Fedora instance is not currently available.  Installation must be verified and completed on the Islandora Configuration page.'));
+  }
+  else {
+    drupal_install_schema('fba_solution_pack_import_multites');
+
+    // Get info on the required fedora objects for this solution pack
+    $solution_pack_info = fba_solution_pack_import_multites_fedora_repository_required_fedora_objects();
+
+    // Declare an array that models an empty batch
+    $batch = array(
+      'title' => t('Installing MultiTES Solutionpack objects'),
+      'file' => drupal_get_path('module', 'fedora_repository') . '/fedora_repository.module',
+      'operations' => array(),
+    );
+
+    // Iterate through the required objects, and push an operation onto the
+    // batch model to re-ingest the object if it does not exist
+    foreach ($solution_pack_info['fba_solution_pack_import_multites']['objects'] as $object) {
+      $item = new Fedora_Item($object['pid']);
+      if (!$item->exists()) {
+        $batch['operations'][] = array('fedora_repository_batch_reingest_object', array($object));
+      }
+    }
+
+    // If there's any operations to perform
+    if (count($batch['operations'])) {
+
+      // Add the batch to be processed
+      batch_set($batch);
+
+      // Start processing, if required
+      if (!batch_get()) {
+        batch_process();
+      }
+    }
+  }
+}
+
+/**
+ * Implementation of hook_disable();
+ */
+function fba_solution_pack_import_multites_disable() {
+  drupal_uninstall_schema('fba_solution_pack_import_multites');
+}
+
+/**
+ * Implementation of hook_install();
+ */
+function fba_solution_pack_import_multites_install() {
+  //TODO: create vocab and geo collections if they don't already exist.
+}
+
+function fba_solution_pack_import_multites_schema() {
+  $schema[TEMP_PID_TNR_AUTHVAR_TABLE] = array(
+    'description' => t('This table is a temporary table to link pid, tnr and authority/variant text for vocab imports.'),
+    'fields' => array(
+      'pid' => array(
+        'description' => t('The object pid.'),
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => TRUE
+      ),
+      'tnr' => array(
+        'description' => t('The key value, tnr, from multites for this pid.'),
+        'type' => 'int',
+        'size' => 'small',
+        'not null' => TRUE,
+      ),
+      'authvar' => array(
+        'description' => t('The authority or variant name, whichever is appropriate.'),
+        'type' => 'varchar',
+        'length' => 100,
+        'not null' => TRUE,
+      ),
+    ),
+    'primary key' => array('authvar'),
+  );
+  return $schema;
+}
